@@ -38,5 +38,13 @@
         "url": "https://drive.google.com/uc?id=1YQrV_45hnL4EgXwiU9Yqu1HTCe-RkMFD",
         "csv_meta_path": [],
         "data_path": ["Sound", "Sound"]
+    },
+    "asf": {
+        "name": "AudioSet Filtered",
+        "format": "zip",
+        "kaggle_path": "",
+        "url": "https://drive.google.com/uc?id=1-0YI9CaahpnBuIEFzbZ2Pbe8MxXN96YR",
+        "csv_meta_path": ["metadata.csv"],
+        "data_path": ["audio"]
     }
 }

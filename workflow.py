@@ -86,7 +86,7 @@ def workflow():
     if missing_files.shape[0] > 0:
         l.warning(f"Missing files: {missing_files.shape[0]}")
         missing_files.to_csv(
-            C.PY_PROJECT_ROOT + os.path.sep + "missing_files.csv", index=False
+            C.PROJECT_ROOT + os.path.sep + "missing_files.csv", index=False
         )
 
     # l.info(f"1st. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using ffmpeg...")

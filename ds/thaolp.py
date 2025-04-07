@@ -5,7 +5,7 @@ from ds.dataset import DataSet
 from platformdirs import user_cache_dir
 from utils.csv_utils import write_csv_meta
 from utils.json_utils import append_empty_mapping_to_config
-from file_utils import extract
+from utils.file_utils import extract
 from utils.wav_utils import get_wav_data_length
 import os
 import gdown

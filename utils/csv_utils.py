@@ -1,5 +1,4 @@
-from dataset import PD_SCHEMA
-from setup import PY_PROJECT_ROOT
+import constants as C
 import pandas as pd
 import os
 
@@ -7,7 +6,7 @@ from logging_cfg import get_logger
 l = get_logger(__name__)
 
 # Path to the meta directory
-META_DIR = os.path.join(PY_PROJECT_ROOT, "ds", "meta")
+META_DIR = os.path.join(C.PROJECT_ROOT, "ds", "meta")
 
 def validate_dataframe(df: pd.DataFrame, schema: dict) -> bool:
     """

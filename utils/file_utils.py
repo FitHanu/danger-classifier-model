@@ -43,12 +43,11 @@ def get_filename_from_path(file_path: str) -> str:
 
 def extract(file_path, output_path=".") -> None:
     print(f"Extract {file_path} to {output_path}")
-    output_file_path = os.path.join(output_path, remove_extensions(file_path))
     os.makedirs(output_path, exist_ok=True)
     if file_path.endswith(".zip"):
         print("Handling zip file ...")
         with zipfile.ZipFile(file_path, 'r') as zip_ref:
-            zip_ref.extractall(output_file_path)
+            zip_ref.extractall(output_path)
     elif file_path.endswith(".tar.gz"):
         print("Handling .tar.gz file ...")
         subprocess.run(["tar", "-xzvf", file_path, "-C", output_file_path])

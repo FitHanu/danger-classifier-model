@@ -4,9 +4,9 @@ import os
 
 
 # Define log file location
-from constants import PY_PROJECT_ROOT
-LOG_DIR = os.path.join(PY_PROJECT_ROOT, "logs")
-LOG_FILE = os.path.join(PY_PROJECT_ROOT, LOG_DIR, "app.log")
+from constants import PROJECT_ROOT
+LOG_DIR = os.path.join(PROJECT_ROOT, "logs")
+LOG_FILE = os.path.join(PROJECT_ROOT, LOG_DIR, "app.log")
 
 # Init log dir and file
 os.makedirs(LOG_DIR, exist_ok=True)

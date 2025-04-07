@@ -9,15 +9,15 @@ import argparse
 from logging_cfg import get_logger
 l = get_logger(__name__)
 
-from constants import PY_PROJECT_ROOT, SITE_PKG_PATH
+from constants import PROJECT_ROOT, SITE_PKG_PATH
 
 #Module registry
 MODULE_REG = [
-    os.path.join(SITE_PKG_PATH, PY_PROJECT_ROOT),
-    os.path.join(SITE_PKG_PATH, PY_PROJECT_ROOT, "utils"),
-    os.path.join(SITE_PKG_PATH, PY_PROJECT_ROOT, "ds"),
-    os.path.join(SITE_PKG_PATH, PY_PROJECT_ROOT, "partition"),
-    # os.path.join(SITE_PKG_PATH, PY_PROJECT_ROOT, "ext_models"),
+    os.path.join(SITE_PKG_PATH, PROJECT_ROOT),
+    os.path.join(SITE_PKG_PATH, PROJECT_ROOT, "utils"),
+    os.path.join(SITE_PKG_PATH, PROJECT_ROOT, "ds"),
+    os.path.join(SITE_PKG_PATH, PROJECT_ROOT, "partition"),
+    # os.path.join(SITE_PKG_PATH, PROJECT_ROOT, "ext_models"),
 ]
 
 
@@ -41,13 +41,13 @@ def check_conda_installed():
         l.error("Conda is installed but not working properly.")
         raise subprocess.CalledProcessError("Conda is installed but not working properly.")
 
-def install_requirements(strategy = "conda"):
+def install_requirements(strategy = "pip"):
     package_strategy = ["pip", "conda"]
     if strategy not in package_strategy:
         l.error(f"Strategy must be one of {package_strategy}")
         raise ValueError(f"Strategy must be one of {package_strategy}")
     if strategy == "pip":
-        req_file = os.path.join(PY_PROJECT_ROOT, "requirements.txt")
+        req_file = os.path.join(PROJECT_ROOT, "requirements.txt")
         # pip install -r requirements.txt
         args = ["pip", "install", "-r", req_file]
         try:
@@ -57,7 +57,7 @@ def install_requirements(strategy = "conda"):
             l.error(f"Failed to install requirements: {e}")
     else:
         check_conda_installed()
-        req_file = os.path.join(PY_PROJECT_ROOT, "environment.yml")
+        req_file = os.path.join(PROJECT_ROOT, "environment.yml")
         # conda env create -f environment.yml
         args = ["conda", "env", "create", "-f", req_file]
         try:
@@ -139,10 +139,10 @@ def main():
     for step in steps:
         try:
             l.info(f"Running: {step[0]}")
-            if len(step) > 2:
+            if len(step) > 2: # If has arg
                 step[1](step[2])
             else:
-                step[1]()
+                step[1]() # no arg
         except Exception as e:
             l.error(f"Failed to run: {step[0]}")
             l.error(e)

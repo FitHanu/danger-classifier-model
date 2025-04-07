@@ -100,10 +100,11 @@ def plot_embedding_extracted(
 
 
 
-def down_1():
-    path = kagglehub.dataset_download("chibuzokelechi/explosion-sound")
-    print(path)
-    return path
+def down_2():
+    from ds.audioset_filtered import AuSetFld
+    ds = AuSetFld()
+    return ds.download()
+    
 
 def test_1():
     
@@ -122,15 +123,6 @@ def test_1():
         "GUNSHOT_RIFLE_gad_145.wav",
         "CHAINSAW_esc50_861.wav",
         "GLASS_BREAKING_esc50_595.wav"
-    ]
-    
-
-    
-    path = down_1()
-    extended_sound = [
-        ["explosion", path, "336007__rudmer_rotteveel__multiple-deep-explosions-noisy-rec.wav"],
-        # ["car_crash", C.FILTERED_DATASET_PATH, ""],
-        # ["scream"]
     ]
     
     # req: explosion, car crash, scream
@@ -163,21 +155,33 @@ def test_1():
         # Copy file
         os.system(f"cp {original_file_path} {output_copy_wav_path}")
         
-    new_1_path = os.path.join(C.PROJECT_ROOT, "plots", "new_1")
+
+
+def test_2():
+    path_1 = down_2()
+    # path_1 = path_1.get_dir()
+    path_1 = path_1.get_data_path()
+    extended_sound = [
+        ["explosion", "Explosion_6j76kSyiOCA.wav"],
+        ["crash", "Smash+crash_jaOffpnqcUY.wav"],
+        ["scream", "Screaming_Speech_3sYPuktlyDY.wav"]
+    ]
+    new_2_path = os.path.join(C.PROJECT_ROOT, "plots", "new_2")
+    os.makedirs(new_2_path, exist_ok=True)
     for path in extended_sound:
         bare_name = path[0]
-        original_file_path = os.path.join(path[1], path[2])
+        original_file_path = os.path.join(path_1, path[1])
         output_plot_wav_path = os.path.join(
-            new_1_path, f"{bare_name}_waveform.png"
+            new_2_path, f"{bare_name}_waveform.png"
         )
         output_plot_spec_path = os.path.join(
-            new_1_path, f"{bare_name}_spectrogram.png"
+            new_2_path, f"{bare_name}_spectrogram.png"
         )
         output_copy_wav_path = os.path.join(
-            new_1_path, f"{bare_name}.copied.wav"
+            new_2_path, f"{bare_name}.copied.wav"
         )
         output_embedding_path = os.path.join(
-            new_1_path, f"{bare_name}_embedding.png"
+            new_2_path, f"{bare_name}_embedding.png"
         )
 
         os.makedirs("plots", exist_ok=True)
@@ -195,5 +199,4 @@ def test_1():
         
 
 if __name__ == "__main__":
-    down_1()
-    test_1()
+    test_2()

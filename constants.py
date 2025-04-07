@@ -21,17 +21,21 @@ CLASS_NAME = 1
 
 
 # Config directory
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
-PY_PROJECT_ROOT = os.path.join(PROJECT_ROOT, "python")
+PROJECT_ROOT = Path(__file__).resolve().parent
+
 SITE_PKG_PATH = site.getsitepackages()[0]
-CONFIG_JSON = os.path.join(PY_PROJECT_ROOT, "config.json")
-DATASET_JSON = os.path.join(PY_PROJECT_ROOT, "datasets.json")
-META_PATH = os.path.join(PY_PROJECT_ROOT, "ds", "meta")
-MERGED_META_CSV = os.path.join(PY_PROJECT_ROOT, "ds", "meta", "merged.csv")
-CLASSNAMES_CSV = os.path.join(PY_PROJECT_ROOT, "classes.csv")
+META_PATH = os.path.join(PROJECT_ROOT, "ds", "meta")
 FILTERED_DATASET_PATH = os.path.join(PROJECT_ROOT, "dataset")
-FILTERED_AUG_FOLDED_META_CSV = os.path.join(FILTERED_DATASET_PATH, "merged.augmented.folded.csv")
-LOG_PATH = os.path.join(PY_PROJECT_ROOT, "logs")
+LOG_PATH = os.path.join(PROJECT_ROOT, "logs")
 MODELS_PATH = os.path.join(PROJECT_ROOT, "saved_models")
+
+CONFIG_JSON = os.path.join(PROJECT_ROOT, "config.json")
+DATASET_JSON = os.path.join(PROJECT_ROOT, "datasets.json")
+MERGED_META_CSV = os.path.join(PROJECT_ROOT, "ds", "meta", "merged.csv")
+CLASSNAMES_CSV = os.path.join(PROJECT_ROOT, "classes.csv")
+FILTERED_AUG_FOLDED_META_CSV = os.path.join(FILTERED_DATASET_PATH, "merged.augmented.folded.csv")
+
+
+
 
 YAMNET_MODEL_URL = "https://tfhub.dev/google/yamnet/1"
