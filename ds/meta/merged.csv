@@ -1,0 +1,1072 @@
+file_name,file_path,class_id,class_name,sub_ds_name,sub_ds_index
+DOG_BARK_esc50_0.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_0.wav,20,DOG_BARK,ESC-50,0
+THUNDER_STORM_esc50_4.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_4.wav,8,THUNDER_STORM,ESC-50,4
+THUNDER_STORM_esc50_5.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_5.wav,8,THUNDER_STORM,ESC-50,5
+DOOR_KNOCK_esc50_6.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_6.wav,19,DOOR_KNOCK,ESC-50,6
+DOOR_KNOCK_esc50_9.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_9.wav,19,DOOR_KNOCK,ESC-50,9
+DOOR_KNOCK_esc50_10.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_10.wav,19,DOOR_KNOCK,ESC-50,10
+DOG_BARK_esc50_14.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_14.wav,20,DOG_BARK,ESC-50,14
+THUNDER_STORM_esc50_16.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_16.wav,8,THUNDER_STORM,ESC-50,16
+FIRE_WORKS_esc50_17.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_17.wav,10,FIRE_WORKS,ESC-50,17
+FIRE_WORKS_esc50_18.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_18.wav,10,FIRE_WORKS,ESC-50,18
+FIRE_WORKS_esc50_19.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_19.wav,10,FIRE_WORKS,ESC-50,19
+FIRE_WORKS_esc50_20.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_20.wav,10,FIRE_WORKS,ESC-50,20
+CHAINSAW_esc50_24.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_24.wav,11,CHAINSAW,ESC-50,24
+ALARM_esc50_35.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_35.wav,15,ALARM,ESC-50,35
+ALARM_esc50_38.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_38.wav,15,ALARM,ESC-50,38
+FOOTSTEPS_esc50_39.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_39.wav,16,FOOTSTEPS,ESC-50,39
+FOOTSTEPS_esc50_40.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_40.wav,16,FOOTSTEPS,ESC-50,40
+FOOTSTEPS_esc50_41.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_41.wav,16,FOOTSTEPS,ESC-50,41
+FOOTSTEPS_esc50_42.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_42.wav,16,FOOTSTEPS,ESC-50,42
+FOOTSTEPS_esc50_43.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_43.wav,16,FOOTSTEPS,ESC-50,43
+FOOTSTEPS_esc50_44.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_44.wav,16,FOOTSTEPS,ESC-50,44
+FIRE_WORKS_esc50_47.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_47.wav,10,FIRE_WORKS,ESC-50,47
+FIRE_WORKS_esc50_48.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_48.wav,10,FIRE_WORKS,ESC-50,48
+CAR_HORN_esc50_53.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_53.wav,2,CAR_HORN,ESC-50,53
+FIRE_esc50_54.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_54.wav,17,FIRE,ESC-50,54
+RAIN_esc50_62.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_62.wav,18,RAIN,ESC-50,62
+FIRE_esc50_63.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_63.wav,17,FIRE,ESC-50,63
+FIRE_esc50_65.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_65.wav,17,FIRE,ESC-50,65
+FIRE_esc50_66.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_66.wav,17,FIRE,ESC-50,66
+FIRE_esc50_67.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_67.wav,17,FIRE,ESC-50,67
+CRYING_BABY_esc50_78.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_78.wav,9,CRYING_BABY,ESC-50,78
+CAR_HORN_esc50_83.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_83.wav,2,CAR_HORN,ESC-50,83
+CHAINSAW_esc50_92.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_92.wav,11,CHAINSAW,ESC-50,92
+CHAINSAW_esc50_93.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_93.wav,11,CHAINSAW,ESC-50,93
+CHAINSAW_esc50_94.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_94.wav,11,CHAINSAW,ESC-50,94
+GLASS_BREAKING_esc50_95.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_95.wav,14,GLASS_BREAKING,ESC-50,95
+CRYING_BABY_esc50_104.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_104.wav,9,CRYING_BABY,ESC-50,104
+CRYING_BABY_esc50_105.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_105.wav,9,CRYING_BABY,ESC-50,105
+CRYING_BABY_esc50_106.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_106.wav,9,CRYING_BABY,ESC-50,106
+RAIN_esc50_107.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_107.wav,18,RAIN,ESC-50,107
+FOOTSTEPS_esc50_112.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_112.wav,16,FOOTSTEPS,ESC-50,112
+CRYING_BABY_esc50_113.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_113.wav,9,CRYING_BABY,ESC-50,113
+CRYING_BABY_esc50_114.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_114.wav,9,CRYING_BABY,ESC-50,114
+THUNDER_STORM_esc50_119.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_119.wav,8,THUNDER_STORM,ESC-50,119
+THUNDER_STORM_esc50_120.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_120.wav,8,THUNDER_STORM,ESC-50,120
+CAR_HORN_esc50_124.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_124.wav,2,CAR_HORN,ESC-50,124
+CAR_HORN_esc50_125.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_125.wav,2,CAR_HORN,ESC-50,125
+THUNDER_STORM_esc50_126.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_126.wav,8,THUNDER_STORM,ESC-50,126
+THUNDER_STORM_esc50_127.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_127.wav,8,THUNDER_STORM,ESC-50,127
+THUNDER_STORM_esc50_128.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_128.wav,8,THUNDER_STORM,ESC-50,128
+CAR_HORN_esc50_130.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_130.wav,2,CAR_HORN,ESC-50,130
+FIRE_WORKS_esc50_131.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_131.wav,10,FIRE_WORKS,ESC-50,131
+FIRE_WORKS_esc50_132.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_132.wav,10,FIRE_WORKS,ESC-50,132
+CAR_HORN_esc50_137.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_137.wav,2,CAR_HORN,ESC-50,137
+CAR_HORN_esc50_138.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_138.wav,2,CAR_HORN,ESC-50,138
+DOOR_KNOCK_esc50_139.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_139.wav,19,DOOR_KNOCK,ESC-50,139
+RAIN_esc50_140.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_140.wav,18,RAIN,ESC-50,140
+CAR_HORN_esc50_150.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_150.wav,2,CAR_HORN,ESC-50,150
+RAIN_esc50_152.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_152.wav,18,RAIN,ESC-50,152
+DOG_BARK_esc50_157.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_157.wav,20,DOG_BARK,ESC-50,157
+DOG_BARK_esc50_158.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_158.wav,20,DOG_BARK,ESC-50,158
+SIREN_esc50_165.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_165.wav,1,SIREN,ESC-50,165
+SIREN_esc50_166.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_166.wav,1,SIREN,ESC-50,166
+DOG_BARK_esc50_170.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_170.wav,20,DOG_BARK,ESC-50,170
+ALARM_esc50_181.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_181.wav,15,ALARM,ESC-50,181
+FIRE_esc50_204.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_204.wav,17,FIRE,ESC-50,204
+FIRE_esc50_217.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_217.wav,17,FIRE,ESC-50,217
+CHAINSAW_esc50_223.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_223.wav,11,CHAINSAW,ESC-50,223
+CHAINSAW_esc50_224.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_224.wav,11,CHAINSAW,ESC-50,224
+RAIN_esc50_238.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_238.wav,18,RAIN,ESC-50,238
+FOOTSTEPS_esc50_248.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_248.wav,16,FOOTSTEPS,ESC-50,248
+DOOR_KNOCK_esc50_261.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_261.wav,19,DOOR_KNOCK,ESC-50,261
+SIREN_esc50_270.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_270.wav,1,SIREN,ESC-50,270
+RAIN_esc50_276.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_276.wav,18,RAIN,ESC-50,276
+RAIN_esc50_281.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_281.wav,18,RAIN,ESC-50,281
+DOG_BARK_esc50_296.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_296.wav,20,DOG_BARK,ESC-50,296
+CRYING_BABY_esc50_300.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_300.wav,9,CRYING_BABY,ESC-50,300
+CRYING_BABY_esc50_301.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_301.wav,9,CRYING_BABY,ESC-50,301
+RAIN_esc50_313.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_313.wav,18,RAIN,ESC-50,313
+CHAINSAW_esc50_314.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_314.wav,11,CHAINSAW,ESC-50,314
+CHAINSAW_esc50_315.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_315.wav,11,CHAINSAW,ESC-50,315
+ALARM_esc50_318.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_318.wav,15,ALARM,ESC-50,318
+FIRE_esc50_330.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_330.wav,17,FIRE,ESC-50,330
+ALARM_esc50_332.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_332.wav,15,ALARM,ESC-50,332
+ALARM_esc50_333.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_333.wav,15,ALARM,ESC-50,333
+ALARM_esc50_339.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_339.wav,15,ALARM,ESC-50,339
+SIREN_esc50_344.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_344.wav,1,SIREN,ESC-50,344
+SIREN_esc50_345.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_345.wav,1,SIREN,ESC-50,345
+SIREN_esc50_346.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_346.wav,1,SIREN,ESC-50,346
+SIREN_esc50_347.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_347.wav,1,SIREN,ESC-50,347
+SIREN_esc50_348.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_348.wav,1,SIREN,ESC-50,348
+DOOR_KNOCK_esc50_362.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_362.wav,19,DOOR_KNOCK,ESC-50,362
+DOOR_KNOCK_esc50_363.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_363.wav,19,DOOR_KNOCK,ESC-50,363
+DOOR_KNOCK_esc50_367.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_367.wav,19,DOOR_KNOCK,ESC-50,367
+GLASS_BREAKING_esc50_369.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_369.wav,14,GLASS_BREAKING,ESC-50,369
+GLASS_BREAKING_esc50_370.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_370.wav,14,GLASS_BREAKING,ESC-50,370
+GLASS_BREAKING_esc50_371.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_371.wav,14,GLASS_BREAKING,ESC-50,371
+GLASS_BREAKING_esc50_373.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_373.wav,14,GLASS_BREAKING,ESC-50,373
+GLASS_BREAKING_esc50_374.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_374.wav,14,GLASS_BREAKING,ESC-50,374
+DOG_BARK_esc50_375.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_375.wav,20,DOG_BARK,ESC-50,375
+GLASS_BREAKING_esc50_381.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_381.wav,14,GLASS_BREAKING,ESC-50,381
+ALARM_esc50_389.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_389.wav,15,ALARM,ESC-50,389
+DOG_BARK_esc50_392.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_392.wav,20,DOG_BARK,ESC-50,392
+GLASS_BREAKING_esc50_393.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_393.wav,14,GLASS_BREAKING,ESC-50,393
+CAR_HORN_esc50_400.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_400.wav,2,CAR_HORN,ESC-50,400
+RAIN_esc50_402.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_402.wav,18,RAIN,ESC-50,402
+ALARM_esc50_410.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_410.wav,15,ALARM,ESC-50,410
+THUNDER_STORM_esc50_424.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_424.wav,8,THUNDER_STORM,ESC-50,424
+THUNDER_STORM_esc50_425.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_425.wav,8,THUNDER_STORM,ESC-50,425
+ALARM_esc50_427.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_427.wav,15,ALARM,ESC-50,427
+ALARM_esc50_428.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_428.wav,15,ALARM,ESC-50,428
+GLASS_BREAKING_esc50_442.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_442.wav,14,GLASS_BREAKING,ESC-50,442
+CRYING_BABY_esc50_445.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_445.wav,9,CRYING_BABY,ESC-50,445
+CRYING_BABY_esc50_446.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_446.wav,9,CRYING_BABY,ESC-50,446
+GLASS_BREAKING_esc50_475.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_475.wav,14,GLASS_BREAKING,ESC-50,475
+GLASS_BREAKING_esc50_476.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_476.wav,14,GLASS_BREAKING,ESC-50,476
+DOOR_KNOCK_esc50_477.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_477.wav,19,DOOR_KNOCK,ESC-50,477
+DOG_BARK_esc50_478.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_478.wav,20,DOG_BARK,ESC-50,478
+DOG_BARK_esc50_479.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_479.wav,20,DOG_BARK,ESC-50,479
+DOG_BARK_esc50_482.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_482.wav,20,DOG_BARK,ESC-50,482
+ALARM_esc50_483.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_483.wav,15,ALARM,ESC-50,483
+DOG_BARK_esc50_484.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_484.wav,20,DOG_BARK,ESC-50,484
+FIRE_WORKS_esc50_486.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_486.wav,10,FIRE_WORKS,ESC-50,486
+FIRE_WORKS_esc50_487.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_487.wav,10,FIRE_WORKS,ESC-50,487
+FIRE_WORKS_esc50_488.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_488.wav,10,FIRE_WORKS,ESC-50,488
+FIRE_WORKS_esc50_489.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_489.wav,10,FIRE_WORKS,ESC-50,489
+FIRE_WORKS_esc50_490.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_490.wav,10,FIRE_WORKS,ESC-50,490
+FIRE_WORKS_esc50_491.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_491.wav,10,FIRE_WORKS,ESC-50,491
+FIRE_WORKS_esc50_492.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_492.wav,10,FIRE_WORKS,ESC-50,492
+RAIN_esc50_493.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_493.wav,18,RAIN,ESC-50,493
+DOG_BARK_esc50_496.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_496.wav,20,DOG_BARK,ESC-50,496
+DOOR_KNOCK_esc50_500.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_500.wav,19,DOOR_KNOCK,ESC-50,500
+DOOR_KNOCK_esc50_501.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_501.wav,19,DOOR_KNOCK,ESC-50,501
+DOG_BARK_esc50_503.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_503.wav,20,DOG_BARK,ESC-50,503
+DOOR_KNOCK_esc50_510.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_510.wav,19,DOOR_KNOCK,ESC-50,510
+DOOR_KNOCK_esc50_511.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_511.wav,19,DOOR_KNOCK,ESC-50,511
+DOG_BARK_esc50_521.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_521.wav,20,DOG_BARK,ESC-50,521
+DOG_BARK_esc50_522.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_522.wav,20,DOG_BARK,ESC-50,522
+CAR_HORN_esc50_532.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_532.wav,2,CAR_HORN,ESC-50,532
+CAR_HORN_esc50_540.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_540.wav,2,CAR_HORN,ESC-50,540
+CAR_HORN_esc50_541.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_541.wav,2,CAR_HORN,ESC-50,541
+DOOR_KNOCK_esc50_550.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_550.wav,19,DOOR_KNOCK,ESC-50,550
+DOOR_KNOCK_esc50_553.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_553.wav,19,DOOR_KNOCK,ESC-50,553
+CAR_HORN_esc50_561.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_561.wav,2,CAR_HORN,ESC-50,561
+DOOR_KNOCK_esc50_566.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_566.wav,19,DOOR_KNOCK,ESC-50,566
+GLASS_BREAKING_esc50_567.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_567.wav,14,GLASS_BREAKING,ESC-50,567
+CAR_HORN_esc50_574.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_574.wav,2,CAR_HORN,ESC-50,574
+CRYING_BABY_esc50_577.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_577.wav,9,CRYING_BABY,ESC-50,577
+FIRE_WORKS_esc50_590.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_590.wav,10,FIRE_WORKS,ESC-50,590
+GLASS_BREAKING_esc50_594.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_594.wav,14,GLASS_BREAKING,ESC-50,594
+GLASS_BREAKING_esc50_595.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_595.wav,14,GLASS_BREAKING,ESC-50,595
+GLASS_BREAKING_esc50_596.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_596.wav,14,GLASS_BREAKING,ESC-50,596
+FIRE_esc50_600.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_600.wav,17,FIRE,ESC-50,600
+FIRE_esc50_601.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_601.wav,17,FIRE,ESC-50,601
+FOOTSTEPS_esc50_608.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_608.wav,16,FOOTSTEPS,ESC-50,608
+FOOTSTEPS_esc50_609.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_609.wav,16,FOOTSTEPS,ESC-50,609
+FOOTSTEPS_esc50_610.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_610.wav,16,FOOTSTEPS,ESC-50,610
+FOOTSTEPS_esc50_611.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_611.wav,16,FOOTSTEPS,ESC-50,611
+FOOTSTEPS_esc50_612.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_612.wav,16,FOOTSTEPS,ESC-50,612
+FOOTSTEPS_esc50_613.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_613.wav,16,FOOTSTEPS,ESC-50,613
+FOOTSTEPS_esc50_614.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_614.wav,16,FOOTSTEPS,ESC-50,614
+FOOTSTEPS_esc50_615.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_615.wav,16,FOOTSTEPS,ESC-50,615
+GLASS_BREAKING_esc50_616.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_616.wav,14,GLASS_BREAKING,ESC-50,616
+FIRE_esc50_620.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_620.wav,17,FIRE,ESC-50,620
+FIRE_esc50_621.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_621.wav,17,FIRE,ESC-50,621
+FIRE_esc50_622.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_622.wav,17,FIRE,ESC-50,622
+FIRE_esc50_623.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_623.wav,17,FIRE,ESC-50,623
+THUNDER_STORM_esc50_634.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_634.wav,8,THUNDER_STORM,ESC-50,634
+THUNDER_STORM_esc50_635.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_635.wav,8,THUNDER_STORM,ESC-50,635
+THUNDER_STORM_esc50_636.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_636.wav,8,THUNDER_STORM,ESC-50,636
+THUNDER_STORM_esc50_637.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_637.wav,8,THUNDER_STORM,ESC-50,637
+THUNDER_STORM_esc50_638.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_638.wav,8,THUNDER_STORM,ESC-50,638
+THUNDER_STORM_esc50_639.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_639.wav,8,THUNDER_STORM,ESC-50,639
+CAR_HORN_esc50_640.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_640.wav,2,CAR_HORN,ESC-50,640
+SIREN_esc50_641.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_641.wav,1,SIREN,ESC-50,641
+SIREN_esc50_642.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_642.wav,1,SIREN,ESC-50,642
+CRYING_BABY_esc50_643.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_643.wav,9,CRYING_BABY,ESC-50,643
+CRYING_BABY_esc50_644.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_644.wav,9,CRYING_BABY,ESC-50,644
+CHAINSAW_esc50_645.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_645.wav,11,CHAINSAW,ESC-50,645
+CHAINSAW_esc50_646.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_646.wav,11,CHAINSAW,ESC-50,646
+CHAINSAW_esc50_647.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_647.wav,11,CHAINSAW,ESC-50,647
+CHAINSAW_esc50_648.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_648.wav,11,CHAINSAW,ESC-50,648
+CAR_HORN_esc50_658.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_658.wav,2,CAR_HORN,ESC-50,658
+FIRE_esc50_674.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_674.wav,17,FIRE,ESC-50,674
+FIRE_esc50_681.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_681.wav,17,FIRE,ESC-50,681
+CRYING_BABY_esc50_684.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_684.wav,9,CRYING_BABY,ESC-50,684
+CRYING_BABY_esc50_685.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_685.wav,9,CRYING_BABY,ESC-50,685
+CHAINSAW_esc50_687.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_687.wav,11,CHAINSAW,ESC-50,687
+CHAINSAW_esc50_688.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_688.wav,11,CHAINSAW,ESC-50,688
+SIREN_esc50_693.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_693.wav,1,SIREN,ESC-50,693
+SIREN_esc50_694.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_694.wav,1,SIREN,ESC-50,694
+SIREN_esc50_699.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_699.wav,1,SIREN,ESC-50,699
+SIREN_esc50_700.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_700.wav,1,SIREN,ESC-50,700
+SIREN_esc50_701.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_701.wav,1,SIREN,ESC-50,701
+SIREN_esc50_709.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_709.wav,1,SIREN,ESC-50,709
+RAIN_esc50_710.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_710.wav,18,RAIN,ESC-50,710
+RAIN_esc50_711.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_711.wav,18,RAIN,ESC-50,711
+RAIN_esc50_713.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_713.wav,18,RAIN,ESC-50,713
+CHAINSAW_esc50_725.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_725.wav,11,CHAINSAW,ESC-50,725
+CHAINSAW_esc50_726.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_726.wav,11,CHAINSAW,ESC-50,726
+ALARM_esc50_728.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_728.wav,15,ALARM,ESC-50,728
+ALARM_esc50_729.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_729.wav,15,ALARM,ESC-50,729
+CRYING_BABY_esc50_736.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_736.wav,9,CRYING_BABY,ESC-50,736
+RAIN_esc50_741.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_741.wav,18,RAIN,ESC-50,741
+RAIN_esc50_749.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_749.wav,18,RAIN,ESC-50,749
+RAIN_esc50_770.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_770.wav,18,RAIN,ESC-50,770
+ALARM_esc50_775.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_775.wav,15,ALARM,ESC-50,775
+ALARM_esc50_788.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_788.wav,15,ALARM,ESC-50,788
+THUNDER_STORM_esc50_809.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_809.wav,8,THUNDER_STORM,ESC-50,809
+THUNDER_STORM_esc50_810.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_810.wav,8,THUNDER_STORM,ESC-50,810
+THUNDER_STORM_esc50_811.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_811.wav,8,THUNDER_STORM,ESC-50,811
+THUNDER_STORM_esc50_812.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_812.wav,8,THUNDER_STORM,ESC-50,812
+FOOTSTEPS_esc50_817.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_817.wav,16,FOOTSTEPS,ESC-50,817
+FOOTSTEPS_esc50_818.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_818.wav,16,FOOTSTEPS,ESC-50,818
+FOOTSTEPS_esc50_819.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_819.wav,16,FOOTSTEPS,ESC-50,819
+FOOTSTEPS_esc50_820.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_820.wav,16,FOOTSTEPS,ESC-50,820
+FIRE_esc50_821.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_821.wav,17,FIRE,ESC-50,821
+FIRE_esc50_824.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_824.wav,17,FIRE,ESC-50,824
+ALARM_esc50_854.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_854.wav,15,ALARM,ESC-50,854
+ALARM_esc50_855.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_855.wav,15,ALARM,ESC-50,855
+CHAINSAW_esc50_861.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_861.wav,11,CHAINSAW,ESC-50,861
+CHAINSAW_esc50_862.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_862.wav,11,CHAINSAW,ESC-50,862
+CHAINSAW_esc50_863.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_863.wav,11,CHAINSAW,ESC-50,863
+CHAINSAW_esc50_864.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_864.wav,11,CHAINSAW,ESC-50,864
+CHAINSAW_esc50_865.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_865.wav,11,CHAINSAW,ESC-50,865
+CHAINSAW_esc50_866.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_866.wav,11,CHAINSAW,ESC-50,866
+CHAINSAW_esc50_867.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_867.wav,11,CHAINSAW,ESC-50,867
+FIRE_WORKS_esc50_868.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_868.wav,10,FIRE_WORKS,ESC-50,868
+FIRE_WORKS_esc50_869.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_869.wav,10,FIRE_WORKS,ESC-50,869
+FIRE_WORKS_esc50_870.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_870.wav,10,FIRE_WORKS,ESC-50,870
+FIRE_WORKS_esc50_871.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_871.wav,10,FIRE_WORKS,ESC-50,871
+FIRE_WORKS_esc50_872.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_872.wav,10,FIRE_WORKS,ESC-50,872
+ALARM_esc50_875.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_875.wav,15,ALARM,ESC-50,875
+ALARM_esc50_876.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_876.wav,15,ALARM,ESC-50,876
+FIRE_esc50_877.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_877.wav,17,FIRE,ESC-50,877
+THUNDER_STORM_esc50_881.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_881.wav,8,THUNDER_STORM,ESC-50,881
+THUNDER_STORM_esc50_884.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_884.wav,8,THUNDER_STORM,ESC-50,884
+ALARM_esc50_908.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_908.wav,15,ALARM,ESC-50,908
+ALARM_esc50_909.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_909.wav,15,ALARM,ESC-50,909
+RAIN_esc50_913.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_913.wav,18,RAIN,ESC-50,913
+DOG_BARK_esc50_923.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_923.wav,20,DOG_BARK,ESC-50,923
+ALARM_esc50_931.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_931.wav,15,ALARM,ESC-50,931
+RAIN_esc50_937.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_937.wav,18,RAIN,ESC-50,937
+RAIN_esc50_942.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_942.wav,18,RAIN,ESC-50,942
+RAIN_esc50_943.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_943.wav,18,RAIN,ESC-50,943
+RAIN_esc50_952.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_952.wav,18,RAIN,ESC-50,952
+DOG_BARK_esc50_954.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_954.wav,20,DOG_BARK,ESC-50,954
+DOOR_KNOCK_esc50_961.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_961.wav,19,DOOR_KNOCK,ESC-50,961
+THUNDER_STORM_esc50_965.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_965.wav,8,THUNDER_STORM,ESC-50,965
+THUNDER_STORM_esc50_966.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_966.wav,8,THUNDER_STORM,ESC-50,966
+CAR_HORN_esc50_970.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_970.wav,2,CAR_HORN,ESC-50,970
+FIRE_esc50_972.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_972.wav,17,FIRE,ESC-50,972
+CAR_HORN_esc50_975.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_975.wav,2,CAR_HORN,ESC-50,975
+FIRE_esc50_982.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_982.wav,17,FIRE,ESC-50,982
+ALARM_esc50_983.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_983.wav,15,ALARM,ESC-50,983
+CRYING_BABY_esc50_995.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_995.wav,9,CRYING_BABY,ESC-50,995
+CRYING_BABY_esc50_996.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_996.wav,9,CRYING_BABY,ESC-50,996
+CRYING_BABY_esc50_997.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_997.wav,9,CRYING_BABY,ESC-50,997
+DOOR_KNOCK_esc50_998.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_998.wav,19,DOOR_KNOCK,ESC-50,998
+CRYING_BABY_esc50_1007.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1007.wav,9,CRYING_BABY,ESC-50,1007
+CRYING_BABY_esc50_1008.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1008.wav,9,CRYING_BABY,ESC-50,1008
+CRYING_BABY_esc50_1009.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1009.wav,9,CRYING_BABY,ESC-50,1009
+CRYING_BABY_esc50_1010.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1010.wav,9,CRYING_BABY,ESC-50,1010
+CRYING_BABY_esc50_1011.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1011.wav,9,CRYING_BABY,ESC-50,1011
+DOOR_KNOCK_esc50_1017.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1017.wav,19,DOOR_KNOCK,ESC-50,1017
+CAR_HORN_esc50_1020.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1020.wav,2,CAR_HORN,ESC-50,1020
+DOOR_KNOCK_esc50_1022.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1022.wav,19,DOOR_KNOCK,ESC-50,1022
+CAR_HORN_esc50_1029.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1029.wav,2,CAR_HORN,ESC-50,1029
+CAR_HORN_esc50_1030.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1030.wav,2,CAR_HORN,ESC-50,1030
+DOG_BARK_esc50_1031.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1031.wav,20,DOG_BARK,ESC-50,1031
+RAIN_esc50_1050.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1050.wav,18,RAIN,ESC-50,1050
+FIRE_esc50_1051.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1051.wav,17,FIRE,ESC-50,1051
+RAIN_esc50_1052.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1052.wav,18,RAIN,ESC-50,1052
+RAIN_esc50_1054.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1054.wav,18,RAIN,ESC-50,1054
+DOG_BARK_esc50_1055.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1055.wav,20,DOG_BARK,ESC-50,1055
+FIRE_esc50_1058.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1058.wav,17,FIRE,ESC-50,1058
+CAR_HORN_esc50_1068.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1068.wav,2,CAR_HORN,ESC-50,1068
+DOG_BARK_esc50_1072.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1072.wav,20,DOG_BARK,ESC-50,1072
+CHAINSAW_esc50_1086.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_1086.wav,11,CHAINSAW,ESC-50,1086
+DOG_BARK_esc50_1097.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1097.wav,20,DOG_BARK,ESC-50,1097
+DOOR_KNOCK_esc50_1101.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1101.wav,19,DOOR_KNOCK,ESC-50,1101
+FIRE_WORKS_esc50_1108.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1108.wav,10,FIRE_WORKS,ESC-50,1108
+FIRE_WORKS_esc50_1109.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1109.wav,10,FIRE_WORKS,ESC-50,1109
+CAR_HORN_esc50_1110.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1110.wav,2,CAR_HORN,ESC-50,1110
+DOOR_KNOCK_esc50_1115.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1115.wav,19,DOOR_KNOCK,ESC-50,1115
+DOG_BARK_esc50_1116.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1116.wav,20,DOG_BARK,ESC-50,1116
+DOG_BARK_esc50_1117.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1117.wav,20,DOG_BARK,ESC-50,1117
+DOOR_KNOCK_esc50_1120.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1120.wav,19,DOOR_KNOCK,ESC-50,1120
+DOOR_KNOCK_esc50_1121.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1121.wav,19,DOOR_KNOCK,ESC-50,1121
+GLASS_BREAKING_esc50_1137.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1137.wav,14,GLASS_BREAKING,ESC-50,1137
+GLASS_BREAKING_esc50_1138.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1138.wav,14,GLASS_BREAKING,ESC-50,1138
+GLASS_BREAKING_esc50_1139.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1139.wav,14,GLASS_BREAKING,ESC-50,1139
+GLASS_BREAKING_esc50_1140.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1140.wav,14,GLASS_BREAKING,ESC-50,1140
+GLASS_BREAKING_esc50_1141.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1141.wav,14,GLASS_BREAKING,ESC-50,1141
+GLASS_BREAKING_esc50_1144.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1144.wav,14,GLASS_BREAKING,ESC-50,1144
+GLASS_BREAKING_esc50_1145.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1145.wav,14,GLASS_BREAKING,ESC-50,1145
+GLASS_BREAKING_esc50_1146.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1146.wav,14,GLASS_BREAKING,ESC-50,1146
+CAR_HORN_esc50_1148.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1148.wav,2,CAR_HORN,ESC-50,1148
+FOOTSTEPS_esc50_1151.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1151.wav,16,FOOTSTEPS,ESC-50,1151
+FIRE_WORKS_esc50_1152.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1152.wav,10,FIRE_WORKS,ESC-50,1152
+SIREN_esc50_1161.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1161.wav,1,SIREN,ESC-50,1161
+SIREN_esc50_1162.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1162.wav,1,SIREN,ESC-50,1162
+SIREN_esc50_1163.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1163.wav,1,SIREN,ESC-50,1163
+SIREN_esc50_1164.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1164.wav,1,SIREN,ESC-50,1164
+SIREN_esc50_1165.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1165.wav,1,SIREN,ESC-50,1165
+SIREN_esc50_1166.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1166.wav,1,SIREN,ESC-50,1166
+SIREN_esc50_1167.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1167.wav,1,SIREN,ESC-50,1167
+SIREN_esc50_1168.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1168.wav,1,SIREN,ESC-50,1168
+FIRE_esc50_1169.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1169.wav,17,FIRE,ESC-50,1169
+FOOTSTEPS_esc50_1184.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1184.wav,16,FOOTSTEPS,ESC-50,1184
+FOOTSTEPS_esc50_1185.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1185.wav,16,FOOTSTEPS,ESC-50,1185
+FOOTSTEPS_esc50_1186.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1186.wav,16,FOOTSTEPS,ESC-50,1186
+SIREN_esc50_1203.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1203.wav,1,SIREN,ESC-50,1203
+SIREN_esc50_1208.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1208.wav,1,SIREN,ESC-50,1208
+SIREN_esc50_1209.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1209.wav,1,SIREN,ESC-50,1209
+FOOTSTEPS_esc50_1210.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1210.wav,16,FOOTSTEPS,ESC-50,1210
+FOOTSTEPS_esc50_1211.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1211.wav,16,FOOTSTEPS,ESC-50,1211
+FIRE_WORKS_esc50_1212.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1212.wav,10,FIRE_WORKS,ESC-50,1212
+FIRE_WORKS_esc50_1213.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1213.wav,10,FIRE_WORKS,ESC-50,1213
+FIRE_WORKS_esc50_1214.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1214.wav,10,FIRE_WORKS,ESC-50,1214
+FIRE_WORKS_esc50_1215.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1215.wav,10,FIRE_WORKS,ESC-50,1215
+FIRE_WORKS_esc50_1216.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1216.wav,10,FIRE_WORKS,ESC-50,1216
+FIRE_WORKS_esc50_1217.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1217.wav,10,FIRE_WORKS,ESC-50,1217
+FIRE_WORKS_esc50_1218.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1218.wav,10,FIRE_WORKS,ESC-50,1218
+FIRE_WORKS_esc50_1219.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1219.wav,10,FIRE_WORKS,ESC-50,1219
+SIREN_esc50_1222.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1222.wav,1,SIREN,ESC-50,1222
+THUNDER_STORM_esc50_1224.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_1224.wav,8,THUNDER_STORM,ESC-50,1224
+THUNDER_STORM_esc50_1225.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_1225.wav,8,THUNDER_STORM,ESC-50,1225
+THUNDER_STORM_esc50_1226.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_1226.wav,8,THUNDER_STORM,ESC-50,1226
+THUNDER_STORM_esc50_1227.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_1227.wav,8,THUNDER_STORM,ESC-50,1227
+CHAINSAW_esc50_1267.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_1267.wav,11,CHAINSAW,ESC-50,1267
+CHAINSAW_esc50_1268.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_1268.wav,11,CHAINSAW,ESC-50,1268
+ALARM_esc50_1273.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_1273.wav,15,ALARM,ESC-50,1273
+THUNDER_STORM_esc50_1287.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_1287.wav,8,THUNDER_STORM,ESC-50,1287
+CHAINSAW_esc50_1290.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_1290.wav,11,CHAINSAW,ESC-50,1290
+CHAINSAW_esc50_1291.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_1291.wav,11,CHAINSAW,ESC-50,1291
+RAIN_esc50_1298.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1298.wav,18,RAIN,ESC-50,1298
+RAIN_esc50_1305.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1305.wav,18,RAIN,ESC-50,1305
+THUNDER_STORM_esc50_1308.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_1308.wav,8,THUNDER_STORM,ESC-50,1308
+RAIN_esc50_1311.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1311.wav,18,RAIN,ESC-50,1311
+RAIN_esc50_1321.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1321.wav,18,RAIN,ESC-50,1321
+FIRE_esc50_1323.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1323.wav,17,FIRE,ESC-50,1323
+FIRE_esc50_1324.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1324.wav,17,FIRE,ESC-50,1324
+THUNDER_STORM_esc50_1329.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_1329.wav,8,THUNDER_STORM,ESC-50,1329
+THUNDER_STORM_esc50_1330.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_1330.wav,8,THUNDER_STORM,ESC-50,1330
+CHAINSAW_esc50_1331.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_1331.wav,11,CHAINSAW,ESC-50,1331
+CHAINSAW_esc50_1332.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_1332.wav,11,CHAINSAW,ESC-50,1332
+RAIN_esc50_1336.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1336.wav,18,RAIN,ESC-50,1336
+CRYING_BABY_esc50_1340.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1340.wav,9,CRYING_BABY,ESC-50,1340
+CRYING_BABY_esc50_1341.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1341.wav,9,CRYING_BABY,ESC-50,1341
+CRYING_BABY_esc50_1342.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1342.wav,9,CRYING_BABY,ESC-50,1342
+CHAINSAW_esc50_1349.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_1349.wav,11,CHAINSAW,ESC-50,1349
+CHAINSAW_esc50_1350.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_1350.wav,11,CHAINSAW,ESC-50,1350
+ALARM_esc50_1351.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_1351.wav,15,ALARM,ESC-50,1351
+FIRE_esc50_1354.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1354.wav,17,FIRE,ESC-50,1354
+FIRE_esc50_1355.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1355.wav,17,FIRE,ESC-50,1355
+FIRE_esc50_1356.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1356.wav,17,FIRE,ESC-50,1356
+ALARM_esc50_1364.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_1364.wav,15,ALARM,ESC-50,1364
+CAR_HORN_esc50_1385.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1385.wav,2,CAR_HORN,ESC-50,1385
+CAR_HORN_esc50_1386.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1386.wav,2,CAR_HORN,ESC-50,1386
+CAR_HORN_esc50_1387.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1387.wav,2,CAR_HORN,ESC-50,1387
+CAR_HORN_esc50_1388.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1388.wav,2,CAR_HORN,ESC-50,1388
+CAR_HORN_esc50_1390.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1390.wav,2,CAR_HORN,ESC-50,1390
+CAR_HORN_esc50_1391.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1391.wav,2,CAR_HORN,ESC-50,1391
+RAIN_esc50_1394.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1394.wav,18,RAIN,ESC-50,1394
+CAR_HORN_esc50_1396.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1396.wav,2,CAR_HORN,ESC-50,1396
+RAIN_esc50_1401.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1401.wav,18,RAIN,ESC-50,1401
+RAIN_esc50_1404.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1404.wav,18,RAIN,ESC-50,1404
+FIRE_esc50_1406.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1406.wav,17,FIRE,ESC-50,1406
+DOOR_KNOCK_esc50_1416.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1416.wav,19,DOOR_KNOCK,ESC-50,1416
+DOOR_KNOCK_esc50_1417.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1417.wav,19,DOOR_KNOCK,ESC-50,1417
+DOOR_KNOCK_esc50_1418.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1418.wav,19,DOOR_KNOCK,ESC-50,1418
+FIRE_esc50_1421.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1421.wav,17,FIRE,ESC-50,1421
+FIRE_esc50_1422.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1422.wav,17,FIRE,ESC-50,1422
+DOG_BARK_esc50_1423.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1423.wav,20,DOG_BARK,ESC-50,1423
+DOG_BARK_esc50_1431.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1431.wav,20,DOG_BARK,ESC-50,1431
+DOG_BARK_esc50_1435.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1435.wav,20,DOG_BARK,ESC-50,1435
+CRYING_BABY_esc50_1437.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1437.wav,9,CRYING_BABY,ESC-50,1437
+CRYING_BABY_esc50_1438.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1438.wav,9,CRYING_BABY,ESC-50,1438
+CRYING_BABY_esc50_1439.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1439.wav,9,CRYING_BABY,ESC-50,1439
+DOOR_KNOCK_esc50_1442.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1442.wav,19,DOOR_KNOCK,ESC-50,1442
+DOOR_KNOCK_esc50_1449.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1449.wav,19,DOOR_KNOCK,ESC-50,1449
+DOOR_KNOCK_esc50_1468.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1468.wav,19,DOOR_KNOCK,ESC-50,1468
+ALARM_esc50_1469.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_1469.wav,15,ALARM,ESC-50,1469
+CAR_HORN_esc50_1477.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1477.wav,2,CAR_HORN,ESC-50,1477
+DOG_BARK_esc50_1482.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1482.wav,20,DOG_BARK,ESC-50,1482
+DOG_BARK_esc50_1484.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1484.wav,20,DOG_BARK,ESC-50,1484
+DOG_BARK_esc50_1490.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1490.wav,20,DOG_BARK,ESC-50,1490
+FOOTSTEPS_esc50_1492.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1492.wav,16,FOOTSTEPS,ESC-50,1492
+FOOTSTEPS_esc50_1493.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1493.wav,16,FOOTSTEPS,ESC-50,1493
+ALARM_esc50_1511.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_1511.wav,15,ALARM,ESC-50,1511
+FOOTSTEPS_esc50_1512.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1512.wav,16,FOOTSTEPS,ESC-50,1512
+FOOTSTEPS_esc50_1513.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1513.wav,16,FOOTSTEPS,ESC-50,1513
+DOG_BARK_esc50_1515.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1515.wav,20,DOG_BARK,ESC-50,1515
+GLASS_BREAKING_esc50_1523.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1523.wav,14,GLASS_BREAKING,ESC-50,1523
+GLASS_BREAKING_esc50_1524.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1524.wav,14,GLASS_BREAKING,ESC-50,1524
+GLASS_BREAKING_esc50_1525.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1525.wav,14,GLASS_BREAKING,ESC-50,1525
+GLASS_BREAKING_esc50_1526.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1526.wav,14,GLASS_BREAKING,ESC-50,1526
+ALARM_esc50_1531.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_1531.wav,15,ALARM,ESC-50,1531
+GLASS_BREAKING_esc50_1532.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1532.wav,14,GLASS_BREAKING,ESC-50,1532
+GLASS_BREAKING_esc50_1533.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1533.wav,14,GLASS_BREAKING,ESC-50,1533
+GLASS_BREAKING_esc50_1534.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1534.wav,14,GLASS_BREAKING,ESC-50,1534
+DOG_BARK_esc50_1540.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1540.wav,20,DOG_BARK,ESC-50,1540
+ALARM_esc50_1542.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_1542.wav,15,ALARM,ESC-50,1542
+ALARM_esc50_1543.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_1543.wav,15,ALARM,ESC-50,1543
+DOOR_KNOCK_esc50_1548.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1548.wav,19,DOOR_KNOCK,ESC-50,1548
+GLASS_BREAKING_esc50_1552.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1552.wav,14,GLASS_BREAKING,ESC-50,1552
+FOOTSTEPS_esc50_1569.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1569.wav,16,FOOTSTEPS,ESC-50,1569
+FOOTSTEPS_esc50_1570.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1570.wav,16,FOOTSTEPS,ESC-50,1570
+DOOR_KNOCK_esc50_1586.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1586.wav,19,DOOR_KNOCK,ESC-50,1586
+CRYING_BABY_esc50_1588.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1588.wav,9,CRYING_BABY,ESC-50,1588
+CRYING_BABY_esc50_1589.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1589.wav,9,CRYING_BABY,ESC-50,1589
+SIREN_esc50_1590.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1590.wav,1,SIREN,ESC-50,1590
+SIREN_esc50_1591.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1591.wav,1,SIREN,ESC-50,1591
+SIREN_esc50_1592.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1592.wav,1,SIREN,ESC-50,1592
+SIREN_esc50_1593.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1593.wav,1,SIREN,ESC-50,1593
+SIREN_esc50_1606.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1606.wav,1,SIREN,ESC-50,1606
+SIREN_esc50_1607.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1607.wav,1,SIREN,ESC-50,1607
+SIREN_esc50_1608.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1608.wav,1,SIREN,ESC-50,1608
+SIREN_esc50_1612.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1612.wav,1,SIREN,ESC-50,1612
+SIREN_esc50_1613.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1613.wav,1,SIREN,ESC-50,1613
+SIREN_esc50_1616.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1616.wav,1,SIREN,ESC-50,1616
+CRYING_BABY_esc50_1617.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1617.wav,9,CRYING_BABY,ESC-50,1617
+THUNDER_STORM_esc50_1623.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_1623.wav,8,THUNDER_STORM,ESC-50,1623
+THUNDER_STORM_esc50_1624.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_1624.wav,8,THUNDER_STORM,ESC-50,1624
+THUNDER_STORM_esc50_1625.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_1625.wav,8,THUNDER_STORM,ESC-50,1625
+THUNDER_STORM_esc50_1626.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_1626.wav,8,THUNDER_STORM,ESC-50,1626
+THUNDER_STORM_esc50_1627.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_1627.wav,8,THUNDER_STORM,ESC-50,1627
+SIREN_esc50_1630.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1630.wav,1,SIREN,ESC-50,1630
+FIRE_WORKS_esc50_1631.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1631.wav,10,FIRE_WORKS,ESC-50,1631
+FIRE_WORKS_esc50_1632.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1632.wav,10,FIRE_WORKS,ESC-50,1632
+FIRE_WORKS_esc50_1633.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1633.wav,10,FIRE_WORKS,ESC-50,1633
+FIRE_WORKS_esc50_1634.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1634.wav,10,FIRE_WORKS,ESC-50,1634
+FIRE_WORKS_esc50_1635.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1635.wav,10,FIRE_WORKS,ESC-50,1635
+FIRE_WORKS_esc50_1636.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1636.wav,10,FIRE_WORKS,ESC-50,1636
+FIRE_WORKS_esc50_1637.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1637.wav,10,FIRE_WORKS,ESC-50,1637
+FIRE_WORKS_esc50_1638.wav,/workspaces/sound-recognition-ai/dataset/FIRE_WORKS_esc50_1638.wav,10,FIRE_WORKS,ESC-50,1638
+CHAINSAW_esc50_1642.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_1642.wav,11,CHAINSAW,ESC-50,1642
+CHAINSAW_esc50_1643.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_1643.wav,11,CHAINSAW,ESC-50,1643
+CHAINSAW_esc50_1645.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_1645.wav,11,CHAINSAW,ESC-50,1645
+CAR_HORN_esc50_1661.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1661.wav,2,CAR_HORN,ESC-50,1661
+CAR_HORN_esc50_1662.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1662.wav,2,CAR_HORN,ESC-50,1662
+CAR_HORN_esc50_1663.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1663.wav,2,CAR_HORN,ESC-50,1663
+CAR_HORN_esc50_1664.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1664.wav,2,CAR_HORN,ESC-50,1664
+CAR_HORN_esc50_1665.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1665.wav,2,CAR_HORN,ESC-50,1665
+CAR_HORN_esc50_1666.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1666.wav,2,CAR_HORN,ESC-50,1666
+CAR_HORN_esc50_1667.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1667.wav,2,CAR_HORN,ESC-50,1667
+CAR_HORN_esc50_1668.wav,/workspaces/sound-recognition-ai/dataset/CAR_HORN_esc50_1668.wav,2,CAR_HORN,ESC-50,1668
+RAIN_esc50_1671.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1671.wav,18,RAIN,ESC-50,1671
+SIREN_esc50_1677.wav,/workspaces/sound-recognition-ai/dataset/SIREN_esc50_1677.wav,1,SIREN,ESC-50,1677
+CHAINSAW_esc50_1680.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_1680.wav,11,CHAINSAW,ESC-50,1680
+CHAINSAW_esc50_1681.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_1681.wav,11,CHAINSAW,ESC-50,1681
+FIRE_esc50_1683.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1683.wav,17,FIRE,ESC-50,1683
+THUNDER_STORM_esc50_1689.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_1689.wav,8,THUNDER_STORM,ESC-50,1689
+RAIN_esc50_1691.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1691.wav,18,RAIN,ESC-50,1691
+FIRE_esc50_1695.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1695.wav,17,FIRE,ESC-50,1695
+FIRE_esc50_1696.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1696.wav,17,FIRE,ESC-50,1696
+THUNDER_STORM_esc50_1700.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_1700.wav,8,THUNDER_STORM,ESC-50,1700
+RAIN_esc50_1701.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1701.wav,18,RAIN,ESC-50,1701
+FIRE_esc50_1702.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1702.wav,17,FIRE,ESC-50,1702
+FIRE_esc50_1703.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1703.wav,17,FIRE,ESC-50,1703
+RAIN_esc50_1705.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1705.wav,18,RAIN,ESC-50,1705
+THUNDER_STORM_esc50_1715.wav,/workspaces/sound-recognition-ai/dataset/THUNDER_STORM_esc50_1715.wav,8,THUNDER_STORM,ESC-50,1715
+RAIN_esc50_1716.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1716.wav,18,RAIN,ESC-50,1716
+RAIN_esc50_1726.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1726.wav,18,RAIN,ESC-50,1726
+CRYING_BABY_esc50_1728.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1728.wav,9,CRYING_BABY,ESC-50,1728
+CRYING_BABY_esc50_1729.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1729.wav,9,CRYING_BABY,ESC-50,1729
+CRYING_BABY_esc50_1730.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1730.wav,9,CRYING_BABY,ESC-50,1730
+CRYING_BABY_esc50_1731.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1731.wav,9,CRYING_BABY,ESC-50,1731
+CRYING_BABY_esc50_1732.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1732.wav,9,CRYING_BABY,ESC-50,1732
+CRYING_BABY_esc50_1733.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1733.wav,9,CRYING_BABY,ESC-50,1733
+CRYING_BABY_esc50_1734.wav,/workspaces/sound-recognition-ai/dataset/CRYING_BABY_esc50_1734.wav,9,CRYING_BABY,ESC-50,1734
+RAIN_esc50_1759.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1759.wav,18,RAIN,ESC-50,1759
+DOG_BARK_esc50_1760.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1760.wav,20,DOG_BARK,ESC-50,1760
+DOG_BARK_esc50_1761.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1761.wav,20,DOG_BARK,ESC-50,1761
+RAIN_esc50_1762.wav,/workspaces/sound-recognition-ai/dataset/RAIN_esc50_1762.wav,18,RAIN,ESC-50,1762
+DOG_BARK_esc50_1780.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1780.wav,20,DOG_BARK,ESC-50,1780
+ALARM_esc50_1793.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_1793.wav,15,ALARM,ESC-50,1793
+ALARM_esc50_1795.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_1795.wav,15,ALARM,ESC-50,1795
+DOG_BARK_esc50_1800.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1800.wav,20,DOG_BARK,ESC-50,1800
+FIRE_esc50_1806.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1806.wav,17,FIRE,ESC-50,1806
+DOG_BARK_esc50_1811.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1811.wav,20,DOG_BARK,ESC-50,1811
+FIRE_esc50_1823.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1823.wav,17,FIRE,ESC-50,1823
+FIRE_esc50_1824.wav,/workspaces/sound-recognition-ai/dataset/FIRE_esc50_1824.wav,17,FIRE,ESC-50,1824
+CHAINSAW_esc50_1830.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_1830.wav,11,CHAINSAW,ESC-50,1830
+CHAINSAW_esc50_1831.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_1831.wav,11,CHAINSAW,ESC-50,1831
+DOG_BARK_esc50_1832.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1832.wav,20,DOG_BARK,ESC-50,1832
+DOOR_KNOCK_esc50_1839.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1839.wav,19,DOOR_KNOCK,ESC-50,1839
+DOOR_KNOCK_esc50_1840.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1840.wav,19,DOOR_KNOCK,ESC-50,1840
+ALARM_esc50_1842.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_1842.wav,15,ALARM,ESC-50,1842
+ALARM_esc50_1843.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_1843.wav,15,ALARM,ESC-50,1843
+GLASS_BREAKING_esc50_1854.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1854.wav,14,GLASS_BREAKING,ESC-50,1854
+GLASS_BREAKING_esc50_1855.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1855.wav,14,GLASS_BREAKING,ESC-50,1855
+CHAINSAW_esc50_1862.wav,/workspaces/sound-recognition-ai/dataset/CHAINSAW_esc50_1862.wav,11,CHAINSAW,ESC-50,1862
+ALARM_esc50_1867.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_1867.wav,15,ALARM,ESC-50,1867
+DOG_BARK_esc50_1871.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1871.wav,20,DOG_BARK,ESC-50,1871
+GLASS_BREAKING_esc50_1879.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1879.wav,14,GLASS_BREAKING,ESC-50,1879
+GLASS_BREAKING_esc50_1880.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1880.wav,14,GLASS_BREAKING,ESC-50,1880
+ALARM_esc50_1881.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_1881.wav,15,ALARM,ESC-50,1881
+ALARM_esc50_1884.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_1884.wav,15,ALARM,ESC-50,1884
+FOOTSTEPS_esc50_1885.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1885.wav,16,FOOTSTEPS,ESC-50,1885
+FOOTSTEPS_esc50_1887.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1887.wav,16,FOOTSTEPS,ESC-50,1887
+DOOR_KNOCK_esc50_1893.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1893.wav,19,DOOR_KNOCK,ESC-50,1893
+FOOTSTEPS_esc50_1915.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1915.wav,16,FOOTSTEPS,ESC-50,1915
+FOOTSTEPS_esc50_1927.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1927.wav,16,FOOTSTEPS,ESC-50,1927
+DOOR_KNOCK_esc50_1942.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1942.wav,19,DOOR_KNOCK,ESC-50,1942
+DOOR_KNOCK_esc50_1943.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1943.wav,19,DOOR_KNOCK,ESC-50,1943
+ALARM_esc50_1945.wav,/workspaces/sound-recognition-ai/dataset/ALARM_esc50_1945.wav,15,ALARM,ESC-50,1945
+DOOR_KNOCK_esc50_1947.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1947.wav,19,DOOR_KNOCK,ESC-50,1947
+DOOR_KNOCK_esc50_1948.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1948.wav,19,DOOR_KNOCK,ESC-50,1948
+DOOR_KNOCK_esc50_1969.wav,/workspaces/sound-recognition-ai/dataset/DOOR_KNOCK_esc50_1969.wav,19,DOOR_KNOCK,ESC-50,1969
+GLASS_BREAKING_esc50_1971.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1971.wav,14,GLASS_BREAKING,ESC-50,1971
+GLASS_BREAKING_esc50_1979.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1979.wav,14,GLASS_BREAKING,ESC-50,1979
+GLASS_BREAKING_esc50_1980.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1980.wav,14,GLASS_BREAKING,ESC-50,1980
+GLASS_BREAKING_esc50_1981.wav,/workspaces/sound-recognition-ai/dataset/GLASS_BREAKING_esc50_1981.wav,14,GLASS_BREAKING,ESC-50,1981
+FOOTSTEPS_esc50_1989.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1989.wav,16,FOOTSTEPS,ESC-50,1989
+FOOTSTEPS_esc50_1990.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1990.wav,16,FOOTSTEPS,ESC-50,1990
+FOOTSTEPS_esc50_1991.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1991.wav,16,FOOTSTEPS,ESC-50,1991
+FOOTSTEPS_esc50_1997.wav,/workspaces/sound-recognition-ai/dataset/FOOTSTEPS_esc50_1997.wav,16,FOOTSTEPS,ESC-50,1997
+DOG_BARK_esc50_1999.wav,/workspaces/sound-recognition-ai/dataset/DOG_BARK_esc50_1999.wav,20,DOG_BARK,ESC-50,1999
+GUNSHOT_RIFLE_gad_0.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_0.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,0
+GUNSHOT_RIFLE_gad_1.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_1.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,1
+GUNSHOT_RIFLE_gad_2.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_2.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,2
+GUNSHOT_RIFLE_gad_3.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_3.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,3
+GUNSHOT_RIFLE_gad_4.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_4.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,4
+GUNSHOT_RIFLE_gad_5.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_5.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,5
+GUNSHOT_RIFLE_gad_6.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_6.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,6
+GUNSHOT_RIFLE_gad_7.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_7.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,7
+GUNSHOT_RIFLE_gad_8.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_8.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,8
+GUNSHOT_RIFLE_gad_9.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_9.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,9
+GUNSHOT_RIFLE_gad_10.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_10.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,10
+GUNSHOT_RIFLE_gad_11.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_11.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,11
+GUNSHOT_RIFLE_gad_12.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_12.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,12
+GUNSHOT_RIFLE_gad_13.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_13.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,13
+GUNSHOT_RIFLE_gad_14.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_14.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,14
+GUNSHOT_RIFLE_gad_15.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_15.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,15
+GUNSHOT_RIFLE_gad_16.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_16.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,16
+GUNSHOT_RIFLE_gad_17.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_17.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,17
+GUNSHOT_RIFLE_gad_18.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_18.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,18
+GUNSHOT_RIFLE_gad_19.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_19.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,19
+GUNSHOT_RIFLE_gad_20.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_20.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,20
+GUNSHOT_RIFLE_gad_21.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_21.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,21
+GUNSHOT_RIFLE_gad_22.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_22.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,22
+GUNSHOT_RIFLE_gad_23.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_23.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,23
+GUNSHOT_RIFLE_gad_24.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_24.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,24
+GUNSHOT_RIFLE_gad_25.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_25.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,25
+GUNSHOT_RIFLE_gad_26.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_26.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,26
+GUNSHOT_RIFLE_gad_27.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_27.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,27
+GUNSHOT_RIFLE_gad_28.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_28.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,28
+GUNSHOT_RIFLE_gad_29.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_29.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,29
+GUNSHOT_RIFLE_gad_30.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_30.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,30
+GUNSHOT_RIFLE_gad_31.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_31.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,31
+GUNSHOT_RIFLE_gad_32.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_32.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,32
+GUNSHOT_RIFLE_gad_33.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_33.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,33
+GUNSHOT_RIFLE_gad_34.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_34.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,34
+GUNSHOT_RIFLE_gad_35.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_35.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,35
+GUNSHOT_RIFLE_gad_36.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_36.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,36
+GUNSHOT_RIFLE_gad_37.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_37.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,37
+GUNSHOT_RIFLE_gad_38.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_38.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,38
+GUNSHOT_RIFLE_gad_39.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_39.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,39
+GUNSHOT_RIFLE_gad_40.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_40.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,40
+GUNSHOT_RIFLE_gad_41.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_41.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,41
+GUNSHOT_RIFLE_gad_42.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_42.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,42
+GUNSHOT_RIFLE_gad_43.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_43.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,43
+GUNSHOT_RIFLE_gad_44.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_44.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,44
+GUNSHOT_RIFLE_gad_45.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_45.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,45
+GUNSHOT_RIFLE_gad_46.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_46.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,46
+GUNSHOT_RIFLE_gad_47.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_47.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,47
+GUNSHOT_RIFLE_gad_48.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_48.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,48
+GUNSHOT_RIFLE_gad_49.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_49.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,49
+GUNSHOT_RIFLE_gad_50.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_50.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,50
+GUNSHOT_RIFLE_gad_51.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_51.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,51
+GUNSHOT_RIFLE_gad_52.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_52.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,52
+GUNSHOT_RIFLE_gad_53.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_53.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,53
+GUNSHOT_RIFLE_gad_54.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_54.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,54
+GUNSHOT_RIFLE_gad_55.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_55.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,55
+GUNSHOT_RIFLE_gad_56.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_56.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,56
+GUNSHOT_RIFLE_gad_57.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_57.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,57
+GUNSHOT_RIFLE_gad_58.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_58.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,58
+GUNSHOT_RIFLE_gad_59.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_59.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,59
+GUNSHOT_RIFLE_gad_60.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_60.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,60
+GUNSHOT_RIFLE_gad_61.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_61.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,61
+GUNSHOT_RIFLE_gad_62.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_62.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,62
+GUNSHOT_RIFLE_gad_63.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_63.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,63
+GUNSHOT_RIFLE_gad_64.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_64.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,64
+GUNSHOT_RIFLE_gad_65.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_65.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,65
+GUNSHOT_RIFLE_gad_66.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_66.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,66
+GUNSHOT_RIFLE_gad_67.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_67.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,67
+GUNSHOT_RIFLE_gad_68.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_68.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,68
+GUNSHOT_RIFLE_gad_69.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_69.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,69
+GUNSHOT_RIFLE_gad_70.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_70.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,70
+GUNSHOT_RIFLE_gad_71.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_71.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,71
+GUNSHOT_RIFLE_gad_72.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_72.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,72
+GUNSHOT_RIFLE_gad_73.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_73.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,73
+GUNSHOT_RIFLE_gad_74.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_74.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,74
+GUNSHOT_RIFLE_gad_75.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_75.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,75
+GUNSHOT_RIFLE_gad_76.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_76.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,76
+GUNSHOT_RIFLE_gad_77.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_77.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,77
+GUNSHOT_RIFLE_gad_78.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_78.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,78
+GUNSHOT_RIFLE_gad_79.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_79.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,79
+GUNSHOT_RIFLE_gad_80.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_80.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,80
+GUNSHOT_RIFLE_gad_81.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_81.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,81
+GUNSHOT_RIFLE_gad_82.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_82.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,82
+GUNSHOT_RIFLE_gad_83.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_83.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,83
+GUNSHOT_RIFLE_gad_84.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_84.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,84
+GUNSHOT_RIFLE_gad_85.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_85.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,85
+GUNSHOT_RIFLE_gad_86.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_86.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,86
+GUNSHOT_RIFLE_gad_87.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_87.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,87
+GUNSHOT_RIFLE_gad_88.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_88.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,88
+GUNSHOT_RIFLE_gad_89.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_89.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,89
+GUNSHOT_RIFLE_gad_90.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_90.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,90
+GUNSHOT_RIFLE_gad_91.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_91.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,91
+GUNSHOT_RIFLE_gad_92.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_92.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,92
+GUNSHOT_RIFLE_gad_93.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_93.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,93
+GUNSHOT_RIFLE_gad_94.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_94.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,94
+GUNSHOT_RIFLE_gad_95.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_95.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,95
+GUNSHOT_RIFLE_gad_96.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_96.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,96
+GUNSHOT_RIFLE_gad_97.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_97.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,97
+GUNSHOT_RIFLE_gad_98.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_98.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,98
+GUNSHOT_RIFLE_gad_99.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_99.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,99
+GUNSHOT_RIFLE_gad_100.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_100.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,100
+GUNSHOT_RIFLE_gad_101.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_101.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,101
+GUNSHOT_RIFLE_gad_102.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_102.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,102
+GUNSHOT_RIFLE_gad_103.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_103.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,103
+GUNSHOT_RIFLE_gad_104.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_104.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,104
+GUNSHOT_RIFLE_gad_105.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_105.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,105
+GUNSHOT_RIFLE_gad_106.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_106.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,106
+GUNSHOT_RIFLE_gad_107.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_107.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,107
+GUNSHOT_RIFLE_gad_108.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_108.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,108
+GUNSHOT_RIFLE_gad_109.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_109.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,109
+GUNSHOT_RIFLE_gad_110.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_110.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,110
+GUNSHOT_RIFLE_gad_111.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_111.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,111
+GUNSHOT_RIFLE_gad_112.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_112.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,112
+GUNSHOT_RIFLE_gad_113.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_113.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,113
+GUNSHOT_RIFLE_gad_114.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_114.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,114
+GUNSHOT_RIFLE_gad_115.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_115.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,115
+GUNSHOT_RIFLE_gad_116.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_116.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,116
+GUNSHOT_RIFLE_gad_117.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_117.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,117
+GUNSHOT_RIFLE_gad_118.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_118.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,118
+GUNSHOT_RIFLE_gad_119.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_119.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,119
+GUNSHOT_RIFLE_gad_120.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_120.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,120
+GUNSHOT_RIFLE_gad_121.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_121.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,121
+GUNSHOT_RIFLE_gad_122.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_122.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,122
+GUNSHOT_RIFLE_gad_123.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_123.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,123
+GUNSHOT_RIFLE_gad_124.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_124.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,124
+GUNSHOT_RIFLE_gad_125.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_125.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,125
+GUNSHOT_RIFLE_gad_126.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_126.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,126
+GUNSHOT_RIFLE_gad_127.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_127.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,127
+GUNSHOT_RIFLE_gad_128.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_128.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,128
+GUNSHOT_RIFLE_gad_129.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_129.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,129
+GUNSHOT_RIFLE_gad_130.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_130.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,130
+GUNSHOT_RIFLE_gad_131.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_131.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,131
+GUNSHOT_RIFLE_gad_132.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_132.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,132
+GUNSHOT_RIFLE_gad_133.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_133.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,133
+GUNSHOT_RIFLE_gad_134.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_134.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,134
+GUNSHOT_RIFLE_gad_135.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_135.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,135
+GUNSHOT_RIFLE_gad_136.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_136.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,136
+GUNSHOT_RIFLE_gad_137.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_137.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,137
+GUNSHOT_RIFLE_gad_138.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_138.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,138
+GUNSHOT_RIFLE_gad_139.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_139.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,139
+GUNSHOT_RIFLE_gad_140.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_140.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,140
+GUNSHOT_RIFLE_gad_141.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_141.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,141
+GUNSHOT_RIFLE_gad_142.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_142.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,142
+GUNSHOT_RIFLE_gad_143.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_143.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,143
+GUNSHOT_RIFLE_gad_144.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_144.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,144
+GUNSHOT_RIFLE_gad_145.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_145.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,145
+GUNSHOT_RIFLE_gad_146.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_146.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,146
+GUNSHOT_RIFLE_gad_147.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_147.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,147
+GUNSHOT_RIFLE_gad_148.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_148.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,148
+GUNSHOT_RIFLE_gad_149.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_149.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,149
+GUNSHOT_RIFLE_gad_150.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_150.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,150
+GUNSHOT_RIFLE_gad_151.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_151.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,151
+GUNSHOT_RIFLE_gad_152.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_152.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,152
+GUNSHOT_RIFLE_gad_153.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_153.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,153
+GUNSHOT_RIFLE_gad_154.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_154.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,154
+GUNSHOT_RIFLE_gad_155.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_155.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,155
+GUNSHOT_RIFLE_gad_156.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_156.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,156
+GUNSHOT_RIFLE_gad_157.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_157.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,157
+GUNSHOT_RIFLE_gad_158.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_158.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,158
+GUNSHOT_RIFLE_gad_159.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_159.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,159
+GUNSHOT_RIFLE_gad_160.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_160.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,160
+GUNSHOT_RIFLE_gad_161.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_161.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,161
+GUNSHOT_RIFLE_gad_162.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_162.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,162
+GUNSHOT_RIFLE_gad_163.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_163.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,163
+GUNSHOT_RIFLE_gad_164.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_164.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,164
+GUNSHOT_RIFLE_gad_165.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_165.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,165
+GUNSHOT_RIFLE_gad_166.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_166.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,166
+GUNSHOT_RIFLE_gad_167.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_167.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,167
+GUNSHOT_RIFLE_gad_168.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_168.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,168
+GUNSHOT_RIFLE_gad_169.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_169.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,169
+GUNSHOT_MACHINE_GUN_gad_170.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_170.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,170
+GUNSHOT_MACHINE_GUN_gad_171.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_171.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,171
+GUNSHOT_MACHINE_GUN_gad_172.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_172.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,172
+GUNSHOT_MACHINE_GUN_gad_173.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_173.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,173
+GUNSHOT_MACHINE_GUN_gad_174.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_174.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,174
+GUNSHOT_MACHINE_GUN_gad_175.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_175.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,175
+GUNSHOT_MACHINE_GUN_gad_176.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_176.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,176
+GUNSHOT_MACHINE_GUN_gad_177.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_177.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,177
+GUNSHOT_MACHINE_GUN_gad_178.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_178.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,178
+GUNSHOT_MACHINE_GUN_gad_179.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_179.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,179
+GUNSHOT_MACHINE_GUN_gad_180.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_180.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,180
+GUNSHOT_MACHINE_GUN_gad_181.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_181.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,181
+GUNSHOT_MACHINE_GUN_gad_182.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_182.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,182
+GUNSHOT_MACHINE_GUN_gad_183.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_183.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,183
+GUNSHOT_MACHINE_GUN_gad_184.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_184.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,184
+GUNSHOT_MACHINE_GUN_gad_185.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_185.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,185
+GUNSHOT_MACHINE_GUN_gad_186.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_186.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,186
+GUNSHOT_MACHINE_GUN_gad_187.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_187.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,187
+GUNSHOT_MACHINE_GUN_gad_188.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_188.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,188
+GUNSHOT_MACHINE_GUN_gad_189.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_189.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,189
+GUNSHOT_MACHINE_GUN_gad_190.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_190.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,190
+GUNSHOT_MACHINE_GUN_gad_191.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_191.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,191
+GUNSHOT_MACHINE_GUN_gad_192.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_192.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,192
+GUNSHOT_MACHINE_GUN_gad_193.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_193.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,193
+GUNSHOT_MACHINE_GUN_gad_194.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_194.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,194
+GUNSHOT_MACHINE_GUN_gad_195.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_195.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,195
+GUNSHOT_MACHINE_GUN_gad_196.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_196.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,196
+GUNSHOT_MACHINE_GUN_gad_197.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_197.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,197
+GUNSHOT_MACHINE_GUN_gad_198.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_198.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,198
+GUNSHOT_MACHINE_GUN_gad_199.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_199.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,199
+GUNSHOT_MACHINE_GUN_gad_200.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_200.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,200
+GUNSHOT_MACHINE_GUN_gad_201.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_201.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,201
+GUNSHOT_MACHINE_GUN_gad_202.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_202.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,202
+GUNSHOT_MACHINE_GUN_gad_203.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_203.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,203
+GUNSHOT_MACHINE_GUN_gad_204.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_204.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,204
+GUNSHOT_MACHINE_GUN_gad_205.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_205.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,205
+GUNSHOT_MACHINE_GUN_gad_206.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_206.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,206
+GUNSHOT_MACHINE_GUN_gad_207.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_207.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,207
+GUNSHOT_MACHINE_GUN_gad_208.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_208.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,208
+GUNSHOT_MACHINE_GUN_gad_209.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_209.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,209
+GUNSHOT_MACHINE_GUN_gad_210.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_210.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,210
+GUNSHOT_MACHINE_GUN_gad_211.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_211.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,211
+GUNSHOT_MACHINE_GUN_gad_212.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_212.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,212
+GUNSHOT_MACHINE_GUN_gad_213.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_213.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,213
+GUNSHOT_MACHINE_GUN_gad_214.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_214.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,214
+GUNSHOT_MACHINE_GUN_gad_215.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_215.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,215
+GUNSHOT_MACHINE_GUN_gad_216.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_216.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,216
+GUNSHOT_MACHINE_GUN_gad_217.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_217.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,217
+GUNSHOT_MACHINE_GUN_gad_218.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_218.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,218
+GUNSHOT_MACHINE_GUN_gad_219.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_219.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,219
+GUNSHOT_MACHINE_GUN_gad_220.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_220.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,220
+GUNSHOT_MACHINE_GUN_gad_221.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_221.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,221
+GUNSHOT_MACHINE_GUN_gad_222.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_222.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,222
+GUNSHOT_MACHINE_GUN_gad_223.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_223.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,223
+GUNSHOT_MACHINE_GUN_gad_224.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_224.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,224
+GUNSHOT_MACHINE_GUN_gad_225.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_225.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,225
+GUNSHOT_MACHINE_GUN_gad_226.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_226.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,226
+GUNSHOT_MACHINE_GUN_gad_227.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_227.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,227
+GUNSHOT_MACHINE_GUN_gad_228.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_228.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,228
+GUNSHOT_MACHINE_GUN_gad_229.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_229.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,229
+GUNSHOT_MACHINE_GUN_gad_230.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_230.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,230
+GUNSHOT_MACHINE_GUN_gad_231.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_231.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,231
+GUNSHOT_MACHINE_GUN_gad_232.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_232.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,232
+GUNSHOT_MACHINE_GUN_gad_233.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_233.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,233
+GUNSHOT_MACHINE_GUN_gad_234.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_234.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,234
+GUNSHOT_MACHINE_GUN_gad_235.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_235.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,235
+GUNSHOT_MACHINE_GUN_gad_236.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_236.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,236
+GUNSHOT_MACHINE_GUN_gad_237.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_237.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,237
+GUNSHOT_MACHINE_GUN_gad_238.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_238.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,238
+GUNSHOT_MACHINE_GUN_gad_239.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_239.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,239
+GUNSHOT_MACHINE_GUN_gad_240.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_240.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,240
+GUNSHOT_MACHINE_GUN_gad_241.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_241.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,241
+GUNSHOT_MACHINE_GUN_gad_242.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_242.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,242
+GUNSHOT_MACHINE_GUN_gad_243.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_243.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,243
+GUNSHOT_MACHINE_GUN_gad_244.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_244.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,244
+GUNSHOT_MACHINE_GUN_gad_245.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_245.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,245
+GUNSHOT_MACHINE_GUN_gad_246.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_246.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,246
+GUNSHOT_MACHINE_GUN_gad_247.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_247.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,247
+GUNSHOT_MACHINE_GUN_gad_248.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_248.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,248
+GUNSHOT_MACHINE_GUN_gad_249.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_249.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,249
+GUNSHOT_MACHINE_GUN_gad_250.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_250.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,250
+GUNSHOT_MACHINE_GUN_gad_251.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_251.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,251
+GUNSHOT_MACHINE_GUN_gad_252.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_252.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,252
+GUNSHOT_MACHINE_GUN_gad_253.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_253.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,253
+GUNSHOT_MACHINE_GUN_gad_254.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_254.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,254
+GUNSHOT_MACHINE_GUN_gad_255.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_255.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,255
+GUNSHOT_MACHINE_GUN_gad_256.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_256.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,256
+GUNSHOT_MACHINE_GUN_gad_257.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_257.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,257
+GUNSHOT_MACHINE_GUN_gad_258.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_258.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,258
+GUNSHOT_MACHINE_GUN_gad_259.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_259.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,259
+GUNSHOT_MACHINE_GUN_gad_260.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_260.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,260
+GUNSHOT_MACHINE_GUN_gad_261.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_261.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,261
+GUNSHOT_MACHINE_GUN_gad_262.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_262.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,262
+GUNSHOT_MACHINE_GUN_gad_263.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_263.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,263
+GUNSHOT_MACHINE_GUN_gad_264.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_264.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,264
+GUNSHOT_MACHINE_GUN_gad_265.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_265.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,265
+GUNSHOT_MACHINE_GUN_gad_266.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_266.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,266
+GUNSHOT_MACHINE_GUN_gad_267.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_267.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,267
+GUNSHOT_MACHINE_GUN_gad_268.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_268.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,268
+GUNSHOT_MACHINE_GUN_gad_269.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_269.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,269
+GUNSHOT_MACHINE_GUN_gad_270.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_270.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,270
+GUNSHOT_MACHINE_GUN_gad_271.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_271.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,271
+GUNSHOT_MACHINE_GUN_gad_272.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_272.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,272
+GUNSHOT_MACHINE_GUN_gad_273.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_273.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,273
+GUNSHOT_MACHINE_GUN_gad_274.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_274.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,274
+GUNSHOT_MACHINE_GUN_gad_275.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_275.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,275
+GUNSHOT_MACHINE_GUN_gad_276.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_276.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,276
+GUNSHOT_MACHINE_GUN_gad_277.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_277.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,277
+GUNSHOT_MACHINE_GUN_gad_278.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_278.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,278
+GUNSHOT_MACHINE_GUN_gad_279.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_279.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,279
+GUNSHOT_MACHINE_GUN_gad_280.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_280.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,280
+GUNSHOT_MACHINE_GUN_gad_281.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_281.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,281
+GUNSHOT_MACHINE_GUN_gad_282.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_282.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,282
+GUNSHOT_MACHINE_GUN_gad_283.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_283.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,283
+GUNSHOT_MACHINE_GUN_gad_284.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_284.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,284
+GUNSHOT_MACHINE_GUN_gad_285.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_285.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,285
+GUNSHOT_MACHINE_GUN_gad_286.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_286.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,286
+GUNSHOT_MACHINE_GUN_gad_287.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_287.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,287
+GUNSHOT_MACHINE_GUN_gad_288.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_288.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,288
+GUNSHOT_MACHINE_GUN_gad_289.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_289.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,289
+GUNSHOT_MACHINE_GUN_gad_290.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_290.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,290
+GUNSHOT_MACHINE_GUN_gad_291.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_291.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,291
+GUNSHOT_MACHINE_GUN_gad_292.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_292.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,292
+GUNSHOT_MACHINE_GUN_gad_293.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_293.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,293
+GUNSHOT_MACHINE_GUN_gad_294.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_294.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,294
+GUNSHOT_MACHINE_GUN_gad_295.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_295.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,295
+GUNSHOT_MACHINE_GUN_gad_296.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_296.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,296
+GUNSHOT_MACHINE_GUN_gad_297.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_297.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,297
+GUNSHOT_MACHINE_GUN_gad_298.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_298.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,298
+GUNSHOT_MACHINE_GUN_gad_299.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_299.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,299
+GUNSHOT_MACHINE_GUN_gad_300.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_300.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,300
+GUNSHOT_MACHINE_GUN_gad_301.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_301.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,301
+GUNSHOT_MACHINE_GUN_gad_302.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_302.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,302
+GUNSHOT_MACHINE_GUN_gad_303.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_303.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,303
+GUNSHOT_MACHINE_GUN_gad_304.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_304.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,304
+GUNSHOT_MACHINE_GUN_gad_305.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_305.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,305
+GUNSHOT_MACHINE_GUN_gad_306.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_306.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,306
+GUNSHOT_MACHINE_GUN_gad_307.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_307.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,307
+GUNSHOT_MACHINE_GUN_gad_308.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_308.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,308
+GUNSHOT_MACHINE_GUN_gad_309.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_309.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,309
+GUNSHOT_MACHINE_GUN_gad_310.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_310.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,310
+GUNSHOT_MACHINE_GUN_gad_311.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_311.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,311
+GUNSHOT_MACHINE_GUN_gad_312.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_312.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,312
+GUNSHOT_MACHINE_GUN_gad_313.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_313.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,313
+GUNSHOT_MACHINE_GUN_gad_314.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_314.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,314
+GUNSHOT_MACHINE_GUN_gad_315.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_315.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,315
+GUNSHOT_MACHINE_GUN_gad_316.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_316.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,316
+GUNSHOT_MACHINE_GUN_gad_317.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_317.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,317
+GUNSHOT_MACHINE_GUN_gad_318.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_318.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,318
+GUNSHOT_MACHINE_GUN_gad_319.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_319.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,319
+GUNSHOT_MACHINE_GUN_gad_320.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_320.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,320
+GUNSHOT_MACHINE_GUN_gad_321.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_321.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,321
+GUNSHOT_MACHINE_GUN_gad_322.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_322.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,322
+GUNSHOT_MACHINE_GUN_gad_323.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_323.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,323
+GUNSHOT_MACHINE_GUN_gad_324.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_324.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,324
+GUNSHOT_MACHINE_GUN_gad_325.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_325.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,325
+GUNSHOT_MACHINE_GUN_gad_326.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_326.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,326
+GUNSHOT_MACHINE_GUN_gad_327.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_327.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,327
+GUNSHOT_MACHINE_GUN_gad_328.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_328.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,328
+GUNSHOT_MACHINE_GUN_gad_329.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_329.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,329
+GUNSHOT_MACHINE_GUN_gad_330.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_330.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,330
+GUNSHOT_MACHINE_GUN_gad_331.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_331.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,331
+GUNSHOT_MACHINE_GUN_gad_332.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_332.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,332
+GUNSHOT_MACHINE_GUN_gad_333.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_333.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,333
+GUNSHOT_MACHINE_GUN_gad_334.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_334.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,334
+GUNSHOT_MACHINE_GUN_gad_335.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_335.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,335
+GUNSHOT_MACHINE_GUN_gad_336.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_336.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,336
+GUNSHOT_MACHINE_GUN_gad_337.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_337.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,337
+GUNSHOT_MACHINE_GUN_gad_338.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_338.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,338
+GUNSHOT_MACHINE_GUN_gad_339.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_339.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,339
+GUNSHOT_MACHINE_GUN_gad_340.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_340.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,340
+GUNSHOT_MACHINE_GUN_gad_341.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_341.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,341
+GUNSHOT_MACHINE_GUN_gad_342.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_342.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,342
+GUNSHOT_MACHINE_GUN_gad_343.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_343.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,343
+GUNSHOT_MACHINE_GUN_gad_344.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_344.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,344
+GUNSHOT_MACHINE_GUN_gad_345.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_345.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,345
+GUNSHOT_MACHINE_GUN_gad_346.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_346.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,346
+GUNSHOT_MACHINE_GUN_gad_347.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_347.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,347
+GUNSHOT_MACHINE_GUN_gad_348.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_348.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,348
+GUNSHOT_MACHINE_GUN_gad_349.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_349.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,349
+GUNSHOT_MACHINE_GUN_gad_350.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_350.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,350
+GUNSHOT_MACHINE_GUN_gad_351.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_351.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,351
+GUNSHOT_MACHINE_GUN_gad_352.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_352.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,352
+GUNSHOT_MACHINE_GUN_gad_353.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_353.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,353
+GUNSHOT_MACHINE_GUN_gad_354.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_354.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,354
+GUNSHOT_MACHINE_GUN_gad_355.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_355.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,355
+GUNSHOT_MACHINE_GUN_gad_356.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_356.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,356
+GUNSHOT_MACHINE_GUN_gad_357.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_357.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,357
+GUNSHOT_MACHINE_GUN_gad_358.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_358.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,358
+GUNSHOT_MACHINE_GUN_gad_359.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_359.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,359
+GUNSHOT_MACHINE_GUN_gad_360.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_360.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,360
+GUNSHOT_MACHINE_GUN_gad_361.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_361.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,361
+GUNSHOT_MACHINE_GUN_gad_362.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_362.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,362
+GUNSHOT_MACHINE_GUN_gad_363.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_363.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,363
+GUNSHOT_MACHINE_GUN_gad_364.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_364.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,364
+GUNSHOT_MACHINE_GUN_gad_365.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_365.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,365
+GUNSHOT_MACHINE_GUN_gad_366.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_366.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,366
+GUNSHOT_MACHINE_GUN_gad_367.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_367.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,367
+GUNSHOT_MACHINE_GUN_gad_368.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_MACHINE_GUN_gad_368.wav,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,368
+GUNSHOT_HANDGUN_gad_369.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_369.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,369
+GUNSHOT_HANDGUN_gad_370.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_370.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,370
+GUNSHOT_HANDGUN_gad_371.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_371.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,371
+GUNSHOT_HANDGUN_gad_372.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_372.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,372
+GUNSHOT_HANDGUN_gad_373.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_373.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,373
+GUNSHOT_HANDGUN_gad_374.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_374.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,374
+GUNSHOT_HANDGUN_gad_375.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_375.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,375
+GUNSHOT_HANDGUN_gad_376.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_376.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,376
+GUNSHOT_HANDGUN_gad_377.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_377.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,377
+GUNSHOT_HANDGUN_gad_378.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_378.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,378
+GUNSHOT_HANDGUN_gad_379.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_379.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,379
+GUNSHOT_HANDGUN_gad_380.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_380.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,380
+GUNSHOT_HANDGUN_gad_381.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_381.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,381
+GUNSHOT_HANDGUN_gad_382.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_382.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,382
+GUNSHOT_HANDGUN_gad_383.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_383.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,383
+GUNSHOT_HANDGUN_gad_384.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_384.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,384
+GUNSHOT_HANDGUN_gad_385.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_385.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,385
+GUNSHOT_HANDGUN_gad_386.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_386.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,386
+GUNSHOT_HANDGUN_gad_387.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_387.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,387
+GUNSHOT_HANDGUN_gad_388.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_388.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,388
+GUNSHOT_HANDGUN_gad_389.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_389.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,389
+GUNSHOT_HANDGUN_gad_390.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_390.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,390
+GUNSHOT_HANDGUN_gad_391.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_391.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,391
+GUNSHOT_HANDGUN_gad_392.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_392.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,392
+GUNSHOT_HANDGUN_gad_393.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_393.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,393
+GUNSHOT_HANDGUN_gad_394.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_394.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,394
+GUNSHOT_HANDGUN_gad_395.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_395.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,395
+GUNSHOT_HANDGUN_gad_396.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_396.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,396
+GUNSHOT_HANDGUN_gad_397.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_397.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,397
+GUNSHOT_HANDGUN_gad_398.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_398.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,398
+GUNSHOT_HANDGUN_gad_399.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_399.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,399
+GUNSHOT_HANDGUN_gad_400.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_400.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,400
+GUNSHOT_HANDGUN_gad_401.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_401.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,401
+GUNSHOT_HANDGUN_gad_402.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_402.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,402
+GUNSHOT_HANDGUN_gad_403.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_403.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,403
+GUNSHOT_HANDGUN_gad_404.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_404.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,404
+GUNSHOT_HANDGUN_gad_405.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_405.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,405
+GUNSHOT_HANDGUN_gad_406.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_406.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,406
+GUNSHOT_HANDGUN_gad_407.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_407.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,407
+GUNSHOT_HANDGUN_gad_408.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_408.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,408
+GUNSHOT_HANDGUN_gad_409.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_409.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,409
+GUNSHOT_HANDGUN_gad_410.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_410.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,410
+GUNSHOT_HANDGUN_gad_411.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_411.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,411
+GUNSHOT_HANDGUN_gad_412.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_412.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,412
+GUNSHOT_HANDGUN_gad_413.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_413.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,413
+GUNSHOT_HANDGUN_gad_414.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_414.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,414
+GUNSHOT_HANDGUN_gad_415.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_415.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,415
+GUNSHOT_HANDGUN_gad_416.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_416.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,416
+GUNSHOT_HANDGUN_gad_417.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_417.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,417
+GUNSHOT_HANDGUN_gad_418.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_418.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,418
+GUNSHOT_HANDGUN_gad_419.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_419.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,419
+GUNSHOT_HANDGUN_gad_420.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_420.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,420
+GUNSHOT_HANDGUN_gad_421.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_421.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,421
+GUNSHOT_HANDGUN_gad_422.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_422.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,422
+GUNSHOT_HANDGUN_gad_423.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_423.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,423
+GUNSHOT_HANDGUN_gad_424.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_424.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,424
+GUNSHOT_HANDGUN_gad_425.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_425.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,425
+GUNSHOT_HANDGUN_gad_426.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_426.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,426
+GUNSHOT_HANDGUN_gad_427.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_427.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,427
+GUNSHOT_HANDGUN_gad_428.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_428.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,428
+GUNSHOT_HANDGUN_gad_429.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_429.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,429
+GUNSHOT_HANDGUN_gad_430.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_430.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,430
+GUNSHOT_HANDGUN_gad_431.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_431.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,431
+GUNSHOT_HANDGUN_gad_432.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_432.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,432
+GUNSHOT_HANDGUN_gad_433.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_433.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,433
+GUNSHOT_HANDGUN_gad_434.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_434.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,434
+GUNSHOT_HANDGUN_gad_435.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_435.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,435
+GUNSHOT_HANDGUN_gad_436.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_436.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,436
+GUNSHOT_HANDGUN_gad_437.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_437.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,437
+GUNSHOT_HANDGUN_gad_438.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_438.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,438
+GUNSHOT_HANDGUN_gad_439.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_439.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,439
+GUNSHOT_HANDGUN_gad_440.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_440.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,440
+GUNSHOT_HANDGUN_gad_441.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_441.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,441
+GUNSHOT_HANDGUN_gad_442.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_442.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,442
+GUNSHOT_HANDGUN_gad_443.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_443.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,443
+GUNSHOT_HANDGUN_gad_444.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_444.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,444
+GUNSHOT_HANDGUN_gad_445.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_445.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,445
+GUNSHOT_HANDGUN_gad_446.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_446.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,446
+GUNSHOT_HANDGUN_gad_447.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_447.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,447
+GUNSHOT_HANDGUN_gad_448.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_448.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,448
+GUNSHOT_HANDGUN_gad_449.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_449.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,449
+GUNSHOT_HANDGUN_gad_450.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_450.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,450
+GUNSHOT_HANDGUN_gad_451.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_451.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,451
+GUNSHOT_HANDGUN_gad_452.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_452.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,452
+GUNSHOT_HANDGUN_gad_453.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_453.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,453
+GUNSHOT_HANDGUN_gad_454.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_454.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,454
+GUNSHOT_HANDGUN_gad_455.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_455.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,455
+GUNSHOT_HANDGUN_gad_456.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_456.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,456
+GUNSHOT_HANDGUN_gad_457.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_457.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,457
+GUNSHOT_HANDGUN_gad_458.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_458.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,458
+GUNSHOT_HANDGUN_gad_459.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_459.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,459
+GUNSHOT_HANDGUN_gad_460.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_460.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,460
+GUNSHOT_HANDGUN_gad_461.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_461.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,461
+GUNSHOT_HANDGUN_gad_462.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_462.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,462
+GUNSHOT_HANDGUN_gad_463.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_463.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,463
+GUNSHOT_HANDGUN_gad_464.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_464.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,464
+GUNSHOT_HANDGUN_gad_465.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_465.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,465
+GUNSHOT_HANDGUN_gad_466.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_466.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,466
+GUNSHOT_HANDGUN_gad_467.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_467.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,467
+GUNSHOT_HANDGUN_gad_468.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_HANDGUN_gad_468.wav,4,GUNSHOT_HANDGUN,Gunshot audio dataset,468
+GUNSHOT_RIFLE_gad_769.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_769.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,769
+GUNSHOT_RIFLE_gad_770.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_770.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,770
+GUNSHOT_RIFLE_gad_771.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_771.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,771
+GUNSHOT_RIFLE_gad_772.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_772.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,772
+GUNSHOT_RIFLE_gad_773.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_773.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,773
+GUNSHOT_RIFLE_gad_774.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_774.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,774
+GUNSHOT_RIFLE_gad_775.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_775.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,775
+GUNSHOT_RIFLE_gad_776.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_776.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,776
+GUNSHOT_RIFLE_gad_777.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_777.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,777
+GUNSHOT_RIFLE_gad_778.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_778.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,778
+GUNSHOT_RIFLE_gad_779.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_779.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,779
+GUNSHOT_RIFLE_gad_780.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_780.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,780
+GUNSHOT_RIFLE_gad_781.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_781.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,781
+GUNSHOT_RIFLE_gad_782.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_782.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,782
+GUNSHOT_RIFLE_gad_783.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_783.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,783
+GUNSHOT_RIFLE_gad_784.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_784.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,784
+GUNSHOT_RIFLE_gad_785.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_785.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,785
+GUNSHOT_RIFLE_gad_786.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_786.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,786
+GUNSHOT_RIFLE_gad_787.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_787.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,787
+GUNSHOT_RIFLE_gad_788.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_788.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,788
+GUNSHOT_RIFLE_gad_789.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_789.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,789
+GUNSHOT_RIFLE_gad_790.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_790.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,790
+GUNSHOT_RIFLE_gad_791.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_791.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,791
+GUNSHOT_RIFLE_gad_792.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_792.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,792
+GUNSHOT_RIFLE_gad_793.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_793.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,793
+GUNSHOT_RIFLE_gad_794.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_794.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,794
+GUNSHOT_RIFLE_gad_795.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_795.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,795
+GUNSHOT_RIFLE_gad_796.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_796.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,796
+GUNSHOT_RIFLE_gad_797.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_797.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,797
+GUNSHOT_RIFLE_gad_798.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_798.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,798
+GUNSHOT_RIFLE_gad_799.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_799.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,799
+GUNSHOT_RIFLE_gad_800.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_800.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,800
+GUNSHOT_RIFLE_gad_801.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_801.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,801
+GUNSHOT_RIFLE_gad_802.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_802.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,802
+GUNSHOT_RIFLE_gad_803.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_803.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,803
+GUNSHOT_RIFLE_gad_804.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_804.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,804
+GUNSHOT_RIFLE_gad_805.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_805.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,805
+GUNSHOT_RIFLE_gad_806.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_806.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,806
+GUNSHOT_RIFLE_gad_807.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_807.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,807
+GUNSHOT_RIFLE_gad_808.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_808.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,808
+GUNSHOT_RIFLE_gad_809.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_809.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,809
+GUNSHOT_RIFLE_gad_810.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_810.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,810
+GUNSHOT_RIFLE_gad_811.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_811.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,811
+GUNSHOT_RIFLE_gad_812.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_812.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,812
+GUNSHOT_RIFLE_gad_813.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_813.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,813
+GUNSHOT_RIFLE_gad_814.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_814.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,814
+GUNSHOT_RIFLE_gad_815.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_815.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,815
+GUNSHOT_RIFLE_gad_816.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_816.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,816
+GUNSHOT_RIFLE_gad_817.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_817.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,817
+GUNSHOT_RIFLE_gad_818.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_818.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,818
+GUNSHOT_RIFLE_gad_819.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_819.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,819
+GUNSHOT_RIFLE_gad_820.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_820.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,820
+GUNSHOT_RIFLE_gad_821.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_821.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,821
+GUNSHOT_RIFLE_gad_822.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_822.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,822
+GUNSHOT_RIFLE_gad_823.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_823.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,823
+GUNSHOT_RIFLE_gad_824.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_824.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,824
+GUNSHOT_RIFLE_gad_825.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_825.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,825
+GUNSHOT_RIFLE_gad_826.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_826.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,826
+GUNSHOT_RIFLE_gad_827.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_827.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,827
+GUNSHOT_RIFLE_gad_828.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_828.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,828
+GUNSHOT_RIFLE_gad_829.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_829.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,829
+GUNSHOT_RIFLE_gad_830.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_830.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,830
+GUNSHOT_RIFLE_gad_831.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_831.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,831
+GUNSHOT_RIFLE_gad_832.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_832.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,832
+GUNSHOT_RIFLE_gad_833.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_833.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,833
+GUNSHOT_RIFLE_gad_834.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_834.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,834
+GUNSHOT_RIFLE_gad_835.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_835.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,835
+GUNSHOT_RIFLE_gad_836.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_836.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,836
+GUNSHOT_RIFLE_gad_837.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_837.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,837
+GUNSHOT_RIFLE_gad_838.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_838.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,838
+GUNSHOT_RIFLE_gad_839.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_839.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,839
+GUNSHOT_RIFLE_gad_840.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_840.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,840
+GUNSHOT_RIFLE_gad_841.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_841.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,841
+GUNSHOT_RIFLE_gad_842.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_842.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,842
+GUNSHOT_RIFLE_gad_843.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_843.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,843
+GUNSHOT_RIFLE_gad_844.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_844.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,844
+GUNSHOT_RIFLE_gad_845.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_845.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,845
+GUNSHOT_RIFLE_gad_846.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_846.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,846
+GUNSHOT_RIFLE_gad_847.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_847.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,847
+GUNSHOT_RIFLE_gad_848.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_848.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,848
+GUNSHOT_RIFLE_gad_849.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_849.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,849
+GUNSHOT_RIFLE_gad_850.wav,/workspaces/sound-recognition-ai/dataset/GUNSHOT_RIFLE_gad_850.wav,5,GUNSHOT_RIFLE,Gunshot audio dataset,850

@@ -1,0 +1,12 @@
+kagglehub
+pandas
+matplotlib
+gdown
+tensorflow-hub
+tensorflow==2.18.*
+tf-keras==2.18.*
+soundfile
+numpy
+platformdirs
+librosa
+sox

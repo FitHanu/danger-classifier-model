@@ -1,0 +1,95 @@
+import tensorflow as tf
+import tensorflow_hub as hub
+import threading
+import constants as C
+import pandas as pd
+
+from logging_cfg import get_logger
+l = get_logger(__name__)
+
+class YamInferResult:
+    _SCORE = 0
+    _EMBEDDINGS = 1
+    _SPECTROGRAM = 2
+    def __init__(self, scores, embeddings, spectrogrram):
+        self.data = [scores, embeddings, spectrogrram]
+        
+    
+    def __getitem__(self, key):
+        if (key < 0 or key > 2):
+            raise IndexError("Index out of range")
+        return self.data[key]
+
+    def __str__(self):
+        return f"YamInferResult(scores={self.scores}, embeddings={self.embeddings}, spectrogrram={self.spectrogrram})"
+
+    def __repr__(self):
+        return self.__str__()
+
+class YamnetWrapper:
+    _instance = None
+    _lock = threading.Lock()
+    SIG_SCORE = "output_0"
+
+    def __new__(cls):
+        with cls._lock:
+            if cls._instance is None:
+                cls._instance = super(YamnetWrapper, cls).__new__(cls)
+                cls._instance._model = None
+                cls._instance._model_url = C.YAMNET_MODEL_URL
+        return cls._instance
+
+    def _load_model(self):
+        """Lazy loads the TensorFlow Hub model when first accessed."""
+        if self._model is None:
+            l.info("Loading model initially...")
+            self._model = hub.load(self._model_url)
+            class_map_path = self._model.class_map_path().numpy().decode('utf-8')
+            self.class_names = list(pd.read_csv(class_map_path)['display_name'])
+            l.info("Model loaded.")
+
+    def infer(self, inputs: tf.Tensor):
+        """Runs inference using the Hub model."""
+        self._load_model()
+        # scores, embeddings, spectrogram
+        return self._model(inputs)
+
+    def extract_scores(self, input: tf.Tensor):
+        self._load_model()
+        scores, _, _ = self._model(input)
+        return scores
+
+    def extract_embedding(self, inputs: tf.Tensor):
+        self._load_model()
+        _, embeddings, _ = self._model(inputs)
+        return embeddings
+    
+    def extract_spectrogram(self, input: tf.Tensor):
+        self._load_model()
+        _, _, spectrogram = self._model(input)
+        return spectrogram
+
+    def infer_score_class_name(self, inputs: tf.Tensor):
+        """_summary_
+
+        Args:
+            inputs (tf.Tensor): _description_
+
+        Returns:
+            _type_: class_name: str, score: float
+        """
+        scores = self.extract_scores(inputs)
+        class_scores = tf.reduce_mean(scores, axis=0)
+        top_class = tf.math.argmax(class_scores)
+        top_score = class_scores[top_class].numpy()
+        return self.class_names[top_class], top_score
+
+# model_wrapper = YamnetWrapper()
+# sample_audio_path = 'test_data/miaow_16k.wav'
+# from wav_utils import load_wav_mono
+# # Convert the audio data to a tf.Tensor
+# sample_input = tf.convert_to_tensor(load_wav_mono(sample_audio_path), dtype=tf.float32)
+# class_name, score = model_wrapper.infer_score_class_name(sample_input)
+# print(f"Inference Output: {class_name}, {score}")
+# model_wrapper._load_model()
+# print(f"Model Signatures: {model_wrapper._model.signatures.keys()}")

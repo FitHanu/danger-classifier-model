@@ -1,0 +1,42 @@
+{
+    "us8k": {
+        "name": "Urbansound8K",
+        "format": "kaggle",
+        "kaggle_path": "chrisfilo/urbansound8k",
+        "url": "https://www.kaggle.com/datasets/chrisfilo/urbansound8k",
+        "csv_meta_path": ["UrbanSound8K.csv"],
+        "data_path": []
+    },
+    "esc50": {
+        "name": "ESC-50",
+        "format": "kaggle",
+        "kaggle_path": "mmoreaux/environmental-sound-classification-50",
+        "url": "https://www.kaggle.com/datasets/mmoreaux/environmental-sound-classification-50",
+        "csv_meta_path": ["esc50.csv"],
+        "data_path": ["audio", "audio"]
+    },
+    "gad": {
+        "name": "Gunshot audio dataset",
+        "format": "kaggle",
+        "kaggle_path": "emrahaydemr/gunshot-audio-dataset",
+        "url": "https://www.kaggle.com/datasets/emrahaydemr/gunshot-audio-dataset/data",
+        "csv_meta_path": [],
+        "data_path": []
+    },
+    "bdlib2": {
+        "name": "BDLIb2",
+        "format": "zip",
+        "kaggle_path": "",
+        "url": "https://research.playcompass.com/files/BDLib-2.zip",
+        "csv_meta_path": [],
+        "data_path": []
+    },
+    "thaoLp": {
+        "name": "Thao member's self collected dataset",
+        "format": "zip",
+        "kaggle_path": "",
+        "url": "https://drive.google.com/uc?id=1YQrV_45hnL4EgXwiU9Yqu1HTCe-RkMFD",
+        "csv_meta_path": [],
+        "data_path": ["Sound", "Sound"]
+    }
+}

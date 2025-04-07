@@ -1,0 +1,23 @@
+name: sra-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - platformdirs
+  - pip
+  - pandas
+  - matplotlib
+  - tensorflow-hub
+  - tensorflow
+  - tf-keras
+  - tensorboard
+  - numpy
+  - librosa
+  - pydub
+  - sox
+  - pip:
+    - gdown
+    - soundfile
+    - kagglehub
+    - matplotlib-inline

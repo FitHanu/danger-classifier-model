@@ -1,0 +1,144 @@
+{
+  "train": {
+    "batch_size": 32,
+    "epochs": 100,
+    "learning_rate": 0.001,
+    "optimizer": "adamax",
+    "loss": "categorical_crossentropy",
+    "metrics": [
+      "accuracy"
+    ],
+    "callbacks": {
+      "early_stopping": {
+        "monitor": "val_loss",
+        "patience": 10,
+        "restore_best_weights": true
+      },
+      "model_checkpoint": {
+        "monitor": "val_loss",
+        "save_best_only": true
+      },
+      "tensorboard": {
+        "log_dir": "logs"
+      }
+    }
+  },
+  "final_dataset_dir": "dataset",
+  "partition": {
+    "train": 0.8,
+    "dev": 0.1,
+    "test": 0.1,
+    "folds": 10
+  },
+  "class_mapping": {
+    "default": {
+      "1": "SIREN",
+      "2": "CAR_HORN",
+      "3": "EXPLOSION",
+      "4": "GUNSHOT_HANDGUN",
+      "5": "GUNSHOT_RIFLE",
+      "6": "GUNSHOT_MACHINE_GUN",
+      "7": "CAR_CRASH",
+      "8": "THUNDER_STORM",
+      "9": "CRYING_BABY",
+      "10": "FIRE_WORKS",
+      "11": "CHAINSAW",
+      "12": "EMERGENCY_VEHICLE_SIREN",
+      "13": "SCREAMING",
+      "14": "GLASS_BREAKING",
+      "15": "ALARM",
+      "16": "FOOTSTEPS",
+      "17": "FIRE",
+      "18": "RAIN",
+      "19": "DOOR_KNOCK",
+      "20": "DOG_BARK"
+    },
+    "esc50": {
+      "dog": 20,
+      "chirping_birds": 0,
+      "vacuum_cleaner": 0,
+      "thunderstorm": 8,
+      "door_wood_knock": 19,
+      "can_opening": 0,
+      "crow": 0,
+      "clapping": 0,
+      "fireworks": 10,
+      "chainsaw": 11,
+      "airplane": 0,
+      "mouse_click": 0,
+      "pouring_water": 0,
+      "train": 0,
+      "sheep": 0,
+      "water_drops": 0,
+      "church_bells": 0,
+      "clock_alarm": 15,
+      "keyboard_typing": 0,
+      "wind": 0,
+      "footsteps": 16,
+      "frog": 0,
+      "cow": 0,
+      "brushing_teeth": 0,
+      "car_horn": 2,
+      "crackling_fire": 17,
+      "helicopter": 0,
+      "drinking_sipping": 0,
+      "rain": 18,
+      "insects": 0,
+      "laughing": 0,
+      "hen": 0,
+      "engine": 0,
+      "breathing": 0,
+      "crying_baby": 9,
+      "hand_saw": 0,
+      "coughing": 0,
+      "glass_breaking": 14,
+      "snoring": 0,
+      "toilet_flush": 0,
+      "pig": 0,
+      "washing_machine": 0,
+      "clock_tick": 0,
+      "sneezing": 0,
+      "rooster": 0,
+      "sea_waves": 0,
+      "siren": 1,
+      "cat": 0,
+      "door_wood_creaks": 0,
+      "crickets": 0
+    },
+    "us8k": {
+      "air_conditioner": 0,
+      "car_horn": 2,
+      "children_playing": 0,
+      "dog_bark": 20,
+      "drilling": 0,
+      "engine_idling": 0,
+      "gun_shot": 0,
+      "jackhammer": 0,
+      "siren": 1,
+      "street_music": 0
+    },
+    "bdlib2": {
+      "airplanes": 0,
+      "alarms": 15,
+      "applause": 0,
+      "birds": 0,
+      "dogs": 20,
+      "motorcycles": 0,
+      "rain": 18,
+      "rivers": 0,
+      "seawaves": 0,
+      "thunders": 8
+    },
+    "gad": {
+      "M16": 0,
+      "Zastava M92": 5,
+      "AK-47": 5,
+      "M4": 0,
+      "M249": 6,
+      "IMI Desert Eagle": 4,
+      "MG-42": 6,
+      "MP5": 0,
+      "AK-12": 5
+    }
+  }
+}

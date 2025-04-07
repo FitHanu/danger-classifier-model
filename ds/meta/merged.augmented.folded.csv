@@ -1,0 +1,929 @@
+file_name,file_path,length,class_id,class_name,sub_ds_name,sub_ds_index,fold
+alarms03.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/alarms03.wav,10000.0,15,ALARM,BDLIb2,0,0.0
+4-189332-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-189332-A-37.wav,5000.0,15,ALARM,ESC-50,1469,0.0
+alarms02.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/alarms02.wav,10000.0,15,ALARM,BDLIb2,15,0.0
+4-204684-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-204684-A-37.wav,5000.0,15,ALARM,ESC-50,1531,0.0
+5-211408-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-211408-A-37.wav,5000.0,15,ALARM,ESC-50,1795,0.0
+1-96890-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-96890-A-37.wav,5000.0,15,ALARM,ESC-50,389,1.0
+4-198841-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-198841-A-37.wav,5000.0,15,ALARM,ESC-50,1511,1.0
+1-34853-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-34853-A-37.wav,5000.0,15,ALARM,ESC-50,181,1.0
+1-74517-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-74517-A-37.wav,5000.0,15,ALARM,ESC-50,339,1.0
+3-117793-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-117793-A-37.wav,5000.0,15,ALARM,ESC-50,854,1.0
+2-104476-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-104476-A-37.wav,5000.0,15,ALARM,ESC-50,428,2.0
+3-117883-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-117883-A-37.wav,5000.0,15,ALARM,ESC-50,855,2.0
+1-67033-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-67033-A-37.wav,5000.0,15,ALARM,ESC-50,318,2.0
+alarms16.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-3/alarms16.wav,10000.0,15,ALARM,BDLIb2,57,2.0
+alarms15.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-3/alarms15.wav,10000.0,15,ALARM,BDLIb2,65,2.0
+2-89516-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-89516-A-37.wav,5000.0,15,ALARM,ESC-50,775,3.0
+5-219242-B-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-219242-B-37.wav,5000.0,15,ALARM,ESC-50,1843,3.0
+alarms11.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-2/alarms11.wav,10000.0,15,ALARM,BDLIb2,29,3.0
+5-233645-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-233645-A-37.wav,5000.0,15,ALARM,ESC-50,1881,3.0
+alarms07.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-2/alarms07.wav,10000.0,15,ALARM,BDLIb2,37,3.0
+3-132340-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-132340-A-37.wav,5000.0,15,ALARM,ESC-50,909,4.0
+4-172366-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-172366-A-37.wav,5000.0,15,ALARM,ESC-50,1364,4.0
+3-148297-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-148297-A-37.wav,5000.0,15,ALARM,ESC-50,983,4.0
+alarms18.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-3/alarms18.wav,10000.0,15,ALARM,BDLIb2,53,4.0
+4-209536-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-209536-A-37.wav,5000.0,15,ALARM,ESC-50,1542,4.0
+2-104475-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-104475-A-37.wav,5000.0,15,ALARM,ESC-50,427,5.0
+5-219242-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-219242-A-37.wav,5000.0,15,ALARM,ESC-50,1842,5.0
+4-209698-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-209698-A-37.wav,5000.0,15,ALARM,ESC-50,1543,5.0
+1-14262-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-14262-A-37.wav,5000.0,15,ALARM,ESC-50,38,5.0
+1-13613-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-13613-A-37.wav,5000.0,15,ALARM,ESC-50,35,5.0
+alarms17.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-3/alarms17.wav,10000.0,15,ALARM,BDLIb2,51,6.0
+4-151242-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-151242-A-37.wav,5000.0,15,ALARM,ESC-50,1273,6.0
+alarms14.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-3/alarms14.wav,10000.0,15,ALARM,BDLIb2,70,6.0
+5-250629-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-250629-A-37.wav,5000.0,15,ALARM,ESC-50,1945,6.0
+alarms05.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/alarms05.wav,10000.0,15,ALARM,BDLIb2,21,6.0
+alarms13.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-3/alarms13.wav,10000.0,15,ALARM,BDLIb2,67,7.0
+2-117116-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-117116-A-37.wav,5000.0,15,ALARM,ESC-50,483,7.0
+2-78562-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-78562-A-37.wav,5000.0,15,ALARM,ESC-50,728,7.0
+3-120526-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-120526-A-37.wav,5000.0,15,ALARM,ESC-50,875,7.0
+5-210612-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-210612-A-37.wav,5000.0,15,ALARM,ESC-50,1793,7.0
+3-120526-B-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-120526-B-37.wav,5000.0,15,ALARM,ESC-50,876,8.0
+2-78562-B-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-78562-B-37.wav,5000.0,15,ALARM,ESC-50,729,8.0
+alarms12.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-2/alarms12.wav,10000.0,15,ALARM,BDLIb2,33,8.0
+5-234247-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-234247-A-37.wav,5000.0,15,ALARM,ESC-50,1884,8.0
+alarms09.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-2/alarms09.wav,10000.0,15,ALARM,BDLIb2,28,8.0
+2-102435-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-102435-A-37.wav,5000.0,15,ALARM,ESC-50,410,9.0
+5-223176-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-223176-A-37.wav,5000.0,15,ALARM,ESC-50,1867,9.0
+1-72195-B-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-72195-B-37.wav,5000.0,15,ALARM,ESC-50,333,9.0
+alarms06.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/alarms06.wav,10000.0,15,ALARM,BDLIb2,9,9.0
+alarms01.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/alarms01.wav,10000.0,15,ALARM,BDLIb2,2,9.0
+3-131943-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-131943-A-37.wav,5000.0,15,ALARM,ESC-50,908,
+1-72195-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-72195-A-37.wav,5000.0,15,ALARM,ESC-50,332,
+alarms08.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-2/alarms08.wav,10000.0,15,ALARM,BDLIb2,47,
+2-96063-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-96063-A-37.wav,5000.0,15,ALARM,ESC-50,788,
+3-139958-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-139958-A-37.wav,5000.0,15,ALARM,ESC-50,931,
+4-169508-A-37.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-169508-A-37.wav,5000.0,15,ALARM,ESC-50,1351,
+alarms04.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/alarms04.wav,10000.0,15,ALARM,BDLIb2,13,
+alarms10.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-2/alarms10.wav,10000.0,15,ALARM,BDLIb2,38,
+17074-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold10/17074-1-0-0.wav,,2,CAR_HORN,Urbansound8K,3440,0.0
+128465-1-0-6.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold6/128465-1-0-6.wav,,2,CAR_HORN,Urbansound8K,1209,0.0
+7389-1-3-2.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/7389-1-3-2.wav,,2,CAR_HORN,Urbansound8K,7678,0.0
+7389-1-0-7.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/7389-1-0-7.wav,,2,CAR_HORN,Urbansound8K,7670,0.0
+72259-1-7-9.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold5/72259-1-7-9.wav,,2,CAR_HORN,Urbansound8K,7546,0.0
+3-155130-A-43.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-155130-A-43.wav,5000.0,2,CAR_HORN,ESC-50,1029,1.0
+7389-1-4-7.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/7389-1-4-7.wav,,2,CAR_HORN,Urbansound8K,7695,1.0
+155129-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/155129-1-0-0.wav,,2,CAR_HORN,Urbansound8K,2208,1.0
+18594-1-4-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold3/18594-1-4-0.wav,,2,CAR_HORN,Urbansound8K,4576,1.0
+71309-1-0-1.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/71309-1-0-1.wav,,2,CAR_HORN,Urbansound8K,7441,1.0
+125520-1-2-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/125520-1-2-0.wav,,2,CAR_HORN,Urbansound8K,1081,2.0
+179861-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold5/179861-1-0-0.wav,,2,CAR_HORN,Urbansound8K,4153,2.0
+132073-1-2-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/132073-1-2-0.wav,,2,CAR_HORN,Urbansound8K,1309,2.0
+34241-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold7/34241-1-0-0.wav,,2,CAR_HORN,Urbansound8K,6142,2.0
+24074-1-0-10.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold1/24074-1-0-10.wav,,2,CAR_HORN,Urbansound8K,5739,2.0
+156091-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold7/156091-1-0-0.wav,,2,CAR_HORN,Urbansound8K,2341,3.0
+162541-1-2-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/162541-1-2-0.wav,,2,CAR_HORN,Urbansound8K,3011,3.0
+185436-1-6-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold5/185436-1-6-0.wav,,2,CAR_HORN,Urbansound8K,4535,3.0
+100648-1-4-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold10/100648-1-4-0.wav,,2,CAR_HORN,Urbansound8K,13,3.0
+72259-1-9-3.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold5/72259-1-9-3.wav,,2,CAR_HORN,Urbansound8K,7559,3.0
+5-179860-A-43.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-179860-A-43.wav,5000.0,2,CAR_HORN,ESC-50,1661,4.0
+14524-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold7/14524-1-0-0.wav,,2,CAR_HORN,Urbansound8K,1788,4.0
+175856-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/175856-1-0-0.wav,,2,CAR_HORN,Urbansound8K,3713,4.0
+3-145577-A-43.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-145577-A-43.wav,5000.0,2,CAR_HORN,ESC-50,970,4.0
+7389-1-3-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/7389-1-3-0.wav,,2,CAR_HORN,Urbansound8K,7676,4.0
+83465-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/83465-1-0-0.wav,,2,CAR_HORN,Urbansound8K,8236,5.0
+72567-1-5-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/72567-1-5-0.wav,,2,CAR_HORN,Urbansound8K,7603,5.0
+57607-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold6/57607-1-0-0.wav,,2,CAR_HORN,Urbansound8K,6905,5.0
+155283-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/155283-1-0-0.wav,,2,CAR_HORN,Urbansound8K,2296,5.0
+46391-1-1-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold5/46391-1-1-0.wav,,2,CAR_HORN,Urbansound8K,6504,5.0
+72259-1-9-10.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold5/72259-1-9-10.wav,,2,CAR_HORN,Urbansound8K,7550,6.0
+187356-1-4-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/187356-1-4-0.wav,,2,CAR_HORN,Urbansound8K,4625,6.0
+72567-1-0-1.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/72567-1-0-1.wav,,2,CAR_HORN,Urbansound8K,7586,6.0
+7389-1-0-5.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/7389-1-0-5.wav,,2,CAR_HORN,Urbansound8K,7668,6.0
+162728-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold7/162728-1-0-0.wav,,2,CAR_HORN,Urbansound8K,3015,6.0
+71309-1-2-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/71309-1-2-0.wav,,2,CAR_HORN,Urbansound8K,7450,7.0
+71309-1-0-2.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/71309-1-0-2.wav,,2,CAR_HORN,Urbansound8K,7442,7.0
+176638-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold1/176638-1-0-0.wav,,2,CAR_HORN,Urbansound8K,3749,7.0
+6984-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/6984-1-0-0.wav,,2,CAR_HORN,Urbansound8K,7347,7.0
+43803-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold5/43803-1-0-0.wav,,2,CAR_HORN,Urbansound8K,6464,7.0
+178402-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold10/178402-1-0-0.wav,,2,CAR_HORN,Urbansound8K,4032,8.0
+72259-1-7-11.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold5/72259-1-7-11.wav,,2,CAR_HORN,Urbansound8K,7527,8.0
+151359-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold3/151359-1-0-0.wav,,2,CAR_HORN,Urbansound8K,2120,8.0
+24074-1-0-13.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold1/24074-1-0-13.wav,,2,CAR_HORN,Urbansound8K,5742,8.0
+24074-1-0-3.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold1/24074-1-0-3.wav,,2,CAR_HORN,Urbansound8K,5744,8.0
+3-243726-A-43.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-243726-A-43.wav,5000.0,2,CAR_HORN,ESC-50,1148,9.0
+72567-1-2-2.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/72567-1-2-2.wav,,2,CAR_HORN,Urbansound8K,7590,9.0
+162541-1-1-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/162541-1-1-0.wav,,2,CAR_HORN,Urbansound8K,3010,9.0
+18594-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold3/18594-1-0-0.wav,,2,CAR_HORN,Urbansound8K,4572,9.0
+155283-1-1-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/155283-1-1-0.wav,,2,CAR_HORN,Urbansound8K,2297,9.0
+180156-1-7-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold9/180156-1-7-0.wav,,2,CAR_HORN,Urbansound8K,4288,
+179866-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/179866-1-0-0.wav,,2,CAR_HORN,Urbansound8K,4158,
+17307-1-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/17307-1-0-0.wav,,2,CAR_HORN,Urbansound8K,3555,
+151359-1-2-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold3/151359-1-2-0.wav,,2,CAR_HORN,Urbansound8K,2122,
+7389-1-4-5.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/7389-1-4-5.wav,,2,CAR_HORN,Urbansound8K,7693,
+72259-1-9-12.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold5/72259-1-9-12.wav,,2,CAR_HORN,Urbansound8K,7552,
+73168-1-1-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold9/73168-1-1-0.wav,,2,CAR_HORN,Urbansound8K,7617,
+4-176631-A-43.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-176631-A-43.wav,5000.0,2,CAR_HORN,ESC-50,1390,
+2-50668-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-50668-B-41.wav,5000.0,11,CHAINSAW,ESC-50,648,0.0
+2-50667-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-50667-B-41.wav,5000.0,11,CHAINSAW,ESC-50,646,9.0
+1-19898-C-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-19898-C-41.wav,5000.0,11,CHAINSAW,ESC-50,94,5.0
+3-118972-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-118972-B-41.wav,5000.0,11,CHAINSAW,ESC-50,867,3.0
+3-118972-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-118972-B-41.wav,5000.0,11,CHAINSAW,ESC-50,867,3.0
+3-118658-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-118658-A-41.wav,5000.0,11,CHAINSAW,ESC-50,864,1.0
+3-118658-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-118658-A-41.wav,5000.0,11,CHAINSAW,ESC-50,864,1.0
+2-77945-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-77945-B-41.wav,5000.0,11,CHAINSAW,ESC-50,726,2.0
+3-118658-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-118658-B-41.wav,5000.0,11,CHAINSAW,ESC-50,865,1.0
+2-50668-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-50668-A-41.wav,5000.0,11,CHAINSAW,ESC-50,647,9.0
+1-64398-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-64398-A-41.wav,5000.0,11,CHAINSAW,ESC-50,314,4.0
+5-170338-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-170338-B-41.wav,5000.0,11,CHAINSAW,ESC-50,1643,6.0
+2-77945-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-77945-B-41.wav,5000.0,11,CHAINSAW,ESC-50,726,2.0
+1-47250-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-47250-B-41.wav,5000.0,11,CHAINSAW,ESC-50,224,2.0
+1-64398-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-64398-A-41.wav,5000.0,11,CHAINSAW,ESC-50,314,4.0
+3-118972-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-118972-B-41.wav,5000.0,11,CHAINSAW,ESC-50,867,3.0
+1-19898-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-19898-B-41.wav,5000.0,11,CHAINSAW,ESC-50,93,6.0
+3-118972-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-118972-B-41.wav,5000.0,11,CHAINSAW,ESC-50,867,3.0
+5-216370-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-216370-A-41.wav,5000.0,11,CHAINSAW,ESC-50,1830,3.0
+2-77945-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-77945-A-41.wav,5000.0,11,CHAINSAW,ESC-50,725,4.0
+5-170338-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-170338-A-41.wav,5000.0,11,CHAINSAW,ESC-50,1642,7.0
+1-64398-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-64398-A-41.wav,5000.0,11,CHAINSAW,ESC-50,314,4.0
+2-77945-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-77945-A-41.wav,5000.0,11,CHAINSAW,ESC-50,725,4.0
+1-64398-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-64398-B-41.wav,5000.0,11,CHAINSAW,ESC-50,315,7.0
+4-149294-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-149294-B-41.wav,5000.0,11,CHAINSAW,ESC-50,1268,8.0
+2-50667-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-50667-A-41.wav,5000.0,11,CHAINSAW,ESC-50,645,5.0
+1-19898-C-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-19898-C-41.wav,5000.0,11,CHAINSAW,ESC-50,94,5.0
+5-185579-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-185579-B-41.wav,5000.0,11,CHAINSAW,ESC-50,1681,9.0
+4-165823-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-165823-A-41.wav,5000.0,11,CHAINSAW,ESC-50,1331,7.0
+5-185579-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-185579-A-41.wav,5000.0,11,CHAINSAW,ESC-50,1680,7.0
+3-165856-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-165856-A-41.wav,5000.0,11,CHAINSAW,ESC-50,1086,9.0
+2-50668-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-50668-A-41.wav,5000.0,11,CHAINSAW,ESC-50,647,9.0
+1-19898-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-19898-B-41.wav,5000.0,11,CHAINSAW,ESC-50,93,6.0
+4-169127-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-169127-B-41.wav,5000.0,11,CHAINSAW,ESC-50,1350,6.0
+5-170338-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-170338-B-41.wav,5000.0,11,CHAINSAW,ESC-50,1643,6.0
+1-64398-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-64398-B-41.wav,5000.0,11,CHAINSAW,ESC-50,315,7.0
+5-185579-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-185579-A-41.wav,5000.0,11,CHAINSAW,ESC-50,1680,7.0
+5-170338-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-170338-A-41.wav,5000.0,11,CHAINSAW,ESC-50,1642,7.0
+4-165823-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-165823-A-41.wav,5000.0,11,CHAINSAW,ESC-50,1331,7.0
+5-185579-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-185579-A-41.wav,5000.0,11,CHAINSAW,ESC-50,1680,7.0
+1-19898-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-19898-A-41.wav,5000.0,11,CHAINSAW,ESC-50,92,9.0
+5-185579-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-185579-B-41.wav,5000.0,11,CHAINSAW,ESC-50,1681,9.0
+4-149294-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-149294-B-41.wav,5000.0,11,CHAINSAW,ESC-50,1268,8.0
+3-118657-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-118657-B-41.wav,5000.0,11,CHAINSAW,ESC-50,863,8.0
+5-171653-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-171653-A-41.wav,5000.0,11,CHAINSAW,ESC-50,1645,8.0
+5-185579-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-185579-B-41.wav,5000.0,11,CHAINSAW,ESC-50,1681,9.0
+1-19898-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-19898-A-41.wav,5000.0,11,CHAINSAW,ESC-50,92,9.0
+2-50667-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-50667-B-41.wav,5000.0,11,CHAINSAW,ESC-50,646,9.0
+3-165856-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-165856-A-41.wav,5000.0,11,CHAINSAW,ESC-50,1086,9.0
+2-50668-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-50668-A-41.wav,5000.0,11,CHAINSAW,ESC-50,647,9.0
+2-50668-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-50668-B-41.wav,5000.0,11,CHAINSAW,ESC-50,648,0.0
+4-149294-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-149294-A-41.wav,5000.0,11,CHAINSAW,ESC-50,1267,
+3-118972-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-118972-A-41.wav,5000.0,11,CHAINSAW,ESC-50,866,
+2-68391-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-68391-A-41.wav,5000.0,11,CHAINSAW,ESC-50,687,
+3-118658-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-118658-A-41.wav,5000.0,11,CHAINSAW,ESC-50,864,1.0
+5-170338-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-170338-B-41.wav,5000.0,11,CHAINSAW,ESC-50,1643,6.0
+5-170338-A-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-170338-A-41.wav,5000.0,11,CHAINSAW,ESC-50,1642,7.0
+1-64398-B-41.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-64398-B-41.wav,5000.0,11,CHAINSAW,ESC-50,315,7.0
+4-185575-B-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-185575-B-20.wav,5000.0,9,CRYING_BABY,ESC-50,1438,8.0
+4-185575-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-185575-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,1437,0.0
+5-198411-E-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-198411-E-20.wav,5000.0,9,CRYING_BABY,ESC-50,1732,5.0
+4-59579-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-59579-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,1588,0.0
+2-151079-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-151079-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,577,0.0
+5-198411-E-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-198411-E-20.wav,5000.0,9,CRYING_BABY,ESC-50,1732,5.0
+5-198411-G-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-198411-G-20.wav,5000.0,9,CRYING_BABY,ESC-50,1734,5.0
+3-151081-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-151081-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,996,1.0
+1-211527-C-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-211527-C-20.wav,5000.0,9,CRYING_BABY,ESC-50,106,8.0
+4-167077-B-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-167077-B-20.wav,5000.0,9,CRYING_BABY,ESC-50,1341,9.0
+5-198411-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-198411-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,1728,2.0
+2-107351-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-107351-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,445,6.0
+4-167077-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-167077-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,1340,4.0
+5-151085-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-151085-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,1617,2.0
+5-198411-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-198411-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,1728,2.0
+3-152007-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-152007-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,1007,7.0
+4-167077-C-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-167077-C-20.wav,5000.0,9,CRYING_BABY,ESC-50,1342,7.0
+1-211527-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-211527-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,104,7.0
+1-60997-B-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-60997-B-20.wav,5000.0,9,CRYING_BABY,ESC-50,301,3.0
+5-198411-G-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-198411-G-20.wav,5000.0,9,CRYING_BABY,ESC-50,1734,5.0
+2-80482-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-80482-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,736,9.0
+3-152007-B-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-152007-B-20.wav,5000.0,9,CRYING_BABY,ESC-50,1008,8.0
+4-185575-C-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-185575-C-20.wav,5000.0,9,CRYING_BABY,ESC-50,1439,6.0
+4-167077-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-167077-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,1340,4.0
+5-198411-B-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-198411-B-20.wav,5000.0,9,CRYING_BABY,ESC-50,1729,4.0
+5-198411-F-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-198411-F-20.wav,5000.0,9,CRYING_BABY,ESC-50,1733,5.0
+5-198411-E-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-198411-E-20.wav,5000.0,9,CRYING_BABY,ESC-50,1732,5.0
+2-50666-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-50666-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,644,9.0
+3-152007-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-152007-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,1007,7.0
+5-198411-G-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-198411-G-20.wav,5000.0,9,CRYING_BABY,ESC-50,1734,5.0
+3-152007-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-152007-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,1007,7.0
+3-152007-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-152007-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,1007,7.0
+4-185575-C-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-185575-C-20.wav,5000.0,9,CRYING_BABY,ESC-50,1439,6.0
+2-107351-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-107351-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,445,6.0
+3-152007-B-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-152007-B-20.wav,5000.0,9,CRYING_BABY,ESC-50,1008,8.0
+3-152007-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-152007-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,1007,7.0
+4-167077-C-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-167077-C-20.wav,5000.0,9,CRYING_BABY,ESC-50,1342,7.0
+1-211527-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-211527-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,104,7.0
+3-152007-D-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-152007-D-20.wav,5000.0,9,CRYING_BABY,ESC-50,1010,9.0
+2-107351-B-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-107351-B-20.wav,5000.0,9,CRYING_BABY,ESC-50,446,8.0
+4-185575-B-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-185575-B-20.wav,5000.0,9,CRYING_BABY,ESC-50,1438,8.0
+1-187207-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-187207-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,78,8.0
+2-107351-B-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-107351-B-20.wav,5000.0,9,CRYING_BABY,ESC-50,446,8.0
+3-152007-B-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-152007-B-20.wav,5000.0,9,CRYING_BABY,ESC-50,1008,8.0
+1-211527-C-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-211527-C-20.wav,5000.0,9,CRYING_BABY,ESC-50,106,8.0
+3-151080-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-151080-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,995,9.0
+3-152007-D-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-152007-D-20.wav,5000.0,9,CRYING_BABY,ESC-50,1010,9.0
+4-167077-B-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-167077-B-20.wav,5000.0,9,CRYING_BABY,ESC-50,1341,9.0
+2-80482-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-80482-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,736,9.0
+2-50666-A-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-50666-A-20.wav,5000.0,9,CRYING_BABY,ESC-50,644,9.0
+1-60997-B-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-60997-B-20.wav,5000.0,9,CRYING_BABY,ESC-50,301,3.0
+5-198411-E-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-198411-E-20.wav,5000.0,9,CRYING_BABY,ESC-50,1732,5.0
+4-167077-C-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-167077-C-20.wav,5000.0,9,CRYING_BABY,ESC-50,1342,7.0
+3-151081-B-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-151081-B-20.wav,5000.0,9,CRYING_BABY,ESC-50,997,
+3-152007-E-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-152007-E-20.wav,5000.0,9,CRYING_BABY,ESC-50,1011,
+5-198411-B-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-198411-B-20.wav,5000.0,9,CRYING_BABY,ESC-50,1729,4.0
+4-59579-B-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-59579-B-20.wav,5000.0,9,CRYING_BABY,ESC-50,1589,
+1-211527-B-20.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-211527-B-20.wav,5000.0,9,CRYING_BABY,ESC-50,105,
+173993-3-0-52.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold5/173993-3-0-52.wav,,20,DOG_BARK,Urbansound8K,3565,0.0
+193394-3-0-4.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold1/193394-3-0-4.wav,,20,DOG_BARK,Urbansound8K,4885,0.0
+74513-3-0-5.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold7/74513-3-0-5.wav,,20,DOG_BARK,Urbansound8K,7775,0.0
+5-203128-B-0.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-203128-B-0.wav,5000.0,20,DOG_BARK,ESC-50,1761,0.0
+174873-3-5-13.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/174873-3-5-13.wav,,20,DOG_BARK,Urbansound8K,3646,0.0
+194753-3-2-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold6/194753-3-2-0.wav,,20,DOG_BARK,Urbansound8K,4943,1.0
+166268-3-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold1/166268-3-0-0.wav,,20,DOG_BARK,Urbansound8K,3190,1.0
+144028-3-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/144028-3-0-0.wav,,20,DOG_BARK,Urbansound8K,1712,1.0
+34771-3-0-14.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold5/34771-3-0-14.wav,,20,DOG_BARK,Urbansound8K,6184,1.0
+196561-3-0-9.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/196561-3-0-9.wav,,20,DOG_BARK,Urbansound8K,5078,1.0
+72265-3-4-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold9/72265-3-4-0.wav,,20,DOG_BARK,Urbansound8K,7571,2.0
+165567-3-3-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold9/165567-3-3-0.wav,,20,DOG_BARK,Urbansound8K,3145,2.0
+71700-3-4-1.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/71700-3-4-1.wav,,20,DOG_BARK,Urbansound8K,7471,2.0
+14468-3-0-2.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold10/14468-3-0-2.wav,,20,DOG_BARK,Urbansound8K,1769,2.0
+144028-3-1-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/144028-3-1-0.wav,,20,DOG_BARK,Urbansound8K,1713,2.0
+116484-3-0-16.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/116484-3-0-16.wav,,20,DOG_BARK,Urbansound8K,834,3.0
+18453-3-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/18453-3-0-0.wav,,20,DOG_BARK,Urbansound8K,4463,3.0
+51024-3-0-23.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold10/51024-3-0-23.wav,,20,DOG_BARK,Urbansound8K,6667,3.0
+117271-3-0-2.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold6/117271-3-0-2.wav,,20,DOG_BARK,Urbansound8K,866,3.0
+115411-3-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold7/115411-3-0-0.wav,,20,DOG_BARK,Urbansound8K,799,3.0
+67049-3-0-2.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold7/67049-3-0-2.wav,,20,DOG_BARK,Urbansound8K,7301,4.0
+dogs04.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/dogs04.wav,10000.0,20,DOG_BARK,BDLIb2,1,4.0
+109711-3-1-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/109711-3-1-0.wav,,20,DOG_BARK,Urbansound8K,599,4.0
+26256-3-6-6.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/26256-3-6-6.wav,,20,DOG_BARK,Urbansound8K,5908,4.0
+55013-3-0-1.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/55013-3-0-1.wav,,20,DOG_BARK,Urbansound8K,6799,4.0
+63292-3-0-1.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold3/63292-3-0-1.wav,,20,DOG_BARK,Urbansound8K,7198,5.0
+119420-3-1-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold9/119420-3-1-0.wav,,20,DOG_BARK,Urbansound8K,943,5.0
+4201-3-1-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/4201-3-1-0.wav,,20,DOG_BARK,Urbansound8K,6402,5.0
+155299-3-1-2.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold7/155299-3-1-2.wav,,20,DOG_BARK,Urbansound8K,2302,5.0
+175917-3-4-1.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold6/175917-3-4-1.wav,,20,DOG_BARK,Urbansound8K,3731,5.0
+116400-3-0-2.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold3/116400-3-0-2.wav,,20,DOG_BARK,Urbansound8K,820,6.0
+19496-3-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold3/19496-3-0-0.wav,,20,DOG_BARK,Urbansound8K,4959,6.0
+142641-3-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold10/142641-3-0-0.wav,,20,DOG_BARK,Urbansound8K,1637,6.0
+117072-3-0-8.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold3/117072-3-0-8.wav,,20,DOG_BARK,Urbansound8K,848,6.0
+57105-3-1-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold9/57105-3-1-0.wav,,20,DOG_BARK,Urbansound8K,6851,6.0
+57105-3-4-2.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold9/57105-3-4-2.wav,,20,DOG_BARK,Urbansound8K,6852,7.0
+43784-3-1-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold7/43784-3-1-0.wav,,20,DOG_BARK,Urbansound8K,6454,7.0
+71700-3-4-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/71700-3-4-0.wav,,20,DOG_BARK,Urbansound8K,7470,7.0
+177620-3-0-21.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold9/177620-3-0-21.wav,,20,DOG_BARK,Urbansound8K,3854,7.0
+183989-3-1-21.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/183989-3-1-21.wav,,20,DOG_BARK,Urbansound8K,4447,7.0
+108187-3-2-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/108187-3-2-0.wav,,20,DOG_BARK,Urbansound8K,559,8.0
+174994-3-0-2.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/174994-3-0-2.wav,,20,DOG_BARK,Urbansound8K,3657,8.0
+174026-3-1-1.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/174026-3-1-1.wav,,20,DOG_BARK,Urbansound8K,3575,8.0
+76566-3-0-11.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold5/76566-3-0-11.wav,,20,DOG_BARK,Urbansound8K,7963,8.0
+22973-3-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold10/22973-3-0-0.wav,,20,DOG_BARK,Urbansound8K,5710,8.0
+81799-3-1-2.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold7/81799-3-1-2.wav,,20,DOG_BARK,Urbansound8K,8199,9.0
+110371-3-1-1.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold5/110371-3-1-1.wav,,20,DOG_BARK,Urbansound8K,605,9.0
+85362-3-3-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold7/85362-3-3-0.wav,,20,DOG_BARK,Urbansound8K,8298,9.0
+4918-3-4-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/4918-3-4-0.wav,,20,DOG_BARK,Urbansound8K,6567,9.0
+1-110389-A-0.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-110389-A-0.wav,5000.0,20,DOG_BARK,ESC-50,14,9.0
+102547-3-0-8.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold5/102547-3-0-8.wav,,20,DOG_BARK,Urbansound8K,109,
+200161-3-6-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold3/200161-3-6-0.wav,,20,DOG_BARK,Urbansound8K,5160,
+155488-3-2-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold6/155488-3-2-0.wav,,20,DOG_BARK,Urbansound8K,2335,
+35629-3-1-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/35629-3-1-0.wav,,20,DOG_BARK,Urbansound8K,6228,
+72538-3-0-1.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold10/72538-3-0-1.wav,,20,DOG_BARK,Urbansound8K,7578,
+62048-3-0-2.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/62048-3-0-2.wav,,20,DOG_BARK,Urbansound8K,7061,
+17486-3-2-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold10/17486-3-2-0.wav,,20,DOG_BARK,Urbansound8K,3642,
+13577-3-0-2.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold5/13577-3-0-2.wav,,20,DOG_BARK,Urbansound8K,1495,
+2-134915-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-134915-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,553,1.0
+3-182025-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-182025-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1121,6.0
+1-81001-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-81001-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,362,1.0
+5-256512-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-256512-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1969,0.0
+4-211502-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-211502-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1548,8.0
+2-118625-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-118625-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,501,5.0
+2-120218-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-120218-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,510,9.0
+1-81001-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-81001-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,362,1.0
+2-140841-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-140841-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,566,9.0
+2-134915-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-134915-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,553,1.0
+5-250026-B-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-250026-B-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1943,9.0
+2-114254-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-114254-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,477,2.0
+2-133889-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-133889-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,550,8.0
+3-180147-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-180147-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1115,2.0
+2-140841-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-140841-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,566,9.0
+4-187284-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-187284-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1449,6.0
+4-182034-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-182034-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1416,7.0
+3-152594-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-152594-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1017,5.0
+1-81001-B-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-81001-B-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,363,6.0
+5-218981-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-218981-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1840,3.0
+5-251426-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-251426-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1947,8.0
+1-82817-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-82817-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,367,4.0
+2-120218-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-120218-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,510,9.0
+1-101336-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-101336-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,6,4.0
+1-52290-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-52290-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,261,4.0
+3-152594-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-152594-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1017,5.0
+3-144510-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-144510-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,961,8.0
+1-103999-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-103999-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,10,6.0
+2-118625-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-118625-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,501,5.0
+1-26188-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-26188-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,139,5.0
+3-182025-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-182025-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1121,6.0
+4-187284-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-187284-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1449,6.0
+1-81001-B-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-81001-B-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,363,6.0
+5-251426-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-251426-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1947,8.0
+1-103999-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-103999-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,10,6.0
+2-120218-B-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-120218-B-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,511,7.0
+4-182039-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-182039-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1417,7.0
+4-182034-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-182034-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1416,7.0
+5-235644-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-235644-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1893,7.0
+2-140841-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-140841-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,566,9.0
+4-211502-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-211502-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1548,8.0
+3-144510-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-144510-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,961,8.0
+2-133889-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-133889-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,550,8.0
+3-170574-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-170574-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1101,8.0
+5-251426-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-251426-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1947,8.0
+2-140841-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-140841-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,566,9.0
+2-118624-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-118624-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,500,9.0
+5-250026-B-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-250026-B-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1943,9.0
+2-120218-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-120218-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,510,9.0
+3-154378-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-154378-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1022,9.0
+3-182023-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-182023-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1120,
+4-182034-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-182034-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1416,7.0
+1-81001-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-81001-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,362,1.0
+3-144510-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-144510-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,961,8.0
+5-250026-B-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-250026-B-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1943,9.0
+5-251426-B-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-251426-B-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1948,
+1-101336-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-101336-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,6,4.0
+3-180147-A-30.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-180147-A-30.wav,5000.0,19,DOOR_KNOCK,ESC-50,1115,2.0
+1-17565-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-17565-A-12.wav,5000.0,17,FIRE,ESC-50,63,4.0
+4-171207-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-171207-A-12.wav,5000.0,17,FIRE,ESC-50,1356,0.0
+2-30322-B-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-30322-B-12.wav,5000.0,17,FIRE,ESC-50,623,9.0
+3-147965-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-147965-A-12.wav,5000.0,17,FIRE,ESC-50,982,0.0
+3-145774-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-145774-A-12.wav,5000.0,17,FIRE,ESC-50,972,9.0
+1-4211-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-4211-A-12.wav,5000.0,17,FIRE,ESC-50,204,1.0
+2-28314-B-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-28314-B-12.wav,5000.0,17,FIRE,ESC-50,621,6.0
+3-157187-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-157187-A-12.wav,5000.0,17,FIRE,ESC-50,1051,1.0
+4-181563-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-181563-A-12.wav,5000.0,17,FIRE,ESC-50,1406,7.0
+5-189212-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-189212-A-12.wav,5000.0,17,FIRE,ESC-50,1695,6.0
+5-193473-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-193473-A-12.wav,5000.0,17,FIRE,ESC-50,1702,8.0
+2-18766-B-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-18766-B-12.wav,5000.0,17,FIRE,ESC-50,601,5.0
+5-213802-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-213802-A-12.wav,5000.0,17,FIRE,ESC-50,1806,9.0
+2-18766-B-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-18766-B-12.wav,5000.0,17,FIRE,ESC-50,601,5.0
+5-189212-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-189212-A-12.wav,5000.0,17,FIRE,ESC-50,1695,6.0
+1-17150-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-17150-A-12.wav,5000.0,17,FIRE,ESC-50,54,5.0
+2-30322-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-30322-A-12.wav,5000.0,17,FIRE,ESC-50,622,7.0
+4-182369-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-182369-A-12.wav,5000.0,17,FIRE,ESC-50,1422,4.0
+5-213802-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-213802-A-12.wav,5000.0,17,FIRE,ESC-50,1806,9.0
+3-104632-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-104632-A-12.wav,5000.0,17,FIRE,ESC-50,821,8.0
+4-182369-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-182369-A-12.wav,5000.0,17,FIRE,ESC-50,1422,4.0
+2-28314-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-28314-A-12.wav,5000.0,17,FIRE,ESC-50,620,8.0
+5-189212-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-189212-A-12.wav,5000.0,17,FIRE,ESC-50,1695,6.0
+1-17150-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-17150-A-12.wav,5000.0,17,FIRE,ESC-50,54,5.0
+1-17565-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-17565-A-12.wav,5000.0,17,FIRE,ESC-50,63,4.0
+5-215658-B-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-215658-B-12.wav,5000.0,17,FIRE,ESC-50,1824,5.0
+1-17150-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-17150-A-12.wav,5000.0,17,FIRE,ESC-50,54,5.0
+2-18766-B-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-18766-B-12.wav,5000.0,17,FIRE,ESC-50,601,5.0
+2-18766-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-18766-A-12.wav,5000.0,17,FIRE,ESC-50,600,6.0
+3-145774-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-145774-A-12.wav,5000.0,17,FIRE,ESC-50,972,9.0
+4-164661-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-164661-A-12.wav,5000.0,17,FIRE,ESC-50,1323,6.0
+1-17742-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-17742-A-12.wav,5000.0,17,FIRE,ESC-50,65,6.0
+2-18766-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-18766-A-12.wav,5000.0,17,FIRE,ESC-50,600,6.0
+2-28314-B-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-28314-B-12.wav,5000.0,17,FIRE,ESC-50,621,6.0
+5-189212-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-189212-A-12.wav,5000.0,17,FIRE,ESC-50,1695,6.0
+1-17808-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-17808-A-12.wav,5000.0,17,FIRE,ESC-50,66,7.0
+3-120644-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-120644-A-12.wav,5000.0,17,FIRE,ESC-50,877,9.0
+3-145774-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-145774-A-12.wav,5000.0,17,FIRE,ESC-50,972,9.0
+4-181563-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-181563-A-12.wav,5000.0,17,FIRE,ESC-50,1406,7.0
+2-30322-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-30322-A-12.wav,5000.0,17,FIRE,ESC-50,622,7.0
+5-193473-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-193473-A-12.wav,5000.0,17,FIRE,ESC-50,1702,8.0
+3-104632-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-104632-A-12.wav,5000.0,17,FIRE,ESC-50,821,8.0
+2-28314-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-28314-A-12.wav,5000.0,17,FIRE,ESC-50,620,8.0
+5-193473-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-193473-A-12.wav,5000.0,17,FIRE,ESC-50,1702,8.0
+5-193473-B-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-193473-B-12.wav,5000.0,17,FIRE,ESC-50,1703,8.0
+2-30322-B-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-30322-B-12.wav,5000.0,17,FIRE,ESC-50,623,9.0
+3-145774-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-145774-A-12.wav,5000.0,17,FIRE,ESC-50,972,9.0
+5-213802-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-213802-A-12.wav,5000.0,17,FIRE,ESC-50,1806,9.0
+3-65748-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-65748-A-12.wav,5000.0,17,FIRE,ESC-50,1169,9.0
+3-120644-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-120644-A-12.wav,5000.0,17,FIRE,ESC-50,877,9.0
+3-120644-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-120644-A-12.wav,5000.0,17,FIRE,ESC-50,877,9.0
+2-18766-B-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-18766-B-12.wav,5000.0,17,FIRE,ESC-50,601,5.0
+1-17565-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-17565-A-12.wav,5000.0,17,FIRE,ESC-50,63,4.0
+4-181563-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-181563-A-12.wav,5000.0,17,FIRE,ESC-50,1406,7.0
+1-17808-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-17808-A-12.wav,5000.0,17,FIRE,ESC-50,66,7.0
+5-193473-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-193473-A-12.wav,5000.0,17,FIRE,ESC-50,1702,8.0
+1-17565-A-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-17565-A-12.wav,5000.0,17,FIRE,ESC-50,63,4.0
+1-17808-B-12.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-17808-B-12.wav,5000.0,17,FIRE,ESC-50,67,
+3-119120-D-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-119120-D-48.wav,5000.0,10,FIRE_WORKS,ESC-50,871,4.0
+5-160614-H-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-160614-H-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1638,0.0
+3-251617-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-251617-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1152,5.0
+5-160614-G-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-160614-G-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1637,2.0
+3-172881-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-172881-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1108,0.0
+5-160614-G-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-160614-G-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1637,2.0
+2-117615-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-117615-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,487,5.0
+2-165801-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-165801-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,590,1.0
+2-117615-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-117615-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,486,1.0
+1-160563-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-160563-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,48,7.0
+1-25781-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-25781-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,132,6.0
+4-119648-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-119648-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1216,2.0
+1-160563-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-160563-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,48,7.0
+5-160614-G-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-160614-G-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1637,2.0
+3-119120-E-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-119120-E-48.wav,5000.0,10,FIRE_WORKS,ESC-50,872,2.0
+2-117616-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-117616-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,491,8.0
+1-160563-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-160563-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,48,7.0
+1-25781-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-25781-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,132,6.0
+2-117615-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-117615-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,487,5.0
+5-160614-C-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-160614-C-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1633,3.0
+4-119647-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-119647-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1213,4.0
+3-119120-D-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-119120-D-48.wav,5000.0,10,FIRE_WORKS,ESC-50,871,4.0
+4-119647-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-119647-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1213,4.0
+1-25781-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-25781-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,132,6.0
+4-119647-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-119647-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1213,4.0
+2-117615-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-117615-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,487,5.0
+3-119120-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-119120-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,869,7.0
+1-115545-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-115545-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,18,9.0
+4-119647-C-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-119647-C-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1214,5.0
+3-251617-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-251617-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1152,5.0
+1-115545-C-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-115545-C-48.wav,5000.0,10,FIRE_WORKS,ESC-50,19,6.0
+1-115546-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-115546-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,20,9.0
+2-117615-E-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-117615-E-48.wav,5000.0,10,FIRE_WORKS,ESC-50,490,6.0
+1-25781-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-25781-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,132,6.0
+1-115545-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-115545-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,18,9.0
+3-119120-C-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-119120-C-48.wav,5000.0,10,FIRE_WORKS,ESC-50,870,7.0
+2-117617-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-117617-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,492,7.0
+3-119120-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-119120-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,869,7.0
+5-160614-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-160614-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1631,7.0
+1-160563-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-160563-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,48,7.0
+3-119120-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-119120-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,868,8.0
+2-117615-C-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-117615-C-48.wav,5000.0,10,FIRE_WORKS,ESC-50,488,8.0
+1-115546-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-115546-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,20,9.0
+1-160563-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-160563-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,47,8.0
+2-117616-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-117616-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,491,8.0
+1-115546-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-115546-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,20,9.0
+1-115545-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-115545-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,18,9.0
+4-119648-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-119648-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1217,9.0
+3-172922-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-172922-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1109,9.0
+3-172922-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-172922-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1109,9.0
+1-160563-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-160563-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,48,7.0
+2-117615-C-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-117615-C-48.wav,5000.0,10,FIRE_WORKS,ESC-50,488,8.0
+2-117615-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-117615-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,486,1.0
+2-117615-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-117615-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,486,1.0
+5-160614-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-160614-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1632,
+4-119647-A-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-119647-A-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1212,
+4-119647-B-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-119647-B-48.wav,5000.0,10,FIRE_WORKS,ESC-50,1213,4.0
+3-119120-D-48.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-119120-D-48.wav,5000.0,10,FIRE_WORKS,ESC-50,871,4.0
+2-209477-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-209477-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,614,4.0
+1-155858-E-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-155858-E-25.wav,5000.0,16,FOOTSTEPS,ESC-50,43,2.0
+5-234855-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-234855-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1887,6.0
+2-209472-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-209472-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,609,0.0
+2-209472-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-209472-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,609,0.0
+1-155858-B-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-155858-B-25.wav,5000.0,16,FOOTSTEPS,ESC-50,40,6.0
+4-117630-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-117630-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1211,1.0
+2-209475-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-209475-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,612,4.0
+2-209471-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-209471-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,608,8.0
+2-209473-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-209473-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,610,5.0
+5-234855-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-234855-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1887,6.0
+5-243025-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-243025-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1915,2.0
+1-223162-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-223162-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,112,8.0
+1-155858-E-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-155858-E-25.wav,5000.0,16,FOOTSTEPS,ESC-50,43,2.0
+5-244310-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-244310-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1927,8.0
+2-209475-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-209475-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,612,4.0
+2-209476-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-209476-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,613,3.0
+2-209478-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-209478-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,615,6.0
+1-155858-F-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-155858-F-25.wav,5000.0,16,FOOTSTEPS,ESC-50,44,3.0
+1-155858-F-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-155858-F-25.wav,5000.0,16,FOOTSTEPS,ESC-50,44,3.0
+2-209475-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-209475-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,612,4.0
+2-209477-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-209477-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,614,4.0
+4-218304-B-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-218304-B-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1570,4.0
+3-103598-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-103598-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,818,4.0
+5-263491-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-263491-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1990,4.0
+1-223162-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-223162-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,112,8.0
+2-209473-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-209473-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,610,5.0
+3-103599-B-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-103599-B-25.wav,5000.0,16,FOOTSTEPS,ESC-50,820,5.0
+3-103599-B-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-103599-B-25.wav,5000.0,16,FOOTSTEPS,ESC-50,820,5.0
+3-103599-B-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-103599-B-25.wav,5000.0,16,FOOTSTEPS,ESC-50,820,5.0
+4-198962-B-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-198962-B-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1513,6.0
+5-234855-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-234855-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1887,6.0
+1-155858-B-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-155858-B-25.wav,5000.0,16,FOOTSTEPS,ESC-50,40,6.0
+4-198962-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-198962-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1512,6.0
+2-209478-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-209478-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,615,6.0
+4-194979-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-194979-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1492,7.0
+2-209474-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-209474-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,611,9.0
+4-218304-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-218304-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1569,9.0
+4-218304-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-218304-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1569,9.0
+3-103597-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-103597-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,817,7.0
+5-244310-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-244310-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1927,8.0
+1-223162-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-223162-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,112,8.0
+2-209471-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-209471-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,608,8.0
+1-223162-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-223162-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,112,8.0
+1-155858-D-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-155858-D-25.wav,5000.0,16,FOOTSTEPS,ESC-50,42,8.0
+2-209474-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-209474-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,611,9.0
+5-234263-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-234263-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1885,9.0
+1-155858-C-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-155858-C-25.wav,5000.0,16,FOOTSTEPS,ESC-50,41,9.0
+1-155858-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-155858-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,39,9.0
+4-218304-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-218304-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1569,9.0
+1-51147-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-51147-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,248,
+5-234263-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-234263-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1885,9.0
+4-117627-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-117627-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1210,
+2-209478-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-209478-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,615,6.0
+5-234263-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-234263-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1885,9.0
+5-234855-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-234855-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,1887,6.0
+2-209473-A-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-209473-A-25.wav,5000.0,16,FOOTSTEPS,ESC-50,610,5.0
+1-155858-B-25.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-155858-B-25.wav,5000.0,16,FOOTSTEPS,ESC-50,40,6.0
+3-203377-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-203377-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1141,9.0
+4-204121-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-204121-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1525,8.0
+5-233605-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-233605-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1879,6.0
+3-203371-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-203371-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1137,0.0
+2-141563-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-141563-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,567,2.0
+5-221529-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-221529-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1855,8.0
+4-212698-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-212698-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1552,1.0
+5-233607-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-233607-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1880,9.0
+5-260433-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-260433-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1980,6.0
+3-203377-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-203377-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1141,9.0
+5-233607-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-233607-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1880,9.0
+3-216281-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-216281-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1145,7.0
+2-141563-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-141563-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,567,2.0
+1-88807-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-88807-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,381,5.0
+1-85168-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-85168-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,373,8.0
+1-977-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-977-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,393,6.0
+5-260434-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-260434-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1981,7.0
+3-203375-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-203375-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1140,3.0
+2-173559-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-173559-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,594,5.0
+1-84705-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-84705-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,371,4.0
+2-106881-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-106881-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,442,4.0
+1-85168-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-85168-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,373,8.0
+1-84705-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-84705-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,371,4.0
+3-216281-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-216281-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1145,7.0
+4-204777-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-204777-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1532,9.0
+2-173559-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-173559-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,594,5.0
+5-233605-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-233605-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1879,6.0
+2-173559-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-173559-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,594,5.0
+1-88807-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-88807-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,381,5.0
+3-216284-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-216284-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1146,5.0
+4-204777-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-204777-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1532,9.0
+5-260433-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-260433-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1980,6.0
+1-977-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-977-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,393,6.0
+5-260433-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-260433-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1980,6.0
+5-233605-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-233605-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1879,6.0
+2-250710-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-250710-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,616,7.0
+5-257642-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-257642-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1971,7.0
+5-260434-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-260434-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1981,7.0
+3-216281-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-216281-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1145,7.0
+5-260432-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-260432-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1979,7.0
+2-112213-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-112213-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,475,8.0
+2-112213-B-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-112213-B-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,476,8.0
+1-85168-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-85168-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,373,8.0
+5-221529-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-221529-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1855,8.0
+4-204121-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-204121-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1525,8.0
+4-204777-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-204777-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1532,9.0
+4-204777-B-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-204777-B-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1533,9.0
+4-204777-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-204777-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1532,9.0
+3-203377-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-203377-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1141,9.0
+5-233607-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-233607-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1880,9.0
+5-233605-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-233605-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1879,6.0
+2-112213-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-112213-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,475,8.0
+2-173618-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-173618-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,596,
+1-20133-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-20133-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,95,
+4-204777-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-204777-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1532,9.0
+5-221529-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-221529-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1855,8.0
+4-204123-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-204123-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1526,
+4-212698-A-39.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-212698-A-39.wav,5000.0,14,GLASS_BREAKING,ESC-50,1552,1.0
+2 (60).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (60).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,320,0.0
+2 (42).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (42).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,301,0.0
+2 (23).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (23).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,318,0.0
+2 (93).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (93).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,338,0.0
+2 (21).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (21).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,374,0.0
+2 (81).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (81).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,377,1.0
+2 (39).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (39).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,309,1.0
+2 (15).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (15).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,345,1.0
+2 (1).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (1).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,335,1.0
+2 (97).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (97).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,362,1.0
+2 (33).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (33).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,337,2.0
+2 (73).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (73).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,294,2.0
+2 (58).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (58).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,342,2.0
+2 (71).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (71).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,302,2.0
+2 (85).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (85).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,352,2.0
+2 (17).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (17).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,316,3.0
+2 (26).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (26).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,312,3.0
+2 (48).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (48).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,353,3.0
+2 (20).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (20).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,376,3.0
+2 (100).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (100).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,357,3.0
+2 (98).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (98).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,297,4.0
+2 (89).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (89).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,324,4.0
+2 (59).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (59).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,292,4.0
+2 (75).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (75).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,359,4.0
+2 (92).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (92).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,307,4.0
+2 (47).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (47).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,347,5.0
+2 (31).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (31).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,350,5.0
+2 (18).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (18).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,313,5.0
+2 (22).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (22).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,283,5.0
+2 (79).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (79).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,306,5.0
+2 (7).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (7).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,336,6.0
+2 (43).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (43).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,329,6.0
+2 (19).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (19).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,281,6.0
+2 (29).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (29).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,328,6.0
+2 (63).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (63).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,315,6.0
+2 (91).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (91).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,333,7.0
+2 (3).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (3).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,310,7.0
+2 (34).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (34).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,290,7.0
+2 (99).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (99).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,363,7.0
+2 (38).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (38).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,295,7.0
+2 (68).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (68).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,296,8.0
+2 (66).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (66).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,300,8.0
+2 (51).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (51).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,308,8.0
+2 (16).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (16).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,304,8.0
+2 (28).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (28).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,372,8.0
+2 (6).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (6).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,327,9.0
+2 (45).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (45).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,314,9.0
+2 (40).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (40).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,287,9.0
+2 (5).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (5).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,317,9.0
+2 (35).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (35).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,298,9.0
+2 (78).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (78).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,321,
+2 (83).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (83).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,369,
+2 (88).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (88).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,322,
+2 (96).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (96).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,326,
+2 (76).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (76).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,379,
+2 (49).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (49).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,323,
+2 (46).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (46).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,355,
+2 (70).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/IMI Desert Eagle/2 (70).wav,2000.0,4,GUNSHOT_HANDGUN,Gunshot audio dataset,293,
+7 (20).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (20).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,503,0.0
+7 (92).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (92).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,567,0.0
+7 (47).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (47).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,540,0.0
+6 (78).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (78).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,641,0.0
+6 (9).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (9).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,677,0.0
+6 (60).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (60).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,673,1.0
+7 (41).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (41).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,496,1.0
+7 (34).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (34).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,498,1.0
+6 (65).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (65).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,621,1.0
+7 (38).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (38).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,521,1.0
+7 (31).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (31).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,570,2.0
+6 (86).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (86).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,605,2.0
+6 (1).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (1).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,595,2.0
+7 (18).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (18).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,563,2.0
+7 (35).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (35).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,494,2.0
+6 (96).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (96).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,619,3.0
+7 (15).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (15).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,515,3.0
+6 (56).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (56).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,676,3.0
+7 (44).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (44).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,552,3.0
+7 (21).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (21).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,497,3.0
+6 (74).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (74).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,602,4.0
+7 (99).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (99).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,488,4.0
+6 (43).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (43).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,633,4.0
+7 (85).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (85).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,511,4.0
+6 (11).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (11).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,622,4.0
+6 (48).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (48).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,625,5.0
+6 (27).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (27).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,666,5.0
+6 (4).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (4).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,646,5.0
+7 (86).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (86).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,564,5.0
+6 (93).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (93).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,663,5.0
+7 (39).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (39).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,555,6.0
+6 (25).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (25).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,626,6.0
+6 (66).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (66).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,628,6.0
+6 (32).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (32).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,615,6.0
+6 (3).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (3).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,627,6.0
+7 (3).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (3).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,538,7.0
+7 (74).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (74).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,535,7.0
+6 (21).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (21).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,660,7.0
+6 (79).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (79).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,597,7.0
+6 (63).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (63).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,650,7.0
+6 (46).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (46).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,599,8.0
+7 (43).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (43).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,575,8.0
+6 (54).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (54).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,607,8.0
+7 (49).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (49).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,576,8.0
+6 (33).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (33).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,588,8.0
+6 (61).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (61).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,651,9.0
+6 (42).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (42).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,617,9.0
+6 (59).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (59).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,638,9.0
+6 (19).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (19).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,657,9.0
+7 (59).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (59).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,520,9.0
+7 (77).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (77).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,524,
+7 (60).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (60).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,523,
+7 (68).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (68).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,482,
+7 (26).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (26).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,507,
+7 (89).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (89).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,526,
+7 (36).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (36).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,534,
+6 (98).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/M249/6 (98).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,670,
+7 (8).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/MG-42/7 (8).wav,2000.0,6,GUNSHOT_MACHINE_GUN,Gunshot audio dataset,530,
+3 (90).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (90).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,143,0.0
+1 (49).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-47/1 (49).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,697,0.0
+3 (97).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (97).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,147,0.0
+3 (74).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (74).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,135,0.0
+1 (29).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-47/1 (29).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,687,0.0
+1 (50).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-47/1 (50).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,731,1.0
+3 (10).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (10).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,145,1.0
+3 (49).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (49).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,132,1.0
+1 (51).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-47/1 (51).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,747,1.0
+9 (49).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (49).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,76,1.0
+1 (40).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-47/1 (40).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,745,2.0
+9 (7).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (7).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,35,2.0
+9 (12).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (12).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,10,2.0
+9 (31).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (31).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,80,2.0
+1 (37).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-47/1 (37).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,709,2.0
+1 (54).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-47/1 (54).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,732,3.0
+3 (36).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (36).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,141,3.0
+3 (17).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (17).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,84,3.0
+9 (74).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (74).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,3,3.0
+1 (30).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-47/1 (30).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,744,3.0
+1 (45).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-47/1 (45).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,683,4.0
+9 (52).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (52).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,81,4.0
+9 (45).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (45).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,31,4.0
+3 (75).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (75).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,93,4.0
+1 (41).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-47/1 (41).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,692,4.0
+3 (69).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (69).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,153,5.0
+1 (44).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-47/1 (44).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,728,5.0
+3 (66).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (66).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,167,5.0
+3 (21).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (21).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,162,5.0
+3 (28).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (28).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,122,5.0
+1 (6).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-47/1 (6).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,695,6.0
+9 (5).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (5).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,48,6.0
+9 (3).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (3).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,38,6.0
+3 (33).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (33).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,166,6.0
+9 (28).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (28).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,7,6.0
+9 (22).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (22).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,16,7.0
+9 (66).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (66).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,62,7.0
+3 (20).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (20).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,129,7.0
+1 (7).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-47/1 (7).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,696,7.0
+9 (23).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (23).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,25,7.0
+9 (17).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (17).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,72,8.0
+9 (9).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (9).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,49,8.0
+9 (41).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (41).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,57,8.0
+9 (69).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (69).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,71,8.0
+9 (20).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (20).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,32,8.0
+3 (70).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (70).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,117,9.0
+3 (72).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (72).wav,320000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,178,9.0
+9 (56).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (56).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,51,9.0
+9 (16).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (16).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,79,9.0
+3 (64).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (64).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,115,9.0
+9 (59).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (59).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,20,
+1 (52).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-47/1 (52).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,708,
+3 (43).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (43).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,177,
+3 (30).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (30).wav,2000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,170,
+9 (32).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (32).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,67,
+9 (24).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/Zastava M92/9 (24).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,28,
+3 (87).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (87).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,126,
+3 (94).wav,/home/thanh/.cache/kagglehub/datasets/emrahaydemr/gunshot-audio-dataset/versions/1/AK-12/3 (94).wav,1000.0,5,GUNSHOT_RIFLE,Gunshot audio dataset,87,
+rain12.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-2/rain12.wav,10000.0,18,RAIN,BDLIb2,34,0.0
+5-188655-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-188655-A-10.wav,5000.0,18,RAIN,ESC-50,1691,0.0
+2-73260-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-73260-A-10.wav,5000.0,18,RAIN,ESC-50,713,0.0
+2-81731-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-81731-A-10.wav,5000.0,18,RAIN,ESC-50,741,0.0
+3-132852-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-132852-A-10.wav,5000.0,18,RAIN,ESC-50,913,0.0
+1-63871-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-63871-A-10.wav,5000.0,18,RAIN,ESC-50,313,1.0
+4-177250-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-177250-A-10.wav,5000.0,18,RAIN,ESC-50,1394,1.0
+rain14.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-3/rain14.wav,10000.0,18,RAIN,BDLIb2,58,1.0
+4-181286-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-181286-A-10.wav,5000.0,18,RAIN,ESC-50,1404,1.0
+1-29561-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-29561-A-10.wav,5000.0,18,RAIN,ESC-50,152,1.0
+rain05.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/rain05.wav,10000.0,18,RAIN,BDLIb2,3,2.0
+1-21189-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-21189-A-10.wav,5000.0,18,RAIN,ESC-50,107,2.0
+5-194892-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-194892-A-10.wav,5000.0,18,RAIN,ESC-50,1705,2.0
+4-163264-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-163264-A-10.wav,5000.0,18,RAIN,ESC-50,1311,2.0
+1-56311-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-56311-A-10.wav,5000.0,18,RAIN,ESC-50,281,2.0
+2-87781-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-87781-A-10.wav,5000.0,18,RAIN,ESC-50,770,3.0
+rain11.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-2/rain11.wav,10000.0,18,RAIN,BDLIb2,39,3.0
+2-101676-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-101676-A-10.wav,5000.0,18,RAIN,ESC-50,402,3.0
+2-82367-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-82367-A-10.wav,5000.0,18,RAIN,ESC-50,749,3.0
+3-157487-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-157487-A-10.wav,5000.0,18,RAIN,ESC-50,1052,3.0
+5-181766-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-181766-A-10.wav,5000.0,18,RAIN,ESC-50,1671,4.0
+3-157149-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-157149-A-10.wav,5000.0,18,RAIN,ESC-50,1050,4.0
+1-54958-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-54958-A-10.wav,5000.0,18,RAIN,ESC-50,276,4.0
+rain09.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-2/rain09.wav,10000.0,18,RAIN,BDLIb2,25,4.0
+rain15.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-3/rain15.wav,10000.0,18,RAIN,BDLIb2,62,4.0
+3-157615-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-157615-A-10.wav,5000.0,18,RAIN,ESC-50,1054,5.0
+rain02.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/rain02.wav,10000.0,18,RAIN,BDLIb2,18,5.0
+5-198321-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-198321-A-10.wav,5000.0,18,RAIN,ESC-50,1726,5.0
+4-161127-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-161127-A-10.wav,5000.0,18,RAIN,ESC-50,1305,5.0
+5-202898-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-202898-A-10.wav,5000.0,18,RAIN,ESC-50,1759,5.0
+rain17.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-3/rain17.wav,10000.0,18,RAIN,BDLIb2,48,6.0
+rain06.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/rain06.wav,10000.0,18,RAIN,BDLIb2,20,6.0
+4-160999-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-160999-A-10.wav,5000.0,18,RAIN,ESC-50,1298,6.0
+rain16.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-3/rain16.wav,10000.0,18,RAIN,BDLIb2,60,6.0
+3-142005-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-142005-A-10.wav,5000.0,18,RAIN,ESC-50,942,6.0
+3-140774-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-140774-A-10.wav,5000.0,18,RAIN,ESC-50,937,7.0
+rain13.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-3/rain13.wav,10000.0,18,RAIN,BDLIb2,71,7.0
+rain03.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/rain03.wav,10000.0,18,RAIN,BDLIb2,23,7.0
+4-166661-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-166661-A-10.wav,5000.0,18,RAIN,ESC-50,1336,7.0
+rain07.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-2/rain07.wav,10000.0,18,RAIN,BDLIb2,44,7.0
+4-180380-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-180380-A-10.wav,5000.0,18,RAIN,ESC-50,1401,8.0
+rain01.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/rain01.wav,10000.0,18,RAIN,BDLIb2,17,8.0
+5-193339-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-193339-A-10.wav,5000.0,18,RAIN,ESC-50,1701,8.0
+3-142006-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-142006-A-10.wav,5000.0,18,RAIN,ESC-50,943,8.0
+5-195710-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-195710-A-10.wav,5000.0,18,RAIN,ESC-50,1716,8.0
+rain08.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-2/rain08.wav,10000.0,18,RAIN,BDLIb2,43,9.0
+2-117625-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-117625-A-10.wav,5000.0,18,RAIN,ESC-50,493,9.0
+rain04.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/rain04.wav,10000.0,18,RAIN,BDLIb2,10,9.0
+1-26222-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-26222-A-10.wav,5000.0,18,RAIN,ESC-50,140,9.0
+rain10.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-2/rain10.wav,10000.0,18,RAIN,BDLIb2,41,9.0
+5-203739-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-203739-A-10.wav,5000.0,18,RAIN,ESC-50,1762,
+2-73027-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-73027-A-10.wav,5000.0,18,RAIN,ESC-50,711,
+4-164206-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-164206-A-10.wav,5000.0,18,RAIN,ESC-50,1321,
+1-17367-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-17367-A-10.wav,5000.0,18,RAIN,ESC-50,62,
+1-50060-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-50060-A-10.wav,5000.0,18,RAIN,ESC-50,238,
+3-143929-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-143929-A-10.wav,5000.0,18,RAIN,ESC-50,952,
+2-72970-A-10.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-72970-A-10.wav,5000.0,18,RAIN,ESC-50,710,
+rain18.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-3/rain18.wav,10000.0,18,RAIN,BDLIb2,54,
+2-70939-A-42.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-70939-A-42.wav,5000.0,1,SIREN,ESC-50,701,0.0
+164053-8-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold1/164053-8-0-0.wav,,1,SIREN,Urbansound8K,3018,0.0
+24347-8-0-73.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/24347-8-0-73.wav,,1,SIREN,Urbansound8K,5824,0.0
+24347-8-0-19.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/24347-8-0-19.wav,,1,SIREN,Urbansound8K,5764,0.0
+5-150409-A-42.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-150409-A-42.wav,5000.0,1,SIREN,ESC-50,1616,0.0
+74364-8-1-20.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold10/74364-8-1-20.wav,,1,SIREN,Urbansound8K,7725,1.0
+208652-8-4-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold10/208652-8-4-0.wav,,1,SIREN,Urbansound8K,5531,1.0
+40722-8-0-8.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold1/40722-8-0-8.wav,,1,SIREN,Urbansound8K,6385,1.0
+135160-8-0-9.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold6/135160-8-0-9.wav,,1,SIREN,Urbansound8K,1419,1.0
+159738-8-0-9.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold1/159738-8-0-9.wav,,1,SIREN,Urbansound8K,2640,1.0
+22601-8-0-24.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold3/22601-8-0-24.wav,,1,SIREN,Urbansound8K,5604,2.0
+24347-8-0-44.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/24347-8-0-44.wav,,1,SIREN,Urbansound8K,5792,2.0
+94636-8-0-13.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold3/94636-8-0-13.wav,,1,SIREN,Urbansound8K,8514,2.0
+159748-8-0-3.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold9/159748-8-0-3.wav,,1,SIREN,Urbansound8K,2705,2.0
+91396-8-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/91396-8-0-0.wav,,1,SIREN,Urbansound8K,8414,2.0
+24347-8-0-66.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/24347-8-0-66.wav,,1,SIREN,Urbansound8K,5816,3.0
+105289-8-2-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold7/105289-8-2-0.wav,,1,SIREN,Urbansound8K,432,3.0
+159752-8-0-10.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/159752-8-0-10.wav,,1,SIREN,Urbansound8K,2755,3.0
+117181-8-0-4.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/117181-8-0-4.wav,,1,SIREN,Urbansound8K,856,3.0
+40722-8-0-1.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold1/40722-8-0-1.wav,,1,SIREN,Urbansound8K,6378,3.0
+94020-8-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/94020-8-0-0.wav,,1,SIREN,Urbansound8K,8462,4.0
+158608-8-0-1.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/158608-8-0-1.wav,,1,SIREN,Urbansound8K,2562,4.0
+57323-8-0-6.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold7/57323-8-0-6.wav,,1,SIREN,Urbansound8K,6886,4.0
+159742-8-0-14.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold10/159742-8-0-14.wav,,1,SIREN,Urbansound8K,2647,4.0
+54898-8-0-9.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold3/54898-8-0-9.wav,,1,SIREN,Urbansound8K,6777,4.0
+24347-8-0-48.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/24347-8-0-48.wav,,1,SIREN,Urbansound8K,5796,5.0
+91396-8-0-3.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/91396-8-0-3.wav,,1,SIREN,Urbansound8K,8417,5.0
+94636-8-0-6.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold3/94636-8-0-6.wav,,1,SIREN,Urbansound8K,8527,5.0
+159745-8-1-3.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold9/159745-8-1-3.wav,,1,SIREN,Urbansound8K,2675,5.0
+159742-8-0-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold10/159742-8-0-0.wav,,1,SIREN,Urbansound8K,2641,5.0
+164782-8-0-4.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold5/164782-8-0-4.wav,,1,SIREN,Urbansound8K,3061,6.0
+123688-8-2-1.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/123688-8-2-1.wav,,1,SIREN,Urbansound8K,1050,6.0
+159745-8-1-7.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold9/159745-8-1-7.wav,,1,SIREN,Urbansound8K,2679,6.0
+24347-8-0-59.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/24347-8-0-59.wav,,1,SIREN,Urbansound8K,5808,6.0
+74364-8-1-25.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold10/74364-8-1-25.wav,,1,SIREN,Urbansound8K,7730,6.0
+159747-8-0-10.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/159747-8-0-10.wav,,1,SIREN,Urbansound8K,2682,7.0
+42117-8-0-3.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold3/42117-8-0-3.wav,,1,SIREN,Urbansound8K,6417,7.0
+133473-8-0-1.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/133473-8-0-1.wav,,1,SIREN,Urbansound8K,1367,7.0
+24347-8-0-83.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/24347-8-0-83.wav,,1,SIREN,Urbansound8K,5835,7.0
+102871-8-0-2.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/102871-8-0-2.wav,,1,SIREN,Urbansound8K,163,7.0
+148632-8-0-11.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold8/148632-8-0-11.wav,,1,SIREN,Urbansound8K,2024,8.0
+93567-8-0-9.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold10/93567-8-0-9.wav,,1,SIREN,Urbansound8K,8461,8.0
+66996-8-1-0.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/66996-8-1-0.wav,,1,SIREN,Urbansound8K,7297,8.0
+24347-8-0-67.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/24347-8-0-67.wav,,1,SIREN,Urbansound8K,5817,8.0
+158608-8-0-5.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/158608-8-0-5.wav,,1,SIREN,Urbansound8K,2567,8.0
+118279-8-0-2.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold1/118279-8-0-2.wav,,1,SIREN,Urbansound8K,902,9.0
+111671-8-0-4.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold5/111671-8-0-4.wav,,1,SIREN,Urbansound8K,667,9.0
+74364-8-1-23.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold10/74364-8-1-23.wav,,1,SIREN,Urbansound8K,7728,9.0
+94636-8-0-9.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold3/94636-8-0-9.wav,,1,SIREN,Urbansound8K,8530,9.0
+54898-8-0-6.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold3/54898-8-0-6.wav,,1,SIREN,Urbansound8K,6774,9.0
+164782-8-0-2.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold5/164782-8-0-2.wav,,1,SIREN,Urbansound8K,3059,
+93567-8-0-4.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold10/93567-8-0-4.wav,,1,SIREN,Urbansound8K,8456,
+102871-8-0-15.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/102871-8-0-15.wav,,1,SIREN,Urbansound8K,162,
+159747-8-0-2.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold2/159747-8-0-2.wav,,1,SIREN,Urbansound8K,2692,
+22601-8-0-41.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold3/22601-8-0-41.wav,,1,SIREN,Urbansound8K,5623,
+157866-8-0-27.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold9/157866-8-0-27.wav,,1,SIREN,Urbansound8K,2471,
+24347-8-0-18.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/24347-8-0-18.wav,,1,SIREN,Urbansound8K,5763,
+24347-8-0-79.wav,/home/thanh/.cache/kagglehub/datasets/chrisfilo/urbansound8k/versions/1/audio/fold4/24347-8-0-79.wav,,1,SIREN,Urbansound8K,5830,
+thunders07.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-2/thunders07.wav,10000.0,8,THUNDER_STORM,BDLIb2,27,0.0
+1-24524-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-24524-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,126,0.0
+thunders17.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-3/thunders17.wav,10000.0,8,THUNDER_STORM,BDLIb2,63,0.0
+4-165813-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-165813-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,1329,0.0
+1-101296-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-101296-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,4,0.0
+3-124600-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-124600-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,884,1.0
+1-23222-B-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-23222-B-19.wav,5000.0,8,THUNDER_STORM,ESC-50,120,1.0
+thunders04.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/thunders04.wav,10000.0,8,THUNDER_STORM,BDLIb2,4,1.0
+thunders11.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-2/thunders11.wav,10000.0,8,THUNDER_STORM,BDLIb2,24,1.0
+1-24524-B-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-24524-B-19.wav,5000.0,8,THUNDER_STORM,ESC-50,127,1.0
+4-156993-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-156993-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,1287,2.0
+thunders06.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/thunders06.wav,10000.0,8,THUNDER_STORM,BDLIb2,5,2.0
+2-39441-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-39441-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,634,2.0
+2-104105-B-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-104105-B-19.wav,5000.0,8,THUNDER_STORM,ESC-50,425,2.0
+3-144891-B-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-144891-B-19.wav,5000.0,8,THUNDER_STORM,ESC-50,966,2.0
+5-195557-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-195557-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,1715,3.0
+thunders05.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/thunders05.wav,10000.0,8,THUNDER_STORM,BDLIb2,11,3.0
+5-188495-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-188495-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,1689,3.0
+3-144891-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-144891-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,965,3.0
+thunders08.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-2/thunders08.wav,10000.0,8,THUNDER_STORM,BDLIb2,36,3.0
+1-23222-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-23222-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,119,4.0
+5-156999-C-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-156999-C-19.wav,5000.0,8,THUNDER_STORM,ESC-50,1625,4.0
+2-104105-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-104105-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,424,4.0
+4-165813-B-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-165813-B-19.wav,5000.0,8,THUNDER_STORM,ESC-50,1330,4.0
+thunders14.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-3/thunders14.wav,10000.0,8,THUNDER_STORM,BDLIb2,59,4.0
+4-125070-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-125070-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,1224,5.0
+thunders10.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-2/thunders10.wav,10000.0,8,THUNDER_STORM,BDLIb2,40,5.0
+thunders09.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-2/thunders09.wav,10000.0,8,THUNDER_STORM,BDLIb2,30,5.0
+3-123224-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-123224-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,881,5.0
+thunders02.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/thunders02.wav,10000.0,8,THUNDER_STORM,BDLIb2,6,5.0
+thunders15.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-3/thunders15.wav,10000.0,8,THUNDER_STORM,BDLIb2,66,6.0
+2-39945-C-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-39945-C-19.wav,5000.0,8,THUNDER_STORM,ESC-50,639,6.0
+2-39945-B-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-39945-B-19.wav,5000.0,8,THUNDER_STORM,ESC-50,638,6.0
+4-125072-B-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-125072-B-19.wav,5000.0,8,THUNDER_STORM,ESC-50,1227,6.0
+thunders03.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/thunders03.wav,10000.0,8,THUNDER_STORM,BDLIb2,7,6.0
+5-156999-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-156999-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,1623,7.0
+4-161519-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-161519-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,1308,7.0
+1-115521-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-115521-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,16,7.0
+5-192191-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-192191-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,1700,7.0
+3-103050-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-103050-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,809,7.0
+5-156999-E-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-156999-E-19.wav,5000.0,8,THUNDER_STORM,ESC-50,1627,8.0
+1-101296-B-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-101296-B-19.wav,5000.0,8,THUNDER_STORM,ESC-50,5,8.0
+5-156999-B-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-156999-B-19.wav,5000.0,8,THUNDER_STORM,ESC-50,1624,8.0
+3-103051-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-103051-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,810,8.0
+2-39945-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-39945-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,637,8.0
+2-39443-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-39443-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,635,9.0
+thunders12.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-2/thunders12.wav,10000.0,8,THUNDER_STORM,BDLIb2,31,9.0
+thunders01.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-1/thunders01.wav,10000.0,8,THUNDER_STORM,BDLIb2,8,9.0
+2-39443-B-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/2-39443-B-19.wav,5000.0,8,THUNDER_STORM,ESC-50,636,9.0
+1-24524-C-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/1-24524-C-19.wav,5000.0,8,THUNDER_STORM,ESC-50,128,9.0
+3-103051-C-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-103051-C-19.wav,5000.0,8,THUNDER_STORM,ESC-50,812,
+4-125071-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-125071-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,1225,
+thunders13.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-3/thunders13.wav,10000.0,8,THUNDER_STORM,BDLIb2,61,
+thunders18.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-3/thunders18.wav,10000.0,8,THUNDER_STORM,BDLIb2,52,
+3-103051-B-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/3-103051-B-19.wav,5000.0,8,THUNDER_STORM,ESC-50,811,
+5-156999-D-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/5-156999-D-19.wav,5000.0,8,THUNDER_STORM,ESC-50,1626,
+4-125072-A-19.wav,/home/thanh/.cache/kagglehub/datasets/mmoreaux/environmental-sound-classification-50/versions/15/audio/audio/4-125072-A-19.wav,5000.0,8,THUNDER_STORM,ESC-50,1226,
+thunders16.wav,/home/thanh/.cache/datasets/bdlib2/BDLib2/fold-3/thunders16.wav,10000.0,8,THUNDER_STORM,BDLIb2,64,
