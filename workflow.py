@@ -33,7 +33,7 @@ from logging_cfg import get_logger
 l = get_logger(__name__)
 
 TRAVIS_SCOTT = tf.data.AUTOTUNE
-IS_TRAIN = false
+IS_TRAIN = False
 
 def workflow():
     """
