@@ -54,8 +54,8 @@ def main():
             max_index = tf.argmax(tensor_values)
 
             # Save the score
-            scores.append(float(max_score.numpy()))
-            class_indices.append(int(max_index).numpy())
+            scores.append(float(max_score))
+            class_indices.append(int(max_index))
             
         except Exception as e:
             print(f"Error processing {row[C.DF_PATH_COL]}: {e}")
