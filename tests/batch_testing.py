@@ -55,7 +55,7 @@ def main():
 
             # Save the score
             scores.append(float(max_score))
-            class_indices.append(int(max_index))
+            class_indices.append(int(max_index) + 1)
             
         except Exception as e:
             print(f"Error processing {row[C.DF_PATH_COL]}: {e}")
