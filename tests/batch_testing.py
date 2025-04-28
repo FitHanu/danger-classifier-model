@@ -26,7 +26,7 @@ def inference(model, wav_data):
 
 def main():
     dataset = pd.read_csv(C.FILTERED_AUG_FOLDED_META_CSV)
-    test_fold = dataset[dataset[C.DF_FOLD_COL] == 9]
+    test_fold = dataset[dataset[C.DF_FOLD_COL] == 9].copy()
     
     saved_model_path = os.path.join(C.MODELS_PATH, "yamnet_tweaked")
     reloaded_model = tf.saved_model.load(saved_model_path)
@@ -63,8 +63,8 @@ def main():
             class_indices.append(None)
 
     # Add the scores back into the dataframe
-    test_fold["test_score"] = scores
-    test_fold["test_index"] = class_indices
+    test_fold.loc[:, "test_score"] = scores
+    test_fold.loc[:, "test_index"] = class_indices
 
     # Optional: save updated dataframe to CSV
     test_fold.to_csv(os.path.join(CURRENT_SCRIPT_DIR, "results", "inference_results.csv"), index=False)
