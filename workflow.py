@@ -33,6 +33,7 @@ from logging_cfg import get_logger
 l = get_logger(__name__)
 
 TRAVIS_SCOTT = tf.data.AUTOTUNE
+IS_TRAIN = false
 
 def workflow():
     """
@@ -288,6 +289,9 @@ def get_args():
     parser.add_argument(
         "--clean-cache", help="Clean cached dataset processes", action="store_true"
     )
+    parser.add_argument(
+        "--train", help="Do training, else process data only", action="store_true"
+    )
     return parser.parse_args()
 
 
@@ -354,6 +358,8 @@ def test():
 
 if __name__ == "__main__":
     args = get_args()
+    if args.train == True:
+        IS_TRAIN == True
     if args.clean_cache == True:
         from utils.file_utils import clean_user_cache_dir
         l.info("Cleaning user cache dir ...")

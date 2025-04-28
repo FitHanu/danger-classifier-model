@@ -4,6 +4,23 @@ import numpy as np
 import tensorflow as tf
 from wav_utils import load_wav_16k_mono_3
 
+
+
+def inference(model, wav_data):
+    """
+    Perform inference on the given model with the provided wav data.
+    
+    Args:
+        model: The loaded TensorFlow model.
+        wav_data: The input wav data for inference.
+        
+    Returns:
+        The output of the model.
+    """
+    infer = model.signatures["serving_default"]
+    result = infer(wav_data)
+    return result
+
 def main():
     saved_model_path = os.path.join(C.MODELS_PATH, "yamnet_tweaked")
     reloaded_model = tf.saved_model.load(saved_model_path)

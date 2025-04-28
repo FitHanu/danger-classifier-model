@@ -29,16 +29,17 @@ class InvalidArgument(Exception):
 
 class KnownWavFormat:
     """
-        #WAVE_FORMAT_GSM610 - 49
-        #WAVE_FORMAT_PCM - 1
+        #WAVE_FORMAT_GSM610     - 49
+        #WAVE_FORMAT_PCM        - 1
         #WAVE_FORMAT_EXTENSIBLE - 65534
-        #WAVE_IEEE_FLOAT - 3
+        #WAVE_IEEE_FLOAT        - 3
     """
     WAVE_FORMAT_GSM610 = 0x0031
     WAVE_FORMAT_PCM = 0x0001
     WAVE_FORMAT_EXTENSIBLE = 0xFFFE
     WAVE_IEEE_FLOAT = 0x0003
     WAVE_UNKNOWN = -1
+
     as_set = {
             WAVE_FORMAT_GSM610: "WAVE_FORMAT_GSM610",
             WAVE_FORMAT_PCM: "WAVE_FORMAT_PCM",
@@ -100,7 +101,6 @@ def convert_to_pcm_replace_ffmpeg(input_file:str) -> None:
         for message in sussy_message:
             if message in result.stderr:
                 l.warning(f"Error might be occurred while processing file {input_file}, error: \n {result.stderr}")
-                break
 
         # Replace original file
         os.replace(temp_file, input_file)
