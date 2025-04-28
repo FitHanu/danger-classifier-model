@@ -54,7 +54,7 @@ def main():
             max_index = tf.argmax(tensor_values)
 
             # Save the score
-            scores.append(max_score)
+            scores.append(max_score.numpy())
             class_indices.append(max_index)
             
         except Exception as e:
@@ -65,8 +65,10 @@ def main():
     # Add the scores back into the dataframe
     test_fold.loc[:, "test_score"] = scores
     test_fold.loc[:, "test_index"] = class_indices
+    
 
     # Optional: save updated dataframe to CSV
+    os.makedirs(os.path.join(CURRENT_SCRIPT_DIR, "results"), exist_ok=True)
     test_fold.to_csv(os.path.join(CURRENT_SCRIPT_DIR, "results", "inference_results.csv"), index=False)
     print("Inference completed. Results saved to inference_results.csv")
 
