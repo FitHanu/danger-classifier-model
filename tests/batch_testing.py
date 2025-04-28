@@ -6,7 +6,7 @@ from wav_utils import load_wav_16k_mono_3
 from pathlib import Path
 
 
-CURRENT_SCRIPT_DIR = Path(__file__).parent
+CURRENT_SCRIPT_DIR = Path(__file__).resolve().parent
 
 def inference(model, wav_data):
     """
