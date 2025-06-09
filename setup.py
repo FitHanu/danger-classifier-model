@@ -80,7 +80,7 @@ def validate_packages(package_names):
     for package in package_names:
         try:
             importlib.import_module(package)
-            l.info(f"✅ {package} is available.")
+            l.info(   f"✅ {package} is available.")
         except ImportError:
             l.warning(f"❌ {package} is missing or failed to install.")
             

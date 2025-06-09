@@ -1,11 +1,11 @@
-Hello, World!<2025-04-28 20:35:39,474> <INFO    > <setup>: Arguments:
-<2025-04-28 20:35:39,474> <INFO    > <setup>: env_strategy: pip
-<2025-04-28 20:35:39,474> <INFO    > <setup>: Setting up project ...
-<2025-04-28 20:35:39,474> <INFO    > <setup>: Running: Installing requirements
-<2025-04-28 20:35:40,672> <INFO    > <setup>: Successfully installed dependencies from requirements.txt
-<2025-04-28 20:35:40,672> <INFO    > <setup>: Running: Appending project paths to /home/thanh/projects/danger-classifier-model/.venv/lib/python3.12/site-packages
-<2025-04-28 20:35:40,673> <INFO    > <setup>: Running: Initialize default paritioning config
-<2025-04-28 20:35:40,674> <WARNING > <setup>: Overwrite is set to off but "partition" key is already exists. Skipping ...
-<2025-04-28 20:35:40,675> <INFO    > <setup>: Running: Validating packages ...
-<2025-04-28 20:35:41,394> <INFO    > <setup>: ✅ ds.dataset is available.
-<2025-04-28 20:35:41,394> <INFO    > <setup>: ✅ utils.json_utils is available.
+Hello, World!<2025-06-09 08:44:58,641> <INFO    > <workflow>: Creating empty dataset directory to /workspaces/danger-classifier-model/dataset
+<2025-06-09 08:44:58,647> <INFO    > <json_utils>: default class names written to config.class_mapping.default
+<2025-06-09 08:44:58,650> <INFO    > <workflow>: Filtering & mapping class names for esc50
+<2025-06-09 08:44:58,650> <INFO    > <json_utils>: Writing config to /workspaces/danger-classifier-model/config.json, Overiding: False
+<2025-06-09 08:44:58,650> <WARNING > <json_utils>: Overwrite is set to off but esc50 is already exists. Skipping ...
+<2025-06-09 08:44:59,137> <DEBUG   > <connectionpool>: Starting new HTTPS connection (1): www.kaggle.com:443
+<2025-06-09 08:44:59,555> <DEBUG   > <connectionpool>: https://www.kaggle.com:443 "GET /api/v1/datasets/view/mmoreaux/environmental-sound-classification-50 HTTP/1.1" 200 None
+<2025-06-09 08:44:59,577> <DEBUG   > <connectionpool>: Starting new HTTPS connection (1): www.kaggle.com:443
+<2025-06-09 08:44:59,889> <DEBUG   > <connectionpool>: https://www.kaggle.com:443 "GET /api/v1/datasets/download/mmoreaux/environmental-sound-classification-50?dataset_version_number=15 HTTP/1.1" 302 0
+<2025-06-09 08:44:59,892> <DEBUG   > <connectionpool>: Starting new HTTPS connection (1): storage.googleapis.com:443
+<2025-06-09 08:45:00,328> <DEBUG   > <connectionpool>: https://storage.googleapis.com:443 "GET /kaggle-data-sets/3151/142598/bundle/archive.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20250609%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250609T084459Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=dcc211f16d1ad3f8e89fd40dba4ff63a4c9cc8ad177539d7eee880f1932a78a3f4f317132780bb18c0d3abfe5120e158bd2ff3335cab2215c2c8187f6895ff342b30ee51743479165cf5c900da06ba0e20a5d46f2621bc9acbbe8a14f1747510773642441519432a9dc0ef632adf6a2c1e98a87741c2576b90f17c2610bd12735fe1322eb8681ed098479ed63aef7273e4dae8fc9ff8b21c5a498cc584fe3d7318dc4404fad909763041f38c71c829f64a7a88a9f516be17dc47c0814f2776146767d0b398b30e7c092cd4108c6d18b669319e2ebacf747a8f1b7470fff5a8b508a2dcbf1743c144d875970577260ddec8b8b20dc044ec952da4b1856fe6be1f HTTP/1.1" 200 1528150051

@@ -1,6 +1,6 @@
 ## Enviroment (Conda based)
 
-+ Python 3.12.9 (dev) 3.11.11 (op)
++ Python 3.12.9 (dev) 3.11.11 (train-colab)
 + Target OS: Linux (No support for windows)
 + Operate: Ubuntu 22.04.4 LTS x86_64 (Google colab Q1 2025)
 + Develop: Debian GNU/Linux 12 x86_64

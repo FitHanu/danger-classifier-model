@@ -190,7 +190,7 @@ def workflow():
         loss=tf.keras.losses.CategoricalCrossentropy(), # For vectorized labels
         optimizer="adamax",
         metrics=[
-            keras.metrics.Precision(name="precision"),  
+            keras.metrics.Precision(name="precision"),
             keras.metrics.Recall(name="recall"),
             f1_score
         ]
@@ -214,15 +214,15 @@ def workflow():
     
     results = yamnet_tweaked.evaluate(test_ds, return_dict=True)
     
-    loss = results['loss']
+    loss      = results['loss']
     precision = results['precision']
-    recall = results['recall']
-    f1 = results['f1_score']
+    recall    = results['recall']
+    f1        = results['f1_score']
     
-    l.info(f"Final Loss: {loss}")
+    l.info(f"Final Loss:      {loss}")
     l.info(f"Final Precision: {precision}")
-    l.info(f"Final Recall: {recall}")
-    l.info(f"Final F1 Score: {f1}")
+    l.info(f"Final Recall:    {recall}")
+    l.info(f"Final F1 Score:  {f1}")
 
     saved_model_path = os.path.join(C.MODELS_PATH, "yamnet_tweaked")
     tflite_model_path = os.path.join(C.MODELS_PATH, "yamnet_tweaked.tflite")
@@ -257,10 +257,16 @@ def workflow():
 
         def call(self, input):
             return tf.math.reduce_mean(input, axis=self.axis)
-    serving_outputs = ReduceMeanLayer(axis=0, name='classifier')(serving_outputs)
+        
+    # Reduce mean to get shape (20,)
+    reduced = ReduceMeanLayer(axis=0, name='classifier')(serving_outputs)
+
+    # Reshape to match AudioClassifier requirements: (1, 20)
+    reshaped = tf.keras.layers.Reshape((1, 20), name='reshape_to_2D')(reduced)
+
+    # Final model
+    serving_model = tf.keras.Model(input_segment, reshaped)
     
-    # Specify input_segment as the start layer of the sequential
-    serving_model = tf.keras.Model(input_segment, serving_outputs)
     l.info(f"Model summary:")
     serving_model.summary()
     l.info(f"Saving model...")
