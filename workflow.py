@@ -18,7 +18,8 @@ from utils.csv_utils import (get_classes_ordinal_from_config, read_csv_as_datafr
                             get_classes_from_config)
 from utils.dframe_utils import (NUMBER_OF_CLASSES, plot_classname_distribution,
                                 copy_update_dataset_file,
-                                to_tensor_ds_embedding_extracted)
+                                to_tensor_ds_embedding_extracted,
+                                count_dataset_size)
 from utils.wav_utils import (convert_pcm_pd_row,
                             convert_pcm_pd_row_2,
                             validate_wav_pd_row)
@@ -146,8 +147,6 @@ def workflow():
     
     
     # Batching and shuffling
-    def count_dataset_size(dataset):
-        return sum(1 for _ in dataset)
     dataset_size = count_dataset_size(train_ds)
     
     train_ds = train_ds.map(lambda x, y: (tf.ensure_shape(x, (1024, )), tf.ensure_shape(y, (NUMBER_OF_CLASSES, ))))

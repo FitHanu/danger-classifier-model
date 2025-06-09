@@ -196,6 +196,10 @@ def encode_label(embedding, label):
 def encode_label_tf(embedding, label):
     return tf.py_function(func=encode_label, inp=[embedding, label], Tout=(tf.float32, tf.float32))
 
+def count_dataset_size(dataset: tf.data.Dataset) -> int:
+    return sum(1 for _ in dataset)
+
+
 def main():
     point_map = {
         "alarm": "ALARM_bdlib2_1.wav",
