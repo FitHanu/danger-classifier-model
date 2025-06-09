@@ -252,20 +252,17 @@ def workflow():
         # Define the final final layer
     class ReduceMeanLayer(tf.keras.layers.Layer):
         def __init__(self, axis=0, **kwargs):
-            super(ReduceMeanLayer, self).__init__(**kwargs)
+            super().__init__(**kwargs)
             self.axis = axis
 
         def call(self, input):
-            return tf.math.reduce_mean(input, axis=self.axis)
+            return tf.math.reduce_mean(input, axis=self.axis, keepdims=True)
         
     # Reduce mean to get shape (20,)
     reduced = ReduceMeanLayer(axis=0, name='classifier')(serving_outputs)
 
-    # Reshape to match AudioClassifier requirements: (1, 20)
-    reshaped = tf.keras.layers.Reshape((1, 20), name='reshape_to_2D')(reduced)
-
     # Final model
-    serving_model = tf.keras.Model(input_segment, reshaped)
+    serving_model = tf.keras.Model(input_segment, reduced)
     
     l.info(f"Model summary:")
     serving_model.summary()
