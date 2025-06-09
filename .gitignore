@@ -1,3 +1,5 @@
+## COPY FROM https://github.com/github/gitignore/blob/main/Python.gitignore ##
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -172,3 +174,13 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+## END COPY ##
+
+# Project specifics
+test.py
+test/test.py
+# ds/meta/*
+logs/*
+plots/*
+missing_files.csv
