@@ -86,10 +86,13 @@ def convert_to_pcm_replace_ffmpeg(input_file:str) -> None:
     ]
     # FFmpeg command to convert to PCM (signed 16-bit little-endian)
     command = [
-        "ffmpeg", "-y",  # Overwrite existing file
-        "-i", input_file,  # Input file
+        "ffmpeg",
+        "-y",                    # Overwrite existing file
+        "-i", input_file,        # Input file
         "-acodec", "pcm_s16le",  # Convert to PCM 16-bit
-        temp_file  # Output temporary file
+        "-ar", "16000",          # optional: target sample rate
+        "-ac", "1",              # optional: mono
+        temp_file                # Output temporary file
     ]
 
     try:
@@ -124,9 +127,9 @@ def convert_to_pcm_replace_sox(input_file: str) -> None:
         "sox",
         input_file,
         "-e", "signed-integer",
-        "-b", "16", # bit depth
-        # "-c", "1", # chanel
-        # "-r", "44100", # sample rate
+        "-b", "16",             # bit depth
+        "-c", "1",              # chanel
+        "-r", "16000",          # sample rate
         temp_file, 
     ]
 
@@ -263,6 +266,29 @@ def get_wave_format(file_path: str) -> KnownWavFormat:
         l.error(f"Error validating WAV file: {file_path}, error: {e}")
         return KnownWavFormat.WAVE_UNKNOWN
 
+
+def get_wave_bit_depth(file_path: str) -> int:
+    """Read the bit depth (bits per sample) of a WAV file."""
+    try:
+        with open(file_path, "rb") as f:
+            f.seek(34)  # BitsPerSample is at byte offset 34
+            bits_per_sample = struct.unpack("<H", f.read(2))[0]
+            return bits_per_sample
+    except Exception as e:
+        l.error(f"Error reading bit depth for file {file_path}: {e}")
+        return -1
+
+
+def get_wav_bit_depth_sox(file_path: str) -> int:
+    try:
+        result = subprocess.run(['sox', '--i', '-b', file_path],
+                                stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        return int(result.stdout.strip())
+    except Exception as e:
+        l.error(f"Failed to get bit depth via sox: {e}")
+        return -1
+
+
 def validate_wav_pcm_format(file_path) -> bool:
     """_summary_
     Return False if the file is not in PCM format.
@@ -273,8 +299,15 @@ def validate_wav_pcm_format(file_path) -> bool:
         bool: _description_
     """
     try:
+        # Validate bit depth
+        if get_wave_bit_depth(file_path) != 16:
+            l.warning(f"File {file_path} is not in 16-bit PCM format.")
+            return False
+        
+        # Validate bit depth
         if get_wave_format(file_path) != KnownWavFormat.WAVE_FORMAT_PCM:
             return False
+
     except Exception as e:
         l.warning(f"Error occur when validating WAV file: {file_path}, error: {e}")
         return False
@@ -282,12 +315,12 @@ def validate_wav_pcm_format(file_path) -> bool:
 
 
     
-def convert_pcm_pd_row(row: pd.Series) -> None:
+def convert_pcm_16_ffmpeg_pd_row(row: pd.Series) -> None:
     file_path = row[C.DF_PATH_COL]
     if not validate_wav_pcm_format(file_path):
         convert_to_pcm_replace_ffmpeg(file_path)
 
-def convert_pcm_pd_row_2(row: pd.Series) -> None:
+def convert_pcm_16_sox_pd_row(row: pd.Series) -> None:
     file_path = row[C.DF_PATH_COL]
     if not validate_wav_pcm_format(file_path):
         convert_to_pcm_replace_sox(file_path)
