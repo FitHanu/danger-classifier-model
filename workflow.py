@@ -91,8 +91,8 @@ def workflow():
             os.path.join(C.PROJECT_ROOT,"missing_files.csv"),  index=False
         )
 
-    # l.info(f"1st. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using ffmpeg...")
-    # main_df.apply(convert_pcm_pd_row, axis=1)
+    l.info(f"1st. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using ffmpeg...")
+    main_df.apply(convert_pcm_pd_row, axis=1)
 
     l.info(f"2nd. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using sox...")
     main_df.apply(convert_pcm_pd_row_2, axis=1)
