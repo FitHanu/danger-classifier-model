@@ -288,7 +288,7 @@ def convert_pcm_pd_row(row: pd.Series) -> None:
         convert_to_pcm_replace_ffmpeg(file_path)
 
 def convert_pcm_pd_row_2(row: pd.Series) -> None:
-    file_path = row[C.DF_PATH_COL] 
+    file_path = row[C.DF_PATH_COL]
     if not validate_wav_pcm_format(file_path):
         convert_to_pcm_replace_sox(file_path)
 

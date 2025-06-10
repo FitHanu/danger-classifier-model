@@ -97,6 +97,9 @@ def workflow():
     l.info(f"2nd. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using sox...")
     main_df.apply(convert_pcm_pd_row_2, axis=1)
 
+    l.info(f"3rd. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using ffmpeg...")
+    main_df.apply(convert_pcm_pd_row, axis=1)
+
     # Filter invalid WAV files (not PCM)
     false_files = main_df[~main_df.apply(validate_wav_pd_row, axis=1)]
     
