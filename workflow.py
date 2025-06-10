@@ -189,7 +189,7 @@ def workflow():
         # # raw scores (logits) instead of probabilities (if the final layer doesn’t have softmax).
         # loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
         # loss=tf.keras.losses.SparseCategoricalCrossentropy(), # For non vectorized labels
-        loss=tf.keras.losses.CategoricalCrossentropy(), # For vectorized labels
+        loss=tf.keras.losses.CategoricalCrossentropy(label_smoothing=0.1), # For vectorized labels #TODO: FINDOUT WHY
         optimizer="adamax",
         metrics=[
             keras.metrics.Precision(name="precision"),
