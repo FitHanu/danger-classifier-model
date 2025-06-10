@@ -301,7 +301,7 @@ def validate_wav_pcm_format(file_path) -> bool:
     try:
         # Validate bit depth
         if get_wave_bit_depth(file_path) != 16:
-            l.warning(f"File {file_path} is not in 16-bit PCM format.")
+            l.warning(f"File {file_path} bit depth is not 16")
             return False
         
         # Validate bit depth
@@ -324,7 +324,16 @@ def convert_pcm_16_sox_pd_row(row: pd.Series) -> None:
     file_path = row[C.DF_PATH_COL]
     if not validate_wav_pcm_format(file_path):
         convert_to_pcm_replace_sox(file_path)
+        
+def force_convert_sox_pd_row(row: pd.Series) -> None:
+    file_path = row[C.DF_PATH_COL]
+    convert_to_pcm_replace_sox(file_path)
 
+
+def force_convert_ffmpeg_pd_row(row: pd.Series) -> None:
+    file_path = row[C.DF_PATH_COL]
+    convert_to_pcm_replace_ffmpeg(file_path)    
+    
 def validate_wav_pd_row(row: pd.Series) -> bool:
     try:
         return validate_wav_pcm_format(row[C.DF_PATH_COL])
