@@ -35,12 +35,47 @@ from ds.gad import GAD
 from logging_cfg import get_logger
 l = get_logger(__name__)
 
+# Params
+USE_PROCESSED_DATASET = False
+FORCE_WAV_CONVERTING  = False # If True, convert to correct .wav format ignoring check (SLOW)
+
+# Globe vars
 TRAVIS_SCOTT = tf.data.AUTOTUNE
-IS_TRAIN = False
 
 def workflow():
     """
     Main procedure
+    """
+    
+    global USE_PROCESSED_DATASET
+    
+    # Handle dataset processing
+    
+    if USE_PROCESSED_DATASET:
+        ds_ts = get_cached_dataset()
+    else:
+        ds_ts = process_dataset()
+    # Handle training
+    train(ds_ts)
+
+
+def get_cached_dataset() -> tf.data.Dataset:
+    """
+    Get cached dataset from the filtered augmented dataset csv file
+    """
+    l.info(f"Reading filtered augmented dataset from {C.FILTERED_AUG_FOLDED_META_CSV}")
+    df = read_csv_as_dataframe(C.FILTERED_AUG_FOLDED_META_CSV)
+    
+    # Convert to tensor dataset
+    ds_ts = to_tensor_ds_embedding_extracted(df)
+    
+    l.info(f"Dataset shape: {df.shape}")
+    return ds_ts
+
+def process_dataset() -> tf.data.Dataset:
+    
+    """
+    dataset processing workflow
     """
     datasets_registry = [
         ESC50(),
@@ -93,11 +128,15 @@ def workflow():
             os.path.join(C.PROJECT_ROOT,"missing_files.csv"),  index=False
         )
 
-    l.info(f"1st. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using ffmpeg...")
-    main_df.apply(force_convert_ffmpeg_pd_row, axis=1)
-
-    l.info(f"2nd. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using sox...")
-    main_df.apply(force_convert_sox_pd_row, axis=1)
+    if FORCE_WAV_CONVERTING:
+        l.info(f"1st. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using ffmpeg...")
+        main_df.apply(force_convert_sox_pd_row, axis=1)
+    else:
+        l.info(f"1st. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using ffmpeg...")
+        main_df.apply(convert_pcm_16_ffmpeg_pd_row, axis=1)
+        
+        l.info(f"2nd. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using sox...")
+        main_df.apply(convert_pcm_16_sox_pd_row, axis=1)
 
     # l.info(f"3rd. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using ffmpeg...")
     # main_df.apply(convert_pcm_16_ffmpeg_pd_row, axis=1)
@@ -129,7 +168,11 @@ def workflow():
     aug_k_df.to_csv(final_meta, index=False)
     ds_ts = to_tensor_ds_embedding_extracted(aug_k_df)
     
+    return ds_ts
     
+
+
+def train(ds_ts: tf.data.Dataset) -> None:
     # Filter train, val, test by fold label
     cached_ds = ds_ts.cache()
     train_ds = cached_ds.filter(lambda embedding, class_name, fold: fold < 8)
@@ -284,8 +327,6 @@ def workflow():
     with open(tflite_model_path, 'wb') as f:
         f.write(tflite_model)
 
-
-
 def get_args():
     """
     Get arguments
@@ -294,84 +335,38 @@ def get_args():
 
     parser = argparse.ArgumentParser(description="Workflow")
     parser.add_argument(
-        "--clean-cache", help="Clean cached dataset processes", action="store_true"
+        "--clean_cache",
+        help="Clean cached dataset processes",
+        action="store_true"
     )
     parser.add_argument(
-        "--train", help="Do training, else process data only", action="store_true"
+        "--use_processed",
+        help="Use the filtered augmented dataset in ./dataset",
+        action="store_true"
+    )
+    parser.add_argument(
+        "--force_wav_convert",
+        help="Convert to correct .wav format ignoring check (SLOW)",
+        action="store_true"
     )
     return parser.parse_args()
 
-
-def test():
-    pth = os.path.join(PROJECT_ROOT, "dataset", "merged.augmented.folded.csv")
-    ds = pd.read_csv(pth)
-    ds_ts = to_tensor_ds_embedding_extracted(ds)
-    
-    def count_dataset_size(dataset):
-        return sum(1 for _ in dataset)
-    
-    dataset_size = count_dataset_size(ds_ts)
-
-    print("Sample after embedding extracted: ")
-    for x, y, z in ds_ts.shuffle(min(1000, dataset_size)).cache().take(1):
-        print(x.shape, y.shape, z.shape)
-        print(x)
-        print(y)
-    
-    cached_ds = ds_ts.cache()
-    train_ds = cached_ds.filter(lambda embedding, class_name, fold: fold < 8)
-    val_ds = cached_ds.filter(lambda embedding, class_name, fold: fold == 8)
-    test_ds = cached_ds.filter(lambda embedding, class_name, fold: fold == 9)
-    
-    # Remove fold column
-    remove_fold_column = lambda embedding, class_name, fold: (embedding, class_name)
-    train_ds = train_ds.map(remove_fold_column)
-    val_ds = val_ds.map(remove_fold_column)
-    test_ds = test_ds.map(remove_fold_column)
-    
-    print("Sample after remove fold: ")
-    for x, y in train_ds.shuffle(min(1000, dataset_size)).cache().take(1):
-        print(x.shape, y.shape)
-        print(x)
-        print(y)
-    
-    from dframe_utils import encode_label_tf
-    train_ds = train_ds.map(encode_label_tf, num_parallel_calls=TRAVIS_SCOTT)
-    val_ds = val_ds.map(encode_label_tf, num_parallel_calls=TRAVIS_SCOTT)
-    test_ds = test_ds.map(encode_label_tf, num_parallel_calls=TRAVIS_SCOTT)
-
-
-    print(f"Dataset size: {dataset_size}")
-    print("Sample after one hot encoding: ")
-    for x, y in train_ds.shuffle(min(1000, dataset_size)).cache().take(1):
-        print(x.shape, y.shape)
-        print(x)
-        print(y)
-        
-    train_ds = train_ds.map(lambda x, y: (tf.ensure_shape(x, (1024, )), tf.ensure_shape(y, (NUMBER_OF_CLASSES, ))))
-    val_ds = val_ds.map(lambda x, y: (tf.ensure_shape(x, (1024, )), tf.ensure_shape(y, (NUMBER_OF_CLASSES, ))))
-    test_ds = test_ds.map(lambda x, y: (tf.ensure_shape(x, (1024, )), tf.ensure_shape(y, (NUMBER_OF_CLASSES, ))))
-
-    BATCH_SIZE = 16
-    train_ds = train_ds.shuffle(min(1000, dataset_size)).cache().batch(BATCH_SIZE).prefetch(TRAVIS_SCOTT)
-    val_ds = val_ds.batch(BATCH_SIZE).cache().prefetch(TRAVIS_SCOTT)
-    test_ds = test_ds.batch(BATCH_SIZE).cache().prefetch(TRAVIS_SCOTT)
-    
-    print("Sample after batching and shuffling: ")
-    for x, y in train_ds.take(1):
-        print(x.shape, y.shape)
-        print(x)
-        print(y)
-
 if __name__ == "__main__":
     args = get_args()
-    if args.train == True:
-        IS_TRAIN == True
     if args.clean_cache == True:
         from utils.file_utils import clean_user_cache_dir
         l.info("Cleaning user cache dir ...")
         c_dir = clean_user_cache_dir()
         l.info(f"Contents in {c_dir} has been cleaned.")
+
+    if args.use_processed:
+        l.info("Using processed dataset, skipping dataset processing...")
+        USE_PROCESSED_DATASET = True
+
+    if args.force_wav_convert:
+        l.info("Forcing .wav conversion, ignoring check...")
+        FORCE_WAV_CONVERTING = True
+
     try:
         workflow()
     except Exception as e:
@@ -379,5 +374,3 @@ if __name__ == "__main__":
         l.error(f"{traceback.print_exc()}")
         l.info(f"Exiting with code 1, full log saved to {C.LOG_PATH}")
         exit(1)
-    # test()
-
