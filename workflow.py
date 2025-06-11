@@ -79,9 +79,9 @@ def process_dataset() -> tf.data.Dataset:
     """
     datasets_registry = [
         ESC50(),
-        GAD(),
-        UrbanSound8K(),
-        BDLib2(),
+        # GAD(),
+        # UrbanSound8K(),
+        # BDLib2(),
     ]
 
     # Init paths, Default class names
@@ -128,15 +128,14 @@ def process_dataset() -> tf.data.Dataset:
             os.path.join(C.PROJECT_ROOT,"missing_files.csv"),  index=False
         )
 
-    if FORCE_WAV_CONVERTING:
-        l.info(f"1st. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using ffmpeg...")
-        main_df.apply(force_convert_sox_pd_row, axis=1)
-    else:
+    if not FORCE_WAV_CONVERTING:
         l.info(f"1st. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using ffmpeg...")
         main_df.apply(convert_pcm_16_ffmpeg_pd_row, axis=1)
         
         l.info(f"2nd. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using sox...")
         main_df.apply(convert_pcm_16_sox_pd_row, axis=1)
+
+
 
     # l.info(f"3rd. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using ffmpeg...")
     # main_df.apply(convert_pcm_16_ffmpeg_pd_row, axis=1)
@@ -160,6 +159,10 @@ def process_dataset() -> tf.data.Dataset:
 
     # Split
     aug_k_df = split_tdt(main_df, cfg)
+    
+    if FORCE_WAV_CONVERTING:
+        l.info(f"Force converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using sox...")
+        aug_k_df.apply(force_convert_sox_pd_row, axis=1)
     
     
     # Save augmented dataframe to .csv
@@ -243,14 +246,21 @@ def train(ds_ts: tf.data.Dataset) -> None:
         ]
     )
 
-    callback = tf.keras.callbacks.EarlyStopping(monitor='loss',
+    early_stop = tf.keras.callbacks.EarlyStopping(monitor='loss',
                                                 patience=4,
                                                 restore_best_weights=True)
+    reduce_lr = tf.keras.callbacks.ReduceLROnPlateau(
+                                                monitor='val_loss',
+                                                factor=0.5,
+                                                patience=2)
 
     history = yamnet_tweaked.fit(train_ds,
                         epochs=200,
                         validation_data=val_ds,
-                        callbacks=callback)
+                        callbacks=[
+                            early_stop,
+                            reduce_lr
+                        ])
     
     # Save training history to log directory
     history_log_path = os.path.join(C.LOG_PATH, "training_history.txt")
