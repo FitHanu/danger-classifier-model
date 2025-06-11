@@ -381,7 +381,7 @@ def train(ds_ts: tf.data.Dataset) -> None:
     def serving_fn(waveform):
         waveform = tf.expand_dims(waveform, 0)
         result = serving_model(waveform)
-        return tf.squeeze(result, 0)
+        return result
 
     concrete_fn = serving_fn.get_concrete_function(
         tf.TensorSpec(shape=[15600], dtype=tf.float32, name='waveform_binary')
