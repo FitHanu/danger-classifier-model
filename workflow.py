@@ -50,6 +50,7 @@ l = get_logger(__name__)
 USE_PROCESSED_DATASET = False
 FORCE_WAV_CONVERTING  = False # If True, convert to correct .wav format ignoring check (SLOW)
 PROCESS_DATA_ONLY     = False
+TFLITE_MODEL_OPTIMIZE = False # If True, optimize the exported TFLite model
 
 # Globe vars
 TRAVIS_SCOTT = tf.data.AUTOTUNE
@@ -303,47 +304,44 @@ def train(ds_ts: tf.data.Dataset) -> None:
     l.info(f"Final Recall:    {recall}")
     l.info(f"Final F1 Score:  {f1}")
 
-    saved_model_path  = os.path.join(C.MODELS_PATH,
+    the_model_path    = os.path.join(C.MODELS_PATH,
                                      get_formated_date_as_string(),
-                                     C.MODELS_PATH,
+                                     C.MODELS_PATH)
+    
+    os.makedirs(the_model_path, exist_ok=True)
+    
+    saved_model_path  = os.path.join(the_model_path,
                                      "yamnet_tweaked")
-    tflite_model_path = os.path.join(C.MODELS_PATH,
-                                     get_formated_date_as_string(),
-                                     C.MODELS_PATH,
+    
+    tflite_model_path = os.path.join(the_model_path,
                                      "yamnet_tweaked.tflite")
     
     os.makedirs(saved_model_path, exist_ok=True)
-    # Define final model
     
+    # Define final model
+
     # 1st layer: input
     # Original YAMNet expects 15600 samples 
     input_segment = tf.keras.layers.Input(shape=(15600,),
-                                          dtype=tf.float32,
-                                          batch_size=None,
-                                          name='waveform_binary')
-    
+                                        dtype=tf.float32,
+                                        batch_size=None,
+                                        name='waveform_binary')
+
     # 2nd layer: yamnet_embedding_extraction
     embedding_extraction_layer = hub.KerasLayer(C.YAMNET_MODEL_URL,
                                                 trainable=False,
                                                 name='yamnet_embedding_extraction')
     class EmbeddingExtractionLayer(tf.keras.Layer):
         def call(self, inputs):
-        #     embeddings = tf.map_fn(
-        #         lambda frame: embedding_extraction_layer(tf.squeeze(frame)),
-        #         inputs,
-        #         dtype=tf.float32
-        #     )
-        #     return embeddings
             _, embeddings, _ = embedding_extraction_layer(tf.squeeze(inputs))
             return embeddings
-    
+
     embeddings_output = EmbeddingExtractionLayer()(input_segment)
-    
+
     # 3rd layer: yamnet_tweaked - on top of 2nd layer
     serving_outputs = yamnet_tweaked(embeddings_output)
-    
+
     # 4th layer: ReduceMeanLayer - on top of 3rd layer
-        # Define the final final layer
     class ReduceMeanLayer(tf.keras.layers.Layer):
         def __init__(self, axis=0, **kwargs):
             super().__init__(**kwargs)
@@ -357,30 +355,60 @@ def train(ds_ts: tf.data.Dataset) -> None:
 
     # Final model
     serving_model = tf.keras.Model(input_segment, reduced)
-    
+
     l.info(f"Model summary:")
     serving_model.summary()
+
+    # Create a concrete function with specific input signature
+    @tf.function
+    def serving_fn(waveform):
+        # waveform should have shape (15600,)
+        waveform = tf.expand_dims(waveform, 0)  # Add batch dim for processing
+        result = serving_model(waveform)
+        return tf.squeeze(result, 0)  # Remove batch dim from output
+
+    # Get concrete function
+    concrete_fn = serving_fn.get_concrete_function(
+        tf.TensorSpec(shape=[15600], dtype=tf.float32, name='waveform_binary')
+    )
+
+    # Save with specific signature
     l.info(f"Saving model...")
-    serving_model.export(saved_model_path, include_optimizer=False)
+    tf.saved_model.save(
+        serving_model,
+        saved_model_path,
+        signatures={'serving_default': concrete_fn}
+    )
     l.info(f"Model saved to {saved_model_path}")
-    
-    
-    def representative_data_gen():
-        for _ in range(100):  # Generate some sample data
-            # Create sample data without batch dimension
-            sample = np.random.random((15600,)).astype(np.float32)
-            yield [sample]
-    
-    # Convert to TFLite with rpr dataset
+
+    # Convert to TFLite
     converter = tf.lite.TFLiteConverter.from_saved_model(saved_model_path)
-    converter.representative_dataset = representative_data_gen
-    converter.optimizations = [tf.lite.Optimize.DEFAULT]
+
+    # optimization flag
+    if TFLITE_MODEL_OPTIMIZE:
+        def representative_data_gen():
+            for _ in range(100):  # Generate some sample data
+                # Create sample data without batch dimension
+                sample = np.random.random((15600,)).astype(np.float32)
+                yield [sample]
+        
+        converter.representative_dataset = representative_data_gen
+        converter.optimizations = [tf.lite.Optimize.DEFAULT]
+
+    # for better compatibility
+    converter.target_spec.supported_ops = [
+        tf.lite.OpsSet.TFLITE_BUILTINS,
+        tf.lite.OpsSet.SELECT_TF_OPS
+    ]
+
+    # Convert
     tflite_model = converter.convert()
-    
+
     # Save the TFLite model
     with open(tflite_model_path, 'wb') as f:
         f.write(tflite_model)
 
+    l.info(f"TFLite model saved to {tflite_model_path}")
 def get_args():
     """
     Get arguments
@@ -408,6 +436,11 @@ def get_args():
         help="Process dataset only, skip training",
         action="store_true"
     )
+    parser.add_argument(
+        "--tflite_optimize",
+        help="Optimize the exported TFLite model",
+        action="store_true"
+    )
     return parser.parse_args()
 
 if __name__ == "__main__":
@@ -429,6 +462,10 @@ if __name__ == "__main__":
     if args.process_data_only:
         l.info("Processing dataset only, training will be skipped...")
         PROCESS_DATA_ONLY = True
+
+    if args.tflite_optimize:
+        l.info("exported tflite model will be optimized!")
+        TFLITE_MODEL_OPTIMIZE = True
 
 
     try:
