@@ -330,7 +330,7 @@ def train(ds_ts: tf.data.Dataset) -> None:
         #         dtype=tf.float32
         #     )
         #     return embeddings
-            _, embeddings, _ = embedding_extraction_layer(tf.squeeze(inputs))
+            _, embeddings, _ = embedding_extraction_layer(inputs)
             return embeddings
     
     embeddings_output = EmbeddingExtractionLayer()(input_segment)
