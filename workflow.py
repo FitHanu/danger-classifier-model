@@ -377,6 +377,11 @@ if __name__ == "__main__":
         l.info("Forcing .wav conversion, ignoring check...")
         FORCE_WAV_CONVERTING = True
 
+    if args.process_data_only:
+        l.info("Processing dataset only, training will be skipped...")
+        PROCESS_DATA_ONLY = True
+
+
     try:
         workflow()
     except Exception as e:
