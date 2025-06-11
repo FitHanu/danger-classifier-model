@@ -4,6 +4,7 @@ The project entry script
 
 from datetime import datetime, timedelta, timezone
 import os
+import numpy as np
 import pandas as pd
 import constants as C
 import tensorflow as tf
