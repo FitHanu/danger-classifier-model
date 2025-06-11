@@ -20,6 +20,8 @@ from utils.dframe_utils import (NUMBER_OF_CLASSES, plot_classname_distribution,
                                 copy_update_dataset_file,
                                 to_tensor_ds_embedding_extracted,
                                 count_dataset_size)
+from utils.date_utils import get_formated_date_as_string
+
 from utils.wav_utils import (convert_pcm_16_ffmpeg_pd_row,
                             convert_pcm_16_sox_pd_row,
                             force_convert_sox_pd_row,
@@ -279,8 +281,6 @@ def train(ds_ts: tf.data.Dataset) -> None:
     l.info(f"Final Precision: {precision}")
     l.info(f"Final Recall:    {recall}")
     l.info(f"Final F1 Score:  {f1}")
-
-    from date_utils import get_formated_date_as_string
 
     saved_model_path  = os.path.join(C.MODELS_PATH,
                                      get_formated_date_as_string(),

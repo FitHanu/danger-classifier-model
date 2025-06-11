@@ -184,3 +184,5 @@ test/test.py
 logs/*
 plots/*
 missing_files.csv
+
+dataset/*
