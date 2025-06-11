@@ -2,6 +2,7 @@
 The project entry script
 """
 
+from datetime import datetime, timedelta, timezone
 import os
 import pandas as pd
 import constants as C
@@ -20,7 +21,13 @@ from utils.dframe_utils import (NUMBER_OF_CLASSES, plot_classname_distribution,
                                 copy_update_dataset_file,
                                 to_tensor_ds_embedding_extracted,
                                 count_dataset_size)
-from utils.date_utils import get_formated_date_as_string
+# from utils.date_utils import get_formated_date_as_string
+# TODO: Fix this temporal
+def get_formated_date_as_string():
+    gmt_plus_7 = timezone(timedelta(hours=7))
+    folder_name = datetime.now(gmt_plus_7).strftime("%Y-%m-%d-%H-%M")
+    return folder_name
+print(get_formated_date_as_string())
 
 from utils.wav_utils import (convert_pcm_16_ffmpeg_pd_row,
                             convert_pcm_16_sox_pd_row,
@@ -281,7 +288,7 @@ def train(ds_ts: tf.data.Dataset) -> None:
     l.info(f"Final Precision: {precision}")
     l.info(f"Final Recall:    {recall}")
     l.info(f"Final F1 Score:  {f1}")
-
+    
     saved_model_path  = os.path.join(C.MODELS_PATH,
                                      get_formated_date_as_string(),
                                      C.MODELS_PATH,

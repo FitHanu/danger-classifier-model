@@ -1,22 +1,18 @@
-Hello, World!<2025-06-10 05:05:05,709> <INFO    > <workflow>: Forcing .wav conversion, ignoring check...
-<2025-06-10 05:05:05,713> <INFO    > <workflow>: Creating empty dataset directory to /workspaces/danger-classifier-model/dataset
-<2025-06-10 05:05:05,716> <INFO    > <json_utils>: default class names written to config.class_mapping.default
-<2025-06-10 05:05:05,718> <INFO    > <workflow>: Filtering & mapping class names for esc50
-<2025-06-10 05:05:05,718> <INFO    > <json_utils>: Writing config to /workspaces/danger-classifier-model/config.json, Overiding: False
-<2025-06-10 05:05:05,719> <WARNING > <json_utils>: Overwrite is set to off but esc50 is already exists. Skipping ...
-<2025-06-10 05:05:06,052> <DEBUG   > <connectionpool>: Starting new HTTPS connection (1): www.kaggle.com:443
-<2025-06-10 05:05:06,394> <DEBUG   > <connectionpool>: https://www.kaggle.com:443 "GET /api/v1/datasets/view/mmoreaux/environmental-sound-classification-50 HTTP/1.1" 200 None
-<2025-06-10 05:05:09,171> <INFO    > <workflow>: Dataset "ESC-50" info saved to /workspaces/danger-classifier-model/dataset
-<2025-06-10 05:05:09,173> <INFO    > <workflow>: main_df shape after filter: (520, 6)
-<2025-06-10 05:05:09,174> <INFO    > <workflow>: Done filtering & mapping class names for all datasets
-<2025-06-10 05:05:09,174> <INFO    > <workflow>: Main dataframe shape: (520, 6)
-<2025-06-10 05:05:09,174> <INFO    > <workflow>: Writing filtered merged meta file into: /workspaces/danger-classifier-model/ds/meta/merged.csv
-<2025-06-10 05:05:09,176> <INFO    > <workflow>: Validating .wav files from merged dataset, path: /workspaces/danger-classifier-model/dataset
-<2025-06-10 05:05:09,180> <WARNING > <workflow>: Missing files: 520
-<2025-06-10 05:05:09,237> <INFO    > <workflow>: Done validating and converting .wav files
-<2025-06-10 05:05:09,237> <INFO    > <split_tdt>: Initializing SplitCfg from config.json
-<2025-06-10 05:05:09,237> <INFO    > <workflow>: Spliting with cfg Train: 0.8, Dev: 0.1, Test: 0.1, Folds: 10
-<2025-06-10 05:05:09,362> <INFO    > <workflow>: Force converting .wav files into PCM 16bit format inside /workspaces/danger-classifier-model/dataset using sox...
-<2025-06-10 05:05:09,364> <ERROR   > <workflow>: Error while executing workflow: [Errno 2] No such file or directory: 'ffmpeg'
-<2025-06-10 05:05:09,384> <ERROR   > <workflow>: None
-<2025-06-10 05:05:09,385> <INFO    > <workflow>: Exiting with code 1, full log saved to /workspaces/danger-classifier-model/logs
+Hello, World!<2025-06-11 16:50:24,617> <INFO    > <workflow>: Creating empty dataset directory to /workspaces/danger-classifier-model/dataset
+<2025-06-11 16:50:24,620> <INFO    > <json_utils>: default class names written to config.class_mapping.default
+<2025-06-11 16:50:24,622> <INFO    > <workflow>: Filtering & mapping class names for esc50
+<2025-06-11 16:50:24,622> <INFO    > <json_utils>: Writing config to /workspaces/danger-classifier-model/config.json, Overiding: False
+<2025-06-11 16:50:24,622> <WARNING > <json_utils>: Overwrite is set to off but esc50 is already exists. Skipping ...
+<2025-06-11 16:50:24,957> <DEBUG   > <connectionpool>: Starting new HTTPS connection (1): www.kaggle.com:443
+<2025-06-11 16:50:25,313> <DEBUG   > <connectionpool>: https://www.kaggle.com:443 "GET /api/v1/datasets/view/mmoreaux/environmental-sound-classification-50 HTTP/1.1" 200 None
+<2025-06-11 16:50:27,230> <INFO    > <workflow>: Dataset "ESC-50" info saved to /workspaces/danger-classifier-model/dataset
+<2025-06-11 16:50:27,234> <INFO    > <workflow>: main_df shape after filter: (520, 6)
+<2025-06-11 16:50:27,234> <INFO    > <workflow>: Filtering & mapping class names for gad
+<2025-06-11 16:50:27,234> <INFO    > <json_utils>: Writing config to /workspaces/danger-classifier-model/config.json, Overiding: False
+<2025-06-11 16:50:27,235> <WARNING > <json_utils>: Overwrite is set to off but gad is already exists. Skipping ...
+<2025-06-11 16:50:27,243> <DEBUG   > <connectionpool>: Starting new HTTPS connection (1): www.kaggle.com:443
+<2025-06-11 16:50:27,542> <DEBUG   > <connectionpool>: https://www.kaggle.com:443 "GET /api/v1/datasets/view/emrahaydemr/gunshot-audio-dataset HTTP/1.1" 200 None
+<2025-06-11 16:50:27,548> <DEBUG   > <connectionpool>: Starting new HTTPS connection (1): www.kaggle.com:443
+<2025-06-11 16:50:27,981> <DEBUG   > <connectionpool>: https://www.kaggle.com:443 "GET /api/v1/datasets/download/emrahaydemr/gunshot-audio-dataset?dataset_version_number=1 HTTP/1.1" 302 0
+<2025-06-11 16:50:27,983> <DEBUG   > <connectionpool>: Starting new HTTPS connection (1): storage.googleapis.com:443
+<2025-06-11 16:50:28,591> <DEBUG   > <connectionpool>: https://storage.googleapis.com:443 "GET /kaggle-data-sets/1426023/2361094/bundle/archive.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20250611%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250611T165027Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=4b08b4b82179bf0b2a1befdb6324f5af035bcbfdf7150f11ffe5ec45a98b615c1f2d28abd22327e215504b1342422e2eef51b1d0c55ef2d8684864090a603bbeb9d6a912e9fe837d05e80edba8d1676f079475814985671e8fe221406863cca9218b9ad8ca16a3aef3e074b89aa9773744aa9f3e3ac7e9c854c32126321539e12d88c94f0c7088decf645e81ca19e9a2dbc34319848b674f30d13d8ca47a3997b672628e1c27e0d5163f78ce93d692d1c57d728903bda45b106ae3b71df43bee151f17f47a2b2a19d9389d94d095e18c77f105d50302b361121c5e5f28a3b1c13df294b778860067effeed822eb287f1f94d8fe2d54b4bffd45583b6c3ef360a HTTP/1.1" 200 398678732

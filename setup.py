@@ -132,8 +132,15 @@ def main():
         [f"Installing requirements", install_requirements, env_strategy],
         [f"Appending project paths to {SITE_PKG_PATH}", append_project_path],
         [f"Initialize default paritioning config", init_split_ds_config],
-        [f"Validating packages ...", validate_packages, [
-            "ds.dataset", "utils.json_utils"]],
+        [f"Validating packages ...", validate_packages, 
+            [
+                "ds.dataset",
+                "utils.json_utils",
+                "utils.date_utils", 
+                "logging_cfg",
+                "constants"
+            ]
+        ],
     ]
 
     for step in steps:
