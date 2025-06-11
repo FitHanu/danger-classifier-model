@@ -324,8 +324,13 @@ def train(ds_ts: tf.data.Dataset) -> None:
                                                 name='yamnet_embedding_extraction')
     class EmbeddingExtractionLayer(tf.keras.Layer):
         def call(self, inputs):
-            # scores, embeddings, spectrogram
-            _, embeddings, _ = embedding_extraction_layer(inputs)
+        #     embeddings = tf.map_fn(
+        #         lambda frame: embedding_extraction_layer(tf.squeeze(frame)),
+        #         inputs,
+        #         dtype=tf.float32
+        #     )
+        #     return embeddings
+            _, embeddings, _ = embedding_extraction_layer(tf.squeeze(inputs))
             return embeddings
     
     embeddings_output = EmbeddingExtractionLayer()(input_segment)
