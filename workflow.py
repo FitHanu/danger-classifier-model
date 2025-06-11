@@ -324,9 +324,18 @@ def train(ds_ts: tf.data.Dataset) -> None:
                                                 name='yamnet_embedding_extraction')
     class EmbeddingExtractionLayer(tf.keras.Layer):
         def call(self, inputs):
-            # scores, embeddings, spectrogram
-            _, embeddings, _ = embedding_extraction_layer(inputs)
-            return embeddings
+            # inputs shape: (15600,) → reshape to (None,)
+            # Or if batched: (batch_size, 15600) → map_fn
+            if tf.rank(inputs) == 2:
+                embeddings = tf.map_fn(
+                    lambda frame: embedding_extraction_layer(tf.squeeze(frame)),
+                    inputs,
+                    dtype=tf.float32
+                )
+                return embeddings
+            else:
+                _, embeddings, _ = embedding_extraction_layer(tf.squeeze(inputs))
+                return embeddings
     
     embeddings_output = EmbeddingExtractionLayer()(input_segment)
     
