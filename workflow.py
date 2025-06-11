@@ -38,6 +38,7 @@ l = get_logger(__name__)
 # Params
 USE_PROCESSED_DATASET = False
 FORCE_WAV_CONVERTING  = False # If True, convert to correct .wav format ignoring check (SLOW)
+PROCESS_DATA_ONLY     = False
 
 # Globe vars
 TRAVIS_SCOTT = tf.data.AUTOTUNE
@@ -48,13 +49,17 @@ def workflow():
     """
     
     global USE_PROCESSED_DATASET
-    
     # Handle dataset processing
     
     if USE_PROCESSED_DATASET:
         ds_ts = get_cached_dataset()
     else:
         ds_ts = process_dataset()
+    
+    if PROCESS_DATA_ONLY:
+        l.info("PROCESS_DATA_ONLY is set to true, skipping training...")
+        exit(0)
+
     # Handle training
     train(ds_ts)
 
@@ -150,12 +155,14 @@ def process_dataset() -> tf.data.Dataset:
         main_df = main_df[~main_df.index.isin(false_files.index)]
         l.info(f"Dataset shape after dropping invalid .wav files: {main_df.shape}")
 
-
+    # Save filtered dataframe to csv (before augmentation)
+    filtered_meta = C.FILTERED_META_CSV
+    l.info(f"Datasets filtering & converting done, saving meta file to {filtered_meta}")
+    main_df.to_csv(filtered_meta, index=False)
 
     # Get split config
     cfg = init_cfg()
     l.info(f"Spliting with cfg {cfg.__str__()}")
-
 
     # Split
     aug_k_df = split_tdt(main_df, cfg)
@@ -164,15 +171,15 @@ def process_dataset() -> tf.data.Dataset:
         l.info(f"Force converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using sox...")
         aug_k_df.apply(force_convert_sox_pd_row, axis=1)
     
-    
     # Save augmented dataframe to .csv
     final_meta = C.FILTERED_AUG_FOLDED_META_CSV
     l.info(f"Datasets processing done, saving meta file to {final_meta}")
     aug_k_df.to_csv(final_meta, index=False)
+    
+    # Convert to tf compatible dataset & return
     ds_ts = to_tensor_ds_embedding_extracted(aug_k_df)
-    
     return ds_ts
-    
+
 
 
 def train(ds_ts: tf.data.Dataset) -> None:
@@ -211,14 +218,6 @@ def train(ds_ts: tf.data.Dataset) -> None:
     
     
     # Model setup
-    # yamnet_tweaked = tf.keras.Sequential([
-    #     tf.keras.layers.Input(shape=(1024,), batch_size=None, dtype=tf.float32, name='input_embedding'),  
-    #     tf.keras.layers.Dense(512, activation='relu'),
-    #     # Add GAP1D layer to reduce the dimensionality (None part of the shape=(None, 1024))
-    #     # Make the model dimension independent
-    #     # tf.keras.layers.GlobalAveragePooling1D(),
-    #     tf.keras.layers.Dense(NUMBER_OF_CLASSES, activation='softmax', name="class_scores")  # Output class probabilities
-    # ], name='yamnet_tweaked')
     inputs = tf.keras.layers.Input(shape=(1024,), dtype=tf.float32, name='input_embedding')
 
     # Hidden layer
@@ -359,6 +358,11 @@ def get_args():
         help="Convert to correct .wav format ignoring check (SLOW)",
         action="store_true"
     )
+    parser.add_argument(
+        "--process_data_only",
+        help="Process dataset only, skip training",
+        action="store_true"
+    )
     return parser.parse_args()
 
 if __name__ == "__main__":
@@ -376,6 +380,10 @@ if __name__ == "__main__":
     if args.force_wav_convert:
         l.info("Forcing .wav conversion, ignoring check...")
         FORCE_WAV_CONVERTING = True
+    if args.process_data_only:
+        l.info("Processing dataset only, skipping training...")
+        PROCESS_DATA_ONLY = True
+
 
     try:
         workflow()
