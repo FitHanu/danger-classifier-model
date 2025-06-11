@@ -40,6 +40,7 @@ l = get_logger(__name__)
 # Params
 USE_PROCESSED_DATASET = False
 FORCE_WAV_CONVERTING  = False # If True, convert to correct .wav format ignoring check (SLOW)
+PROCESS_DATA_ONLY     = False
 
 # Globe vars
 TRAVIS_SCOTT = tf.data.AUTOTUNE
@@ -57,6 +58,11 @@ def workflow():
         ds_ts = get_cached_dataset()
     else:
         ds_ts = process_dataset()
+    
+    if PROCESS_DATA_ONLY:
+        l.info("PROCESS_DATA_ONLY is set to true, skipping training...")
+        exit(0)
+
     # Handle training
     train(ds_ts)
 
@@ -152,7 +158,10 @@ def process_dataset() -> tf.data.Dataset:
         main_df = main_df[~main_df.index.isin(false_files.index)]
         l.info(f"Dataset shape after dropping invalid .wav files: {main_df.shape}")
 
-
+    # Save filtered dataframe to csv (before augmentation)
+    filtered_meta = C.FILTERED_META_CSV
+    l.info(f"Datasets filtering & converting done, saving meta file to {filtered_meta}")
+    main_df.to_csv(filtered_meta, index=False)
 
     # Get split config
     cfg = init_cfg()
@@ -171,8 +180,10 @@ def process_dataset() -> tf.data.Dataset:
     final_meta = C.FILTERED_AUG_FOLDED_META_CSV
     l.info(f"Datasets processing done, saving meta file to {final_meta}")
     aug_k_df.to_csv(final_meta, index=False)
+
+
+    # Convert to tf compatible dataset & return
     ds_ts = to_tensor_ds_embedding_extracted(aug_k_df)
-    
     return ds_ts
     
 
@@ -366,6 +377,11 @@ def get_args():
     parser.add_argument(
         "--force_wav_convert",
         help="Convert to correct .wav format ignoring check (SLOW)",
+        action="store_true"
+    )
+    parser.add_argument(
+        "--process_data_only",
+        help="Process dataset only, skip training",
         action="store_true"
     )
     return parser.parse_args()
