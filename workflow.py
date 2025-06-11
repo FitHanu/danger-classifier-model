@@ -280,8 +280,16 @@ def train(ds_ts: tf.data.Dataset) -> None:
     l.info(f"Final Recall:    {recall}")
     l.info(f"Final F1 Score:  {f1}")
 
-    saved_model_path = os.path.join(C.MODELS_PATH, "yamnet_tweaked")
-    tflite_model_path = os.path.join(C.MODELS_PATH, "yamnet_tweaked.tflite")
+    from date_utils import get_formated_date_as_string
+
+    saved_model_path  = os.path.join(C.MODELS_PATH,
+                                     get_formated_date_as_string(),
+                                     C.MODELS_PATH,
+                                     "yamnet_tweaked")
+    tflite_model_path = os.path.join(C.MODELS_PATH,
+                                     get_formated_date_as_string(),
+                                     C.MODELS_PATH,
+                                     "yamnet_tweaked.tflite")
     
     os.makedirs(saved_model_path, exist_ok=True)
     # Define final model
