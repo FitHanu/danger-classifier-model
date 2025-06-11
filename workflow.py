@@ -380,8 +380,9 @@ if __name__ == "__main__":
     if args.force_wav_convert:
         l.info("Forcing .wav conversion, ignoring check...")
         FORCE_WAV_CONVERTING = True
+
     if args.process_data_only:
-        l.info("Processing dataset only, skipping training...")
+        l.info("Processing dataset only, training will be skipped...")
         PROCESS_DATA_ONLY = True
 
 
