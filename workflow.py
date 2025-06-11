@@ -210,15 +210,6 @@ def train(ds_ts: tf.data.Dataset) -> None:
     test_ds = test_ds.batch(BATCH_SIZE).cache().prefetch(TRAVIS_SCOTT)
     
     
-    # Model setup
-    # yamnet_tweaked = tf.keras.Sequential([
-    #     tf.keras.layers.Input(shape=(1024,), batch_size=None, dtype=tf.float32, name='input_embedding'),  
-    #     tf.keras.layers.Dense(512, activation='relu'),
-    #     # Add GAP1D layer to reduce the dimensionality (None part of the shape=(None, 1024))
-    #     # Make the model dimension independent
-    #     # tf.keras.layers.GlobalAveragePooling1D(),
-    #     tf.keras.layers.Dense(NUMBER_OF_CLASSES, activation='softmax', name="class_scores")  # Output class probabilities
-    # ], name='yamnet_tweaked')
     inputs = tf.keras.layers.Input(shape=(1024,), dtype=tf.float32, name='input_embedding')
 
     # Hidden layer
@@ -247,12 +238,12 @@ def train(ds_ts: tf.data.Dataset) -> None:
     )
 
     early_stop = tf.keras.callbacks.EarlyStopping(monitor='loss',
-                                                patience=4,
+                                                patience=8,
                                                 restore_best_weights=True)
     reduce_lr = tf.keras.callbacks.ReduceLROnPlateau(
                                                 monitor='val_loss',
                                                 factor=0.5,
-                                                patience=2)
+                                                patience=4)
 
     history = yamnet_tweaked.fit(train_ds,
                         epochs=200,
