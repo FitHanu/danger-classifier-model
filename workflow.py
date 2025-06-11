@@ -316,7 +316,10 @@ def train(ds_ts: tf.data.Dataset) -> None:
     
     # 1st layer: input
     # Original YAMNet expects 15600 samples 
-    input_segment = tf.keras.layers.Input(shape=(15600,), dtype=tf.float32, name='audio')
+    input_segment = tf.keras.layers.Input(shape=(15600,),
+                                          dtype=tf.float32,
+                                          batch_size=None,
+                                          name='waveform_binary')
     
     # 2nd layer: yamnet_embedding_extraction
     embedding_extraction_layer = hub.KerasLayer(C.YAMNET_MODEL_URL,
