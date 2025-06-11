@@ -364,9 +364,16 @@ def train(ds_ts: tf.data.Dataset) -> None:
     l.info(f"Model saved to {saved_model_path}")
     
     
-    # Convert to TFLite
-    # Convert the model
+    def representative_data_gen():
+        for _ in range(100):  # Generate some sample data
+            # Create sample data without batch dimension
+            sample = np.random.random((15600,)).astype(np.float32)
+            yield [sample]
+    
+    # Convert to TFLite with rpr dataset
     converter = tf.lite.TFLiteConverter.from_saved_model(saved_model_path)
+    converter.representative_dataset = representative_data_gen
+    converter.optimizations = [tf.lite.Optimize.DEFAULT]
     tflite_model = converter.convert()
     
     # Save the TFLite model
