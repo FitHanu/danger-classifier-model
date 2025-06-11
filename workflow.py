@@ -321,7 +321,6 @@ def train(ds_ts: tf.data.Dataset) -> None:
     # Define final model
 
     # 1st layer: input
-    # Original YAMNet expects 15600 samples 
     input_segment = tf.keras.layers.Input(shape=(15600,),
                                         dtype=tf.float32,
                                         batch_size=None,
@@ -331,17 +330,31 @@ def train(ds_ts: tf.data.Dataset) -> None:
     embedding_extraction_layer = hub.KerasLayer(C.YAMNET_MODEL_URL,
                                                 trainable=False,
                                                 name='yamnet_embedding_extraction')
+
     class EmbeddingExtractionLayer(tf.keras.Layer):
+        def __init__(self, **kwargs):
+            super().__init__(**kwargs)
+            self.embedding_layer = embedding_extraction_layer
+        
         def call(self, inputs):
-            _, embeddings, _ = embedding_extraction_layer(tf.squeeze(inputs))
+            _, embeddings, _ = self.embedding_layer(tf.squeeze(inputs))
             return embeddings
 
     embeddings_output = EmbeddingExtractionLayer()(input_segment)
 
-    # 3rd layer: yamnet_tweaked - on top of 2nd layer
-    serving_outputs = yamnet_tweaked(embeddings_output)
+    # 3rd layer: yamnet_tweaked - wrap it properly
+    class YamnetTweakedLayer(tf.keras.Layer):
+        def __init__(self, yamnet_model, **kwargs):
+            super().__init__(**kwargs)
+            self.yamnet_model = yamnet_model
+        
+        def call(self, inputs):
+            return self.yamnet_model(inputs)
 
-    # 4th layer: ReduceMeanLayer - on top of 3rd layer
+    yamnet_layer = YamnetTweakedLayer(yamnet_tweaked)
+    serving_outputs = yamnet_layer(embeddings_output)
+
+    # 4th layer: ReduceMeanLayer
     class ReduceMeanLayer(tf.keras.layers.Layer):
         def __init__(self, axis=0, **kwargs):
             super().__init__(**kwargs)
@@ -349,31 +362,31 @@ def train(ds_ts: tf.data.Dataset) -> None:
 
         def call(self, input):
             return tf.math.reduce_mean(input, axis=self.axis, keepdims=True)
-        
-    # Reduce mean to get shape (20,)
+
     reduced = ReduceMeanLayer(axis=0, name='classifier')(serving_outputs)
 
     # Final model
     serving_model = tf.keras.Model(input_segment, reduced)
+    serving_model.build(input_shape=(None, 15600))
 
     l.info(f"Model summary:")
     serving_model.summary()
 
-    # Create a concrete function with specific input signature
+    # Save the model first without custom signature
+    l.info(f"Saving model...")
+    tf.saved_model.save(serving_model, saved_model_path)
+
+    # Create custom signature and save again
     @tf.function
     def serving_fn(waveform):
-        # waveform should have shape (15600,)
-        waveform = tf.expand_dims(waveform, 0)  # Add batch dim for processing
+        waveform = tf.expand_dims(waveform, 0)
         result = serving_model(waveform)
-        return tf.squeeze(result, 0)  # Remove batch dim from output
+        return tf.squeeze(result, 0)
 
-    # Get concrete function
     concrete_fn = serving_fn.get_concrete_function(
         tf.TensorSpec(shape=[15600], dtype=tf.float32, name='waveform_binary')
     )
 
-    # Save with specific signature
-    l.info(f"Saving model...")
     tf.saved_model.save(
         serving_model,
         saved_model_path,
@@ -381,34 +394,31 @@ def train(ds_ts: tf.data.Dataset) -> None:
     )
     l.info(f"Model saved to {saved_model_path}")
 
-    # Convert to TFLite
+    # Convert to TFLite (rest of your code remains the same)
     converter = tf.lite.TFLiteConverter.from_saved_model(saved_model_path)
 
-    # optimization flag
     if TFLITE_MODEL_OPTIMIZE:
         def representative_data_gen():
-            for _ in range(100):  # Generate some sample data
-                # Create sample data without batch dimension
+            for _ in range(100):
                 sample = np.random.random((15600,)).astype(np.float32)
                 yield [sample]
         
         converter.representative_dataset = representative_data_gen
         converter.optimizations = [tf.lite.Optimize.DEFAULT]
 
-    # for better compatibility
     converter.target_spec.supported_ops = [
         tf.lite.OpsSet.TFLITE_BUILTINS,
         tf.lite.OpsSet.SELECT_TF_OPS
     ]
 
-    # Convert
     tflite_model = converter.convert()
 
-    # Save the TFLite model
     with open(tflite_model_path, 'wb') as f:
         f.write(tflite_model)
 
     l.info(f"TFLite model saved to {tflite_model_path}")
+
+
 def get_args():
     """
     Get arguments
