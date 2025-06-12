@@ -42,6 +42,8 @@ from ds.esc50 import ESC50
 from ds.us8k import UrbanSound8K
 from ds.bdlib2 import BDLib2
 from ds.gad import GAD
+from tensorflow.python.framework.convert_to_constants import convert_variables_to_constants_v2
+
 
 from logging_cfg import get_logger
 l = get_logger(__name__)
@@ -379,25 +381,34 @@ def train(ds_ts: tf.data.Dataset) -> None:
     @tf.function
     def serving_fn(waveform):
         waveform = tf.expand_dims(waveform, 0)
-        result = serving_model(waveform, training=False)  # Explicitly set training=False
+        result = serving_model(waveform, training=False)
         return result
 
     # Get concrete function
     concrete_fn = serving_fn.get_concrete_function(
         tf.TensorSpec(shape=[15600], dtype=tf.float32, name='waveform_binary')
     )
+    
+    # Freeze the model (replaces saved_model-based conversion)
+    frozen_func = convert_variables_to_constants_v2(concrete_fn)
+    frozen_func.graph.as_graph_def()
+    
+    # Optional debug print
+    for node in frozen_func.graph.as_graph_def().node:
+        if node.op == "ReadVariableOp":
+            print(f"⚠️ Still contains ReadVariableOp: {node.name}")
 
     # Save with the concrete function
-    l.info(f"Saving model...")
-    tf.saved_model.save(
-        serving_model,
-        saved_model_path,
-        signatures={'serving_default': concrete_fn}
-    )
-    l.info(f"Model saved to {saved_model_path}")
+    # l.info(f"Saving model...")
+    # tf.saved_model.save(
+    #     serving_model,
+    #     saved_model_path,
+    #     signatures={'serving_default': concrete_fn}
+    # )
+    # l.info(f"Model saved to {saved_model_path}")
 
     # Convert to TFLite with special settings for variable handling
-    converter = tf.lite.TFLiteConverter.from_saved_model(saved_model_path)
+    converter = tf.lite.TFLiteConverter.from_concrete_functions([frozen_func])
 
     if TFLITE_MODEL_OPTIMIZE:
         def representative_data_gen():
@@ -408,10 +419,9 @@ def train(ds_ts: tf.data.Dataset) -> None:
         converter.representative_dataset = representative_data_gen
         converter.optimizations = [tf.lite.Optimize.DEFAULT]
 
-    # converter.target_spec.supported_ops = [
-    #     tf.lite.OpsSet.TFLITE_BUILTINS,
-    #     tf.lite.OpsSet.SELECT_TF_OPS
-    # ]
+    # Only built-ins, no resource variables anymore
+    converter.target_spec.supported_ops = [tf.lite.OpsSet.TFLITE_BUILTINS]
+    converter.allow_custom_ops = False  # Should be false now
 
     try:
         tflite_model = converter.convert()
