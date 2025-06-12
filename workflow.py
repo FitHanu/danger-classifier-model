@@ -326,7 +326,7 @@ def train(ds_ts: tf.data.Dataset) -> None:
                                         batch_size=None,
                                         name='waveform_binary')
 
-    # 2nd layer: yamnet_embedding_extraction
+    # 2nd layer: yamnet_embedding_extraction - make it stateless
     embedding_extraction_layer = hub.KerasLayer(C.YAMNET_MODEL_URL,
                                                 trainable=False,
                                                 name='yamnet_embedding_extraction')
@@ -342,7 +342,7 @@ def train(ds_ts: tf.data.Dataset) -> None:
 
     embeddings_output = EmbeddingExtractionLayer()(input_segment)
 
-    # 3rd layer: yamnet_tweaked - wrap it properly
+    # 3rd layer: yamnet_tweaked - make it stateless
     class YamnetTweakedLayer(tf.keras.Layer):
         def __init__(self, yamnet_model, **kwargs):
             super().__init__(**kwargs)
@@ -367,26 +367,28 @@ def train(ds_ts: tf.data.Dataset) -> None:
 
     # Final model
     serving_model = tf.keras.Model(input_segment, reduced)
-    serving_model.build(input_shape=(None, 15600))
+
+    # Build the model with dummy data to initialize all variables
+    dummy_input = tf.random.normal((1, 15600))
+    _ = serving_model(dummy_input)
 
     l.info(f"Model summary:")
     serving_model.summary()
 
-    # Save the model first without custom signature
-    l.info(f"Saving model...")
-    tf.saved_model.save(serving_model, saved_model_path)
-
-    # Create custom signature and save again
+    # Create a concrete function that captures all variables
     @tf.function
     def serving_fn(waveform):
         waveform = tf.expand_dims(waveform, 0)
-        result = serving_model(waveform)
+        result = serving_model(waveform, training=False)  # Explicitly set training=False
         return result
 
+    # Get concrete function
     concrete_fn = serving_fn.get_concrete_function(
         tf.TensorSpec(shape=[15600], dtype=tf.float32, name='waveform_binary')
     )
 
+    # Save with the concrete function
+    l.info(f"Saving model...")
     tf.saved_model.save(
         serving_model,
         saved_model_path,
@@ -394,8 +396,12 @@ def train(ds_ts: tf.data.Dataset) -> None:
     )
     l.info(f"Model saved to {saved_model_path}")
 
-    # Convert to TFLite (rest of your code remains the same)
+    # Convert to TFLite with special settings for variable handling
     converter = tf.lite.TFLiteConverter.from_saved_model(saved_model_path)
+
+    # Important: Add these settings to handle variables properly
+    converter.experimental_new_converter = True
+    converter.experimental_enable_resource_variables = False
 
     if TFLITE_MODEL_OPTIMIZE:
         def representative_data_gen():
@@ -411,7 +417,17 @@ def train(ds_ts: tf.data.Dataset) -> None:
         tf.lite.OpsSet.SELECT_TF_OPS
     ]
 
-    tflite_model = converter.convert()
+    # Add this to handle variable operations
+    converter.allow_custom_ops = True
+
+    try:
+        tflite_model = converter.convert()
+    except Exception as e:
+        l.error(f"First conversion attempt failed: {e}")
+        # Try with different settings
+        converter.experimental_enable_resource_variables = True
+        converter.target_spec.supported_ops = [tf.lite.OpsSet.SELECT_TF_OPS]
+        tflite_model = converter.convert()
 
     with open(tflite_model_path, 'wb') as f:
         f.write(tflite_model)
