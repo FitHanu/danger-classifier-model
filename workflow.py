@@ -399,10 +399,6 @@ def train(ds_ts: tf.data.Dataset) -> None:
     # Convert to TFLite with special settings for variable handling
     converter = tf.lite.TFLiteConverter.from_saved_model(saved_model_path)
 
-    # Important: Add these settings to handle variables properly
-    converter.experimental_new_converter = True
-    converter.experimental_enable_resource_variables = False
-
     if TFLITE_MODEL_OPTIMIZE:
         def representative_data_gen():
             for _ in range(100):
@@ -412,13 +408,10 @@ def train(ds_ts: tf.data.Dataset) -> None:
         converter.representative_dataset = representative_data_gen
         converter.optimizations = [tf.lite.Optimize.DEFAULT]
 
-    converter.target_spec.supported_ops = [
-        tf.lite.OpsSet.TFLITE_BUILTINS,
-        tf.lite.OpsSet.SELECT_TF_OPS
-    ]
-
-    # Add this to handle variable operations
-    converter.allow_custom_ops = True
+    # converter.target_spec.supported_ops = [
+    #     tf.lite.OpsSet.TFLITE_BUILTINS,
+    #     tf.lite.OpsSet.SELECT_TF_OPS
+    # ]
 
     try:
         tflite_model = converter.convert()
