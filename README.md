@@ -1,6 +1,6 @@
 # Hello world
 
-+ This project provide scripts to handle audio data processing & training tensorflow `Danger Classification Model` using `YAMnet` audio embedding extraction layer (transfer learning)
++ This project provides scripts to handle audio data processing & training a TensorFlow `Danger Classification Model` using the `YAMnet` audio embedding extraction layer (transfer learning)
 
 
 ## Enviroment (Conda based)
@@ -58,7 +58,7 @@ python workflow.py
 + For each dataset:
     - Download dataset
     - Filter sound file based on defined sound classes at `/classes.csv`
-    - Move filtered sound files into main dataset path `/dataset/`
+    - Move filtered sound files into the main dataset path `/dataset/`
     - Normalize:
         - Rename filtered sound files in `/dataset/` to system rule `f"{class_name}_{original_dataset}_{original_idx}"`
     - Save filtered dataset meta into a .csv file in `/ds/meta`
@@ -76,19 +76,19 @@ python workflow.py
         - For each `.wav` file in `/dataset/`
             - Convert to PCM 16 wav format
             - Convert bit depth from any to `16`
-    - Asign fold label for each data points
-    - Save augmented, folded dataset state as .csv file
+    - Assign fold label for each data point
+    - Save augmented, folded dataset state into a .csv file
 
 + Training: See details at `workflow.py`:`train()`
 
 ### How to add & implement new dataset for training?
 
-0. Register the new dataset info object to `datasets.json` (based on previous format)
-1. Human class mapping for added dataset to system defined labels id in `config.json`:`classmapping.default`
-2. Create a new dataset `.py` file inside `/ds/` which filename is identical to the dataset `key` field value at registered object in step `0`
+0. Register the new dataset info object to `datasets.json` (based on the previous format)
+1. Human class mapping for added dataset to system-defined labels id in `config.json`:`classmapping.default`
+2. Create a new dataset `.py` file inside `/ds/`, filename must be identical to the dataset `key` field value at the registered object in step `0`
 3. Create the dataset class, extending `DataSet` from `ds.dataset.py`
 4. Implement necessary methods
-5. Add the dataset class contructor to `datasets_registry` in `workflow.py`
+5. Add the dataset class constructor to `datasets_registry` in `workflow.py`
 6. Run script
 ```
 workflow.py --process_data_only
