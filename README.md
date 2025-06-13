@@ -1,6 +1,6 @@
 # Hello world
 
-+ This project provide scripts to handle audio data processing & training danger classification model using `YAMnet` audio embedding extraction layer (transfer learning)
++ This project provide scripts to handle audio data processing & training tensorflow `Danger Classification Model` using `YAMnet` audio embedding extraction layer (transfer learning)
 
 
 ## Enviroment (Conda based)
