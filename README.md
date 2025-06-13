@@ -89,5 +89,11 @@ python workflow.py
 3. Create the dataset class, extending `DataSet` from `ds.dataset.py`
 4. Implement necessary methods
 5. Add the dataset class contructor to `datasets_registry` in `workflow.py`
-6. Run `workflow.py --process_data_only` script
-7. Run `workflow.py --use_processed` script :D
+6. Run script
+```
+workflow.py --process_data_only
+```
+7. Run script :D
+```
+workflow.py --use_processed
+```
