@@ -1,5 +1,5 @@
 """
-The project entry script
+The project entry script for data processing & training
 """
 
 from datetime import datetime, timedelta, timezone
@@ -11,16 +11,12 @@ import tensorflow as tf
 import tensorflow_hub as hub
 import traceback
 from tensorflow import keras
-from constants import PROJECT_ROOT
 from ds.dataset import PD_SCHEMA
-from utils.json_utils import init_default_class_name, append_empty_mapping_to_config
-from utils.file_utils import init_class_folds, get_filename_without_extension
-from utils.csv_utils import (get_classes_ordinal_from_config, read_csv_as_dataframe,
-                            write_csv_meta,
-                            get_classes_from_config)
-from utils.dframe_utils import (NUMBER_OF_CLASSES, plot_classname_distribution,
-                                copy_update_dataset_file,
-                                to_tensor_ds_embedding_extracted,
+from utils.json_utils import (init_default_class_name,
+                              append_empty_mapping_to_config)
+from utils.csv_utils import (read_csv_as_dataframe,
+                            write_csv_meta)
+from utils.dframe_utils import (to_tensor_ds_embedding_extracted,
                                 count_dataset_size)
 # from utils.date_utils import get_formated_date_as_string
 # TODO: Fix this temporal
@@ -30,19 +26,18 @@ def get_formated_date_as_string():
     return folder_name
 print(get_formated_date_as_string())
 
-
 from utils.wav_utils import (convert_pcm_16_ffmpeg_pd_row,
                             convert_pcm_16_sox_pd_row,
                             force_convert_sox_pd_row,
                             force_convert_ffmpeg_pd_row,
                             validate_wav_pd_row)
+from tensorflow.python.framework.convert_to_constants import convert_variables_to_constants_v2
 from utils.metric_utils import f1_score
 from partition.split_tdt import split_tdt, init_cfg
 from ds.esc50 import ESC50
 from ds.us8k import UrbanSound8K
 from ds.bdlib2 import BDLib2
 from ds.gad import GAD
-from tensorflow.python.framework.convert_to_constants import convert_variables_to_constants_v2
 
 
 from logging_cfg import get_logger
@@ -61,8 +56,6 @@ def workflow():
     """
     Main procedure
     """
-    
-    global USE_PROCESSED_DATASET
     
     # Handle dataset processing
     
@@ -105,11 +98,9 @@ def process_dataset() -> tf.data.Dataset:
     ]
 
     # Init paths, Default class names
-    # DATASET_PATH_FILTERED = os.path.join(PROJECT_ROOT, "dataset")
     l.info(f"Creating empty dataset directory to {C.FILTERED_DATASET_PATH}")
     os.makedirs(C.FILTERED_DATASET_PATH, exist_ok=True)
     init_default_class_name()
-    # init_class_folds(DATASET_PATH_FILTERED)
 
     # Init main dataframe
     main_df = pd.DataFrame(columns=PD_SCHEMA.keys()).astype(PD_SCHEMA)
@@ -134,7 +125,6 @@ def process_dataset() -> tf.data.Dataset:
     l.info(f"Main dataframe shape: {main_df.shape}")
 
     # Write main dataframe to csv
-
     l.info(f"Writing filtered merged meta file into: {C.MERGED_META_CSV}")
     write_csv_meta(main_df, "merged")
     
@@ -235,15 +225,6 @@ def train(ds_ts: tf.data.Dataset) -> None:
     test_ds = test_ds.batch(BATCH_SIZE).cache().prefetch(TRAVIS_SCOTT)
     
     
-    # Model setup
-    # yamnet_tweaked = tf.keras.Sequential([
-    #     tf.keras.layers.Input(shape=(1024,), batch_size=None, dtype=tf.float32, name='input_embedding'),  
-    #     tf.keras.layers.Dense(512, activation='relu'),
-    #     # Add GAP1D layer to reduce the dimensionality (None part of the shape=(None, 1024))
-    #     # Make the model dimension independent
-    #     # tf.keras.layers.GlobalAveragePooling1D(),
-    #     tf.keras.layers.Dense(NUMBER_OF_CLASSES, activation='softmax', name="class_scores")  # Output class probabilities
-    # ], name='yamnet_tweaked')
     inputs = tf.keras.layers.Input(shape=(1024,), dtype=tf.float32, name='input_embedding')
 
     # Hidden layer
@@ -262,7 +243,7 @@ def train(ds_ts: tf.data.Dataset) -> None:
         # # raw scores (logits) instead of probabilities (if the final layer doesn’t have softmax).
         # loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
         # loss=tf.keras.losses.SparseCategoricalCrossentropy(), # For non vectorized labels
-        loss=tf.keras.losses.CategoricalCrossentropy(label_smoothing=0.1), # For vectorized labels #TODO: FINDOUT WHY
+        loss=tf.keras.losses.CategoricalCrossentropy(label_smoothing=0.1), # For vectorized labels
         optimizer="adamax",
         metrics=[
             keras.metrics.Precision(name="precision"),
