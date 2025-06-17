@@ -213,6 +213,6 @@ def select_sample_from_dataset(dataset: tf.data.Dataset, sample_size: int) -> tf
     # Shuffle the dataset and take the first `sample_size` elements
     sample_dataset = dataset.shuffle(buffer_size=count_dataset_size(dataset)).take(sample_size)
     for elem in sample_dataset:
-        l.info(f"Sampled element: {elem}, shape: {elem.element_spec}")
+        l.info(f"Sampled element: {elem}")
     
     return sample_dataset
