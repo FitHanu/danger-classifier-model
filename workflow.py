@@ -19,7 +19,7 @@ from utils.csv_utils import (get_classes_ordinal_from_config, read_csv_as_datafr
                             write_csv_meta,
                             get_classes_from_config)
 from utils.dframe_utils import (NUMBER_OF_CLASSES, plot_classname_distribution,
-                                copy_update_dataset_file, select_sample_from_dataset,
+                                copy_update_dataset_file, sample_dataset_inspect,
                                 to_tensor_ds_embedding_extracted,
                                 count_dataset_size)
 # from utils.date_utils import get_formated_date_as_string
@@ -194,7 +194,21 @@ def process_dataset() -> tf.data.Dataset:
 
     # Convert to tf compatible dataset & return
     ds_ts = to_tensor_ds_embedding_extracted(aug_k_df)
-    select_sample_from_dataset(ds_ts, 10)
+    
+    test_filenames = [
+        "DOG_BARK_us8k_8214.wav",
+        "DOG_BARK_esc50_1097.wav",
+        "DOG_BARK_bdlib2_22.wav",
+        "SIREN_us8k_530.wav",
+        "SIREN_esc50_166.wav",
+        "SIREN_esc50_348.wav",
+        "THUNDER_STORM_bdlib2_68.wav",
+        "THUNDER_STORM_esc50_1689.wav",
+        "THUNDER_STORM_esc50_966.wav"
+        
+    ]
+    
+    sample_dataset_inspect(ds_ts, test_filenames)
     
     return ds_ts
     

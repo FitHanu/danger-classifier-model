@@ -133,55 +133,46 @@ def to_tensor_dataset(df: pd.DataFrame) -> tf.data.Dataset:
 
     from utils.wav_utils import load_wav_16k_mono_3
     
-    def transform_wav(filename: str, class_id, fold):
-        return load_wav_16k_mono_3(filename), class_id, fold
+    def transform_wav(filepath: str, class_id: int, fold: int, filename):
+        return load_wav_16k_mono_3(filepath), class_id, fold, filename
     
-    filenames = df[C.DF_PATH_COL]
-    targets = df[C.DF_CLASS_ID_COL]
-    folds = df[C.DF_FOLD_COL]
+    filepaths = df[C.DF_PATH_COL]
+    targets   = df[C.DF_CLASS_ID_COL]
+    folds     = df[C.DF_FOLD_COL]
+    filenames = df[C.DF_NAME_COL]
+    
 
-    ts_ds = tf.data.Dataset.from_tensor_slices((filenames, targets, folds))
+    ts_ds = tf.data.Dataset.from_tensor_slices((filepaths, targets, folds, filenames))
     return ts_ds.map(transform_wav)
-    # return ts_ds
 
-
-def extract_embedding(wav_data, label, fold):
-    ''' run YAMNet to extract embedding from the wav data '''
-    yamnet = YamnetWrapper()
-    embeddings = yamnet.extract_embedding(wav_data)
-    num_embeddings = tf.shape(embeddings)[0]
-    print(f"embedding shape: {embeddings.shape}")
-    print(f"original embedding: {embeddings}")
-    
-    # Reduce the embedding by averaging over the time dimension (axis 0)
-    reduced_embedding = tf.reduce_mean(embeddings, axis=0)
-    print(f"reduced embedding shape: {reduced_embedding.shape}")
-    print(f"reduced embedding: {reduced_embedding}")
-    return (reduced_embedding,
-                tf.repeat(label, num_embeddings),
-                tf.repeat(fold, num_embeddings))
 
 def to_tensor_ds_embedding_extracted(dataset) -> tf.data.Dataset:
     if type(dataset) == pd.DataFrame:
         dataset = to_tensor_dataset(dataset)
+    test_filenames = [
+        "DOG_BARK_us8k_8214.wav",
+        "DOG_BARK_esc50_1097.wav",
+        "DOG_BARK_bdlib2_22.wav",
+        "SIREN_us8k_530.wav",
+        "SIREN_esc50_166.wav",
+        "SIREN_esc50_348.wav",
+        "THUNDER_STORM_bdlib2_68.wav",
+        "THUNDER_STORM_esc50_1689.wav",
+        "THUNDER_STORM_esc50_966.wav"
+        
+    ]
+    sample_dataset_inspect(dataset, test_filenames)
     
-    select_sample_from_dataset(dataset, 10)
-    
-    def extract_embedding(wav_data, label, fold):
+    def extract_embedding(wav_data, label, fold, filename):
         ''' run YAMNet to extract embedding from the wav data '''
         yamnet = YamnetWrapper()
         embeddings = yamnet.extract_embedding(wav_data)
         num_embeddings = tf.shape(embeddings)[0]
-        # num_embeddings_eager = tf.shape(embeddings)[0].numpy()
-        # embeddings = tf.ensure_shape(embeddings, [num_embeddings_eager, 1024])
-        # embeddings = tf.RaggedTensor.from_tensor(embeddings)
-        # Reduce the embedding by averaging over the time dimension (axis 0)
-        # reduced_embedding = tf.reduce_mean(embeddings, axis=0)
-        # return reduced_embedding, label, fold
         
         return (embeddings,
-                    tf.repeat(label, num_embeddings),
-                    tf.repeat(fold, num_embeddings))
+            tf.cast(tf.repeat(label, num_embeddings), tf.int16),
+            tf.cast(tf.repeat(fold, num_embeddings), tf.int16),
+            tf.repeat(filename, num_embeddings))
     
     # extract embedding
     return dataset.map(extract_embedding,
@@ -202,17 +193,40 @@ def count_dataset_size(dataset: tf.data.Dataset) -> int:
     return sum(1 for _ in dataset)
 
 
-def select_sample_from_dataset(dataset: tf.data.Dataset, sample_size: int) -> tf.data.Dataset:
+def sample_dataset_inspect(dataset: tf.data.Dataset, filter_filenames: list[str]) -> tf.data.Dataset:
     """
-    Select a random sample of size `sample_size` from the dataset.
+    Filter the dataset to only include elements whose 4th column (filename) is in the filter_filenames list.
     """
-    l.info(f"Selecting a sample of size {sample_size} from the dataset.")
+    l.info(f"Filtering dataset for filenames in provided list of length {len(filter_filenames)}.")
+    if not filter_filenames:
+        raise ValueError("filter_filenames list must not be empty.")
+
+    # Convert the list to a tf.constant for efficient comparison
+    filter_filenames_tf = tf.constant(filter_filenames)
+
+    def filename_in_filter(*args):
+        # args[-1] is the filename (4th column)
+        return tf.reduce_any(tf.equal(args[3], filter_filenames_tf))
+
+    filtered_dataset = dataset.filter(filename_in_filter)
+    for elem in filtered_dataset:
+        l.info(f"Filtered element: {elem}")
+
+    return filtered_dataset
+
+def select_random_filenames(dataset: pd.DataFrame, sample_size: int) -> tf.data.Dataset:
+    """
+    Select a random sample of elements from the dataset.
+    """
     if sample_size <= 0:
-        raise ValueError("Sample size must be greater than 0.")
+        raise ValueError("sample_size must be greater than 0.")
+
+    count = dataset.shape[0]
+    if sample_size > count:
+        raise ValueError(f"sample_size {sample_size} is greater than dataset size {count}.")
+
+    l.info(f"Sampling {sample_size} elements from dataset of size {count}.")
     
     # Shuffle the dataset and take the first `sample_size` elements
-    sample_dataset = dataset.shuffle(buffer_size=count_dataset_size(dataset)).take(sample_size)
-    for elem in sample_dataset:
-        l.info(f"Sampled element: {elem}")
-    
-    return sample_dataset
+    sample_dataset = dataset.sample(n=sample_size, random_state=42)
+    return sample_dataset[C.DF_NAME_COL].tolist()
