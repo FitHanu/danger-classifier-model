@@ -19,7 +19,7 @@ from utils.csv_utils import (get_classes_ordinal_from_config, read_csv_as_datafr
                             write_csv_meta,
                             get_classes_from_config)
 from utils.dframe_utils import (NUMBER_OF_CLASSES, plot_classname_distribution,
-                                copy_update_dataset_file,
+                                copy_update_dataset_file, select_sample_from_dataset,
                                 to_tensor_ds_embedding_extracted,
                                 count_dataset_size)
 # from utils.date_utils import get_formated_date_as_string
@@ -156,10 +156,6 @@ def process_dataset() -> tf.data.Dataset:
         main_df.apply(convert_pcm_16_sox_pd_row, axis=1)
 
 
-
-    # l.info(f"3rd. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using ffmpeg...")
-    # main_df.apply(convert_pcm_16_ffmpeg_pd_row, axis=1)
-
     # Filter invalid WAV files (not PCM)
     false_files = main_df[~main_df.apply(validate_wav_pd_row, axis=1)]
     
@@ -192,10 +188,14 @@ def process_dataset() -> tf.data.Dataset:
     final_meta = C.FILTERED_AUG_FOLDED_META_CSV
     l.info(f"Datasets processing done, saving meta file to {final_meta}")
     aug_k_df.to_csv(final_meta, index=False)
+    
+    
 
 
     # Convert to tf compatible dataset & return
     ds_ts = to_tensor_ds_embedding_extracted(aug_k_df)
+    select_sample_from_dataset(ds_ts, 10)
+    
     return ds_ts
     
 

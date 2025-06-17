@@ -165,6 +165,8 @@ def to_tensor_ds_embedding_extracted(dataset) -> tf.data.Dataset:
     if type(dataset) == pd.DataFrame:
         dataset = to_tensor_dataset(dataset)
     
+    select_sample_from_dataset(dataset, 10)
+    
     def extract_embedding(wav_data, label, fold):
         ''' run YAMNet to extract embedding from the wav data '''
         yamnet = YamnetWrapper()
@@ -200,36 +202,17 @@ def count_dataset_size(dataset: tf.data.Dataset) -> int:
     return sum(1 for _ in dataset)
 
 
-def main():
-    point_map = {
-        "alarm": "ALARM_bdlib2_1.wav",
-        "car_horn": "CAR_HORN_us8k_3703.wav",
-        "dog_bark": "DOG_BARK_bdlib2_2.wav",
-        "gunshot": "GUNSHOT_HANDGUN_gad_373.wav",
-    }
-    model = YamnetWrapper()
-    model._load_model()
-    def get_path(path):
-        return os.path.join(C.PROJECT_ROOT, "dataset", path)
-    from utils.wav_utils import load_wav_16k_mono_3
+def select_sample_from_dataset(dataset: tf.data.Dataset, sample_size: int) -> tf.data.Dataset:
+    """
+    Select a random sample of size `sample_size` from the dataset.
+    """
+    l.info(f"Selecting a sample of size {sample_size} from the dataset.")
+    if sample_size <= 0:
+        raise ValueError("Sample size must be greater than 0.")
     
-    for key, path in point_map.items():
-        path = get_path(path)
-        audio_tensor = load_wav_16k_mono_3(path)
-
-
-        print(f"Audio tensor shape: {audio_tensor.shape}")
-        # Extract embedding
-        embedding = extract_embedding(audio_tensor, 0, 0)
-        
-        # print(f"embedding shape: {embedding.shape}")
-        # print(f"embedding : {embedding}")
-        # num_embeddings = tf.shape(embedding)[0]
-        
-        # print(f"Number of embeddings: {num_embeddings}")
-        # print(f"Embedding shape: {embedding.shape}")
-        
-        return
-
-if __name__ == "__main__":
-    main()
+    # Shuffle the dataset and take the first `sample_size` elements
+    sample_dataset = dataset.shuffle(buffer_size=count_dataset_size(dataset)).take(sample_size)
+    for elem in sample_dataset:
+        l.info(f"Sampled element: {elem}, shape: {elem.shape}")
+    
+    return sample_dataset
