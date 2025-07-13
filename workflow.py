@@ -145,11 +145,6 @@ def process_dataset() -> tf.data.Dataset:
         l.info(f"2nd. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using sox...")
         main_df.apply(convert_pcm_16_sox_pd_row, axis=1)
 
-
-
-    # l.info(f"3rd. Converting .wav files into PCM 16bit format inside {C.FILTERED_DATASET_PATH} using ffmpeg...")
-    # main_df.apply(convert_pcm_16_ffmpeg_pd_row, axis=1)
-
     # Filter invalid WAV files (not PCM)
     false_files = main_df[~main_df.apply(validate_wav_pd_row, axis=1)]
     

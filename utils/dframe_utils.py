@@ -133,14 +133,15 @@ def to_tensor_dataset(df: pd.DataFrame) -> tf.data.Dataset:
 
     from utils.wav_utils import load_wav_16k_mono_3
     
-    def transform_wav(filename: str, class_id, fold):
-        return load_wav_16k_mono_3(filename), class_id, fold
+    def transform_wav(filename: str, class_id, fold, id):
+        return load_wav_16k_mono_3(filename), class_id, fold, id
     
     filenames = df[C.DF_PATH_COL]
-    targets = df[C.DF_CLASS_ID_COL]
-    folds = df[C.DF_FOLD_COL]
+    targets   = df[C.DF_CLASS_ID_COL]
+    folds     = df[C.DF_FOLD_COL]
+    id        = df[C.DF_ID_COL]
 
-    ts_ds = tf.data.Dataset.from_tensor_slices((filenames, targets, folds))
+    ts_ds = tf.data.Dataset.from_tensor_slices((filenames, targets, folds, id))
     return ts_ds.map(transform_wav)
     # return ts_ds
 
@@ -165,7 +166,7 @@ def to_tensor_ds_embedding_extracted(dataset) -> tf.data.Dataset:
     if type(dataset) == pd.DataFrame:
         dataset = to_tensor_dataset(dataset)
     
-    def extract_embedding(wav_data, label, fold):
+    def extract_embedding(wav_data, label, fold, id):
         ''' run YAMNet to extract embedding from the wav data '''
         yamnet = YamnetWrapper()
         embeddings = yamnet.extract_embedding(wav_data)
@@ -179,7 +180,8 @@ def to_tensor_ds_embedding_extracted(dataset) -> tf.data.Dataset:
         
         return (embeddings,
                     tf.repeat(label, num_embeddings),
-                    tf.repeat(fold, num_embeddings))
+                    tf.repeat(fold, num_embeddings),
+                    tf.repeat(id, num_embeddings))
     
     # extract embedding
     return dataset.map(extract_embedding,
